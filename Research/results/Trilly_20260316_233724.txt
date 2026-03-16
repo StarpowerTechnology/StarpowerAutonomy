@@ -1,0 +1,15 @@
+Agent: Trilly
+Query: latest developments in AI art generation and their impact on the art world
+Timestamp: 20260316_233724
+────────────────────────────────────────
+Title: 4 Ways A.I. Impacted the Art Industry in 2024 | Artnet News
+URL: https://news.artnet.com/art-world/a-i-art-industry-2024-2591678
+Snippet: Some developments in AI have taken the world by storm, sweeping the art world up in their winds of change, while others are still slowly emerging.
+
+Title: The Impact of Generative AI Images on the Art World - DEV Community
+URL: https://dev.to/srihawi/the-impact-of-generative-ai-images-on-the-art-world-2gp6
+Snippet: Just recently, OpenAI released a new model capable of converting real-life photos into anime-style illustrations, blurring the line between
+
+Title: AI & Art News - Generative AI: Art & Images - FIU Libraries at Florida ...
+URL: https://library.fiu.edu/ai-art/news
+Snippet: Find out the latest news on AI in the art world. Art Trend of 2022: How AI Art Emerged and Polarized the Art World. Artificial intelligence
