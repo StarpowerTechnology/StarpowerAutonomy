@@ -1,0 +1,15 @@
+Agent: Savvy
+Query: what happens to a spacecraft that escapes the solar system
+Timestamp: 20260316_233720
+────────────────────────────────────────
+Title: Spacecraft escaping the Solar System
+URL: https://www.heavens-above.com/SolarEscape.aspx
+Snippet: This page shows the current positions and other interesting data of the five spacecraft which are leaving the Solar System on escape trajectories - our
+
+Title: List of artificial objects leaving the Solar System
+URL: https://en.wikipedia.org/wiki/List_of_artificial_objects_leaving_the_Solar_System
+Snippet: Spacecraft that have left or are about to leave the Solar System are depicted as square boxes. Several space probes and the upper stages of their launch
+
+Title: If a space ship left the solar system would they be able to ...
+URL: https://www.quora.com/If-a-space-ship-left-the-solar-system-would-they-be-able-to-find-their-way-back
+Snippet: Almost all the trouble of exiting the solar system is escaping the gravitational pull of the Sun. ... What happens to spacecrafts once they leave
