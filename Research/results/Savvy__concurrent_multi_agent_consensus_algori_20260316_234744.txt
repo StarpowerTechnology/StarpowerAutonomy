@@ -1,0 +1,15 @@
+Agent: Savvy
+Query: "concurrent multi-agent consensus algorithms 2024"
+Date: 20260316_234744
+──────────────────────────────────────────────────
+Title: Distributed Average Consensus in Open Multi-Agent Systems
+URL: https://ieeexplore.ieee.org/document/10886031/
+Content: In this paper, we consider the problem of distributed average consensus in multi-agent systems, where each agent can come in or move out of the system,
+
+Title: Data-based Optimal Consensus of Multi-agent Systems With ...
+URL: https://link.springer.com/article/10.1007/s12555-024-0842-z
+Content: The aim of this study is to investigate the optimal consensus problem for discrete-time multi-agent systems with input constraints by data-based reinforcement
+
+Title: Research on Consensus Control Algorithms for Multi-Agent Systems ...
+URL: https://www.researchgate.net/publication/399791766_Research_on_Consensus_Control_Algorithms_for_Multi-Agent_Systems_and_Their_Simulation
+Content: This paper investigates the distributed finite-time consensus problem of second-order multi-agent systems (MAS) in the presence of bounded
