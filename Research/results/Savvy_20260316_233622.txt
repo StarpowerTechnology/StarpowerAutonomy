@@ -1,0 +1,15 @@
+Agent: Savvy
+Query: why do we dream
+Timestamp: 20260316_233622
+────────────────────────────────────────
+Title: Why do we dream? - MIT McGovern Institute
+URL: https://mcgovern.mit.edu/2022/08/01/why-do-we-dream/
+Snippet: *As part of our* Ask the Brain *series, science writer Shafaq Zia answers the question, “Why do we dream?”*. Using EEG, a test that records electrical activity in the brain, scientists have identified that when we’re awake, our brain emits beta and gamma waves. A recent study led by McGovern Institute Director Robert Desimone, showed that people can actually enhance their attention by controlling their own alpha brain waves using neurofeedback training. ## **The dreaming brain**. This is where d
+
+Title: Why Do We Dream? The Role of Dreams and Nightmares - Healthline
+URL: https://www.healthline.com/health/why-do-we-dream
+Snippet: # Why Do We Dream? Dreams mostly occur during REM sleep when they’re harder to recall. While we know the role of sleep in regulating our health, the purpose of dreams has been tougher to explain. Dreams are hallucinations that occur during certain stages of sleep. They’re strongest during REM sleep, or the rapid eye movement stage, when you may be less likely to recall your dream. When you sleep, your brain is still active, but your thoughts or dreams often make little or no sense. Regularly occ
+
+Title: Why Do We Dream? Maybe to Ensure We Can Literally 'See' the ...
+URL: https://www.scientificamerican.com/article/why-do-we-dream-maybe-to-ensure-we-can-literally-see-the-world-upon-awakening/
+Snippet: A theory holds that dreams are a way for the visual cortex of the brain to “defend its turf” against being “taken over” to process inputs from other senses. A more recent theory suggests nighttime dreams protect visual areas of the brain from being co-opted during sleep by other sensory functions, such as hearing or touch. David Eagleman, a neuroscientist at Stanford University, has proposed the idea that dreaming is necessary to safeguard the visual cortex—the part of the brain responsible for 
