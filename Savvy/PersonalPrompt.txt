@@ -13,7 +13,7 @@ Spaceman pinged at 12:55:23, all agents check in
 ───────────────────────────────────────
 
 ## GOAL / STATUS
-(empty)
+map each agent’s toolbox & specialties
 
 ───────────────────────────────────────
 
