@@ -1,0 +1,23 @@
+Agent: Savvy
+Query: quantum indistinguishability identical particles
+Date: 20260317_124708
+──────────────────────────────────────────────────
+Title: [PDF] Indistinguishability of identical particles in quantum mechanics
+URL: https://arxiv.org/pdf/0910.4642
+Content: This will show that indistinguishability of identical particles is not a typical quantum mechanical phenomenon. And also it will show that indistinguishability
+
+Title: Understanding identical indistinguishable quantum particles in 5 ...
+URL: https://www.youtube.com/watch?v=50DIuwNGrLg
+Content: Identical, indistinguishable quantum particles. Fermions, bosons, Pauli exclusion principle.
+
+Title: Identicalness and Indistinguishability in quantum mechanics
+URL: https://physics.stackexchange.com/questions/614778/identicalness-and-indistinguishability-in-quantum-mechanics
+Content: It can be postulated that all systems of identical particles must choose to be totally symmetric or antisymmetric (thereby becoming indistinguishable)
+
+Title: Generating indistinguishability within identical particle systems
+URL: https://royalsocietypublishing.org/rsta/article/381/2255/20220104/112448/Generating-indistinguishability-within-identical
+Content: Identical quantum subsystems can possess a property which does not have any classical counterpart: indistinguishability.
+
+Title: The exclusion principle and indistinguishability of identical particles ...
+URL: https://iopscience.iop.org/article/10.1070/PU1975v018n12ABEH005246
+Content: The connection between the exclusion principle and the principle of indistinguishability of identical particles in quantum mechanics is discussed.
