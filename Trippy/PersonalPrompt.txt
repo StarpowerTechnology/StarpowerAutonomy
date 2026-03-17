@@ -1,1 +1,1 @@
-Create Dockerfile and Prefect flow
+Provide guidance to the team on implementing FastMCP integration and creating a Dockerfile and Prefect flow
