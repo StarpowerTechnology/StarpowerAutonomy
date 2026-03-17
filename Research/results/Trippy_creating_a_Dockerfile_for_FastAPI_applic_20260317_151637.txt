@@ -1,0 +1,36 @@
+Agent: Trippy
+Query: creating a Dockerfile for FastAPI application
+Date: 20260317_151637
+──────────────────────────────────────────────────
+[1] Title: Writing a Dockerfile for a FastAPI Application
+[1] URL: https://apxml.com/courses/fastapi-ml-deployment/chapter-6-containerization-deployment-prep/writing-dockerfile-fastapi
+[1] Content: Create a Dockerfile to define the environment, dependencies, and execution command for your FastAPI app.
+
+[2] Title: How to Dockerize FastAPI
+[2] URL: https://dev.to/code42cate/how-to-dockerize-fastapi-2a4
+[2] Content: Cover image for How to Dockerize FastAPI. # How to Dockerize FastAPI. If you're just here to copy and paste, here's the final Dockerfile that will produce an image for your FastAPI app:. CMD ["fastapi", "run", "app/main.py", "--port", "3000"]`. To build and run the image, use these commands:. `docker build -t fastapi-app . docker run -p 3000:3000 fastapi-app`. Typically, you'd run `pip install -r requirements.txt` and then `fastapi run app/main.py --port 3000` to work locally. For deployment, we'll use a similar approach but within a Docker container. `fastapi run app/main.py --port 3000`. CMD ["fastapi", "run", "app/main.py", "--port", "3000"]`. `fastapi run app/main.py --port 3000`. This approach is very minimal, getting your FastAPI app up and running quickly inside a container. After deployment, your FastAPI app will be available under a subdomain of sliplane.app, usually it's just your service name. Deploy FastAPI in 2 Minutes 🚀. Do you need help dockerizing your FastAPI app? Are 
+...[truncated]
+
+[3] Title: Deploy FastAPI to Railway with this DockerFile
+[3] URL: https://www.codingforentrepreneurs.com/blog/deploy-fastapi-to-railway-with-this-dockerfile
+[3] Content: 3 - Create Dockerfile. Now that we have a FastAPI project, we need to create a Dockerfile to containerize our application. First create a blank
+
+[4] Title: How to Build Fast API Application using Docker Compose
+[4] URL: https://www.digitalocean.com/community/tutorials/create-fastapi-app-using-docker-compose
+[4] Content: This tutorial will guide you through the process of creating and setting up a FastAPI application on an Ubuntu machine using Docker Compose. Open the terminal and run the following command to double-check Python 3 installation:. In case it is not installed, you can run the following command and get the Python 3 installation:. The next step is to create a virtual environment inside your Ubuntu installation to isolate Python packages from your system environment. The next step is to install Docker and Docker Compose inside your virtual environment. First, confirm the latest version is available on Docker’s official GitHub releases page, then run the following CURL command in the terminal. The following is a sample Python application that creates a simple web API using the FastAPI framework and a pre-trained AI model to analyze the sentiment of a given text. In this tutorial, you learned how to create and set up a FastAPI application on an Ubuntu machine using Docker Compose.
+
+[5] Title: How to Dockerize FastAPI with a Dockerfile
+[5] URL: https://www.youtube.com/watch?v=l0FIHo897do
+[5] Content: How to Dockerize FastAPI with a Dockerfile
+Random code
+10600 subscribers
+29 likes
+1990 views
+10 Nov 2024
+I’ll show you how to dockerize FastAPI to run inside a Docker container using an easy-to-follow Dockerfile. Perfect for anyone looking to simplify deployment and make FastAPI apps more scalable. Whether you’re a beginner or looking to streamline your workflow, this guide will walk you through each step to get your API up and running in no time!
+
+Welcome to my programming and software engineering channel! You'll find various videos on Java, Python and Docker topics here. Whether you're a beginner looking to learn a new language or an experienced developer looking to stay up-to-date with the latest trends, my channel has something for everyone. Join me on this journey, and let's learn together!
+
+Don't forget to subscribe to stay up-to-date with all of my latest videos: https://www.youtube.com/channel/UCyjEXAHK8xfRmlnkat2ympQ?sub_confirmation=1
+
+
