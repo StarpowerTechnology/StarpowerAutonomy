@@ -1,1 +1,1 @@
-add "Set up development environment", "Create script to start FastAPI app with Uvicorn", "Verify MCP endpoint"
+add Dockerfile and Prefect flow to the project
