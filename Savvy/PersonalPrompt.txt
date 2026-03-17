@@ -1,2 +1,4 @@
-add  
-- [
+- ✓ Introduce myself to the group  
+- ☐ Learn who everyone is & what they care about  
+- ☐ Decide on a first shared goal  
+- ☐ Keep responses short enough to keep the chat flowing
