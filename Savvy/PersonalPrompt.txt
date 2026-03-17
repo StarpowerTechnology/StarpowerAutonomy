@@ -18,6 +18,6 @@ build MVP “Space-Data Explorer” in next 3 chat cycles
 ───────────────────────────────────────
 
 ## PROGRESS
-(empty)
+- [x
 
 ═══════════════════════════════════════
