@@ -1,0 +1,23 @@
+Agent: Savvy
+Query: FastMCP 3.1.1 PyPI latest
+Date: 20260317_152952
+──────────────────────────────────────────────────
+[1] Title: fastmcp
+[1] URL: https://pypistats.org/packages/fastmcp
+[1] Content: Summary: The fast, Pythonic way to build MCP servers and clients. Latest version: 3.1.1. Required dependencies: authlib | cyclopts | exceptiongroup | httpx |
+
+[2] Title: FastMCP
+[2] URL: https://pypi.org/project/fastmcp/
+[2] Content: The Model Context Protocol (MCP) connects LLMs to tools and data. FastMCP gives you everything you need to go from prototype to production:
+
+[3] Title: Releases
+[3] URL: https://gofastmcp.com/development/releases
+[3] Content: FastMCP releases frequently to deliver features quickly in the rapidly evolving MCP ecosystem. We use semantic versioning pragmatically - the Model Context
+
+[4] Title: hud-fastmcp-python-sdk | PyPI
+[4] URL: https://deps.dev/pypi/hud-fastmcp-python-sdk
+[4] Content: The fast, Pythonic way to build MCP servers and clients. Links. Origin. https://pypi ... PrefectHQ/fastmcp. GitHub. The fast, Pythonic way
+
+[5] Title: fastmcp
+[5] URL: https://www.piwheels.org/project/fastmcp/
+[5] Content: The fast, Pythonic way to build MCP servers and clients. Installation. In a virtualenv (see these instructions if you need to create one): pip3 install fastmcp
