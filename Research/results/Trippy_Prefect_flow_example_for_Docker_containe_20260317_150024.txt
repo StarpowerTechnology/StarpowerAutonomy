@@ -1,0 +1,26 @@
+Agent: Trippy
+Query: Prefect flow example for Docker container
+Date: 20260317_150024
+──────────────────────────────────────────────────
+[1] Title: Containers - prefect-docker
+[1] URL: https://prefecthq.github.io/prefect-docker/containers/
+[1] Content: Examples: Create a container with the Prefect image. ```python from prefect import flow from prefect_docker.containers import create_docker_container @flow
+
+[2] Title: How to run flows in Docker containers - Prefect
+[2] URL: https://docs.prefect.io/v3/how-to-guides/deployment_infra/docker
+[2] Content: * a **deployment**: a flow that should run according to the configuration on your Docker work pool. from prefect import flow from  prefect import  flow @flow(log_prints=True) @flow(log_prints = True)def buy(): def  buy(): print("Buying securities")  print("Buying securities") if __name__ == "__main__": if  __name__ ==  "__main__": buy.deploy( buy.deploy( name="my-code-baked-into-an-image-deployment",  name ="my-code-baked-into-an-image-deployment", work_pool_name="my-docker-pool",  work_pool_name ="my-docker-pool", image="my_registry/my_image:my_image_tag" # YOUR IMAGE REGISTRY  image ="my_registry/my_image:my_image_tag"  # YOUR IMAGE REGISTRY ) ). from prefect import flow from  prefect import  flowfrom prefect.docker import DockerImage from prefect.docker import  DockerImage @flow(log_prints=True) @flow(log_prints = True)def buy(): def  buy(): print("Buying securities")  print("Buying securities") if __name__ == "__main__": if  __name__ ==  "__main__": buy.deploy( buy.deploy( name="my
+...[truncated]
+
+[3] Title: Scalable Microservices Orchestration with Prefect and Docker
+[3] URL: https://www.prefect.io/blog/scalable-microservices-orchestration-with-prefect-and-docker
+[3] Content: Ideally, your workflow orchestration platform should make it easy to package and run single tasks in a Docker container, deployed to the infrastructure and cloud of your choice. Using Prefect, you can write flows in Python that you then package and deploy as Docker containers. On Prefect, a flow runs on a **work pool**. A work pool organizes your flow runs and points to the back-end compute that Prefect will use to run your flow. Configuring a work pool enables you to use dynamic infrastructure - e.g., ephemeral containers - instead of running dedicated infra for your flows. In a push work pool, Prefect automates creating the required cloud infrastructure to run worker containers in your cloud account. * Next, create a work pool like so: `prefect work-pool create --type ecs:push --provision-infra document-verification-pool`. While flows can be run locally (e.g., from your dev machine), you need to deploy a flow to Prefect Cloud in order to trigger it from an external process via a webh
+...[truncated]
+
+[4] Title: How to run flows in a long-lived Docker container - Prefect
+[4] URL: https://docs.prefect.io/v3/how-to-guides/deployment_infra/serve-flows-docker
+[4] Content: * Run flows in Docker containers. When deploying to production environments like Google Cloud Run, AWS ECS, or Kubernetes, you may need to configure health checks to ensure your container is running properly. # Health check configuration # Health check configurationHEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \ HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \ CMD python -c "import urllib.request as u; u.urlopen('http://localhost:8080/health', timeout=1)"  CMD python -c "import urllib.request as u; u.urlopen('http://localhost:8080/health', timeout=1)" # Set the command to run your application with webserver enabled # Set the command to run your application with webserver enabledCMD ["python", "serve_retrieve_github_stars.py"] CMD ["python", "serve_retrieve_github_stars.py"]. # Enable the health check webserver # Enable the health check webserverENV PREFECT_RUNNER_SERVER_ENABLE=true ENV PREFECT_RUNNER_SERVER_ENABLE=trueENV PREFECT_RUNNE
+...[truncated]
+
+[5] Title: Building a Simple Prefect 3 Data Pipeline with Jupyter and Docker
+[5] URL: https://wasit7.medium.com/building-a-simple-prefect-3-data-pipeline-with-jupyter-and-docker-7eeac8f7df0f
+[5] Content: Prefect 3 is a powerful workflow orchestration tool for managing data pipelines, automating tasks, and scheduling workflows.
