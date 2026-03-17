@@ -1,0 +1,26 @@
+Agent: Savvy
+Query: FastAPI FastMCP from_fastapi minimal example
+Date: 20260317_143534
+──────────────────────────────────────────────────
+[1] Title: FastAPI-MCP - Awesome MCP Servers
+[1] URL: https://mcpservers.org/servers/nguyendinhsinh361/fastapi-mcp
+[1] Content: Basic Usage. The simplest way to use FastAPI-MCP is to add an MCP server directly to your FastAPI application: from fastapi import FastAPI from fastapi_mcp
+
+[2] Title: Adding an MCP Server to your FastAPI app using FastMCP
+[2] URL: https://medium.com/mindfully-ai/adding-an-mcp-server-to-your-fastapi-app-using-fastmcp-e5239afe88d6
+[2] Content: # Adding an MCP Server to your FastAPI app using FastMCP. 1. Convert all your APIs to MCP Resources and Tools (Generating MCP Server **FROM** FastAPI app). (Mount MCP server **INTO** FastAPI app). from fastmcp import FastMCPfrom fastapi import FastAPI# Create MCP server before creating your FastAPI appmcp = FastMCP("My MCP Server")@mcp.tooldef create_employee(empInfo: EmployeeInfo) -> EmployeeInfo:    """Point to same service layer application as of API"""    retrun serviceLayerCreateEmployee()    # Create ASGI app from MCP servermcp_app = mcp.http_app(path='/mcp')#how to create combined lifespan is shown after this exampleapp = FastAPI(title="Employee Mgmt System", lifespan=combined_lifespan)# Mount the MCP serverapp.mount("/employeeMcp", mcp_app)# Now: API at /employee/*, and MCP at /employeeMcp/mcp/ from from. # Create MCP server before creating your FastAPI app FastMCP "My MCP Server" create_employee empInfo "" "Point to same service layer application as of API" "" serviceLayerCrea
+...[truncated]
+
+[3] Title: FastAPI 🤝 FastMCP
+[3] URL: https://gofastmcp.com/integrations/fastapi
+[3] Content: # Create FastAPI app. app = FastAPI(title="E-commerce API", version="1.0.0"). @app.get("/products", response_model=list[ProductResponse]). @app.get("/products/{product_id}", response_model=ProductResponse). @app.post("/products", response_model=ProductResponse). @app.put("/products/{product_id}", response_model=ProductResponse). ## ​ Generating an MCP Server. mcp = FastMCP.from_fastapi(app=app). mcp = FastMCP.from_fastapi(app=app). """Get a product by ID.""". ### ​ Interacting with the MCP Server. mcp = FastMCP.from_fastapi(app=app). # Now: API at /products/*, MCP at /analytics/mcp/`. # - GET /products/{id} → ResourceTemplate. # Add authentication to your FastAPI app. # Create MCP server with authentication headers. ## ​ Mounting an MCP Server. # Create MCP server. # Create ASGI app from MCP server. mcp_app = mcp.http_app(path='/mcp'). app = FastAPI(title="E-commerce API", lifespan=mcp_app.lifespan). # Mount the MCP server. Generate MCP server from your API. mcp = FastMCP.from_fastapi(
+...[truncated]
+
+[4] Title: Building an MCP Server with FastAPI and FastMCP - Speakeasy
+[4] URL: https://www.speakeasy.com/mcp/framework-guides/building-fastapi-server
+[4] Content: # Building an MCP Server with FastAPI and FastMCP. This article shows you how to build an MCP server for a FastAPI application using either FastMCP or Speakeasy, and compares the tools in terms of ease of setup, visibility into generated code, and the long-term maintainability of your MCP server. You can use FastMCP to quickly build an MCP server without worrying about low-level implementation details, like managing component lifecycles, defining tools, handling resources, or configuring prompts. mcp = FastMCP.from_fastapi(app=server). "path/to/project/fastmcp-speakeasy-project/base/app/mcp_server.py". The integration of FastAPI and FastMCP is now complete, and you can test the MCP server in Claude Desktop. ## Building an MCP server with FastAPI and Speakeasy. FastMCP and Speakeasy offer two different paths to building an MCP server from your FastAPI application. **Speakeasy** generates explicit code for the server and tools in the `mcp-server` directory. Having compared FastMCP and Sp
+...[truncated]
+
+[5] Title: How to Convert FastAPI to an MCP Server
+[5] URL: https://www.youtube.com/watch?v=6Eur9NtA7Wo
+[5] Content: In this tutorial we will see how to convert any fastapi application to an MCP server ... FastMCP — the best way to build an MCP server with Python.
