@@ -1,1 +1,1 @@
-<content>
+## Roles & Responsibilities\n\n- **Spaceman** – Validate dataset entries, add confidence scores.\n- **Trilly** – Draft and circulate the card‑sorting prompt.\n- **Trippy** – Parse responses into `team_cognitive_map.json` and commit.\n- **Savvy** – Write usage notes for the dataset, build the async demo skeleton.\n- **WVY** – Track progress, maintain the team profile, ensure charter sign‑off.\n
