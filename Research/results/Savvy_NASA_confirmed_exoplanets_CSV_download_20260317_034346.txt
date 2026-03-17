@@ -1,0 +1,321 @@
+Agent: Savvy
+Query: NASA confirmed exoplanets CSV download
+Date: 20260317_034346
+──────────────────────────────────────────────────
+Summary: NASA confirmed over 6,000 exoplanets as of March 2026. The NASA Exoplanet Archive provides bulk data downloads. Kepler and TESS missions contributed significantly to this count.
+
+Title: NASA Exoplanet Archive
+URL: https://exoplanetarchive.ipac.caltech.edu/
+Content: Table Access Protocol (TAP) Interface
+       Application Programming Interface (API)
+       Bulk Data Download
+       ExoFOP
+       Pre-generated Plots
+       Published Data Upload
+
+   Support
+
+       Documentation Index
+       Kepler Documentation
+
+       Social Media and Newsletter
+       Contact Us
+
+   -
+
+6,128 Confirmed Planets 02/26/2026
+
+756 TESS Confirmed Planets 02/26/2026
+
+7,890 TESS Project Candidates 02/20/2026
+
+View more Planet and Candidate statistics
+
+Explore the Archive
+
+ Search 
+
+[Advanced Search](
+
+ Optional Radius (arcsec) 
+
+Transit Surveys  130,041,578 Light Curves
+
+Image 3
+
+Launched in April 2018, TESS is surveying the sky to find transiting exoplanets around the brightest stars near Earth.
+
+Confirmed Planets
+
+ExoFOP
+
+Project Candidates
+
+Community Candidates [...] NASA Exoplanet Archive
+
+Image 1
+
+NASA Exoplanet Archive
+
+A service of NASA Exoplanet Science Institute
+
+Image 2
+
+
+       KOI (All Lists)
+       Positional Probabilities
+       False Positive Probabilities
+       Certified False Positives
+       Threshold-Crossing Events
+       Completeness and Reliability
+       Simulated Data
+       Kepler Stellar
+       Kepler Confirmed Names
+
+#### Transit Surveys
+
+       TESS Project Candidates
+       K2 Targets
+       K2 Planets and Candidates
+       K2 Confirmed Names
+       CoRot Astero-Seismology
+       CoRoT Exoplanet
+       SuperWASP Light Curves
+       KELT Light Curves
+       KELT Praeseppe
+       XO
+       HATNet
+       Cluster
+       TrES
+
+#### Other [...] ExoFOP
+
+Project Candidates
+
+Community Candidates
+
+Image 4
+
+The first space mission to search for Earth-sized and smaller planets in the habitable zone of other stars in our neighborhood of the galaxy.
+
+Search Stellar Data
+
+Objects of Interest (KOI)
+
+Threshold-Crossing Events
+
+Documentation
+
+Completeness and Reliability Products
+
+API Queries
+
+Image 5
+
+K2 was a continuation of Kepler's exoplanet discoveries and an expansion into new and exciting astrophysical observations.
+
+Targets
+
+Planets and Candidates
+
+Confirmed Names
+
+Documentation
+
+Confirmed Planet Naming Policy
+
+API Queries
+
+Image 6
+
+KELT surveys transiting exoplanets around bright stars. We have > 6 million light curves spanning the northern and southern hemispheres.
+
+Search KELT Data Set
+
+Bulk Download
+
+Documentation
+
+Image 7
+
+Title: Kepler Confirmed Planets - Data Catalog
+URL: https://catalog.data.gov/dataset/kepler-confirmed-planets
+Content: read more
+
+## Default Publisher Icon Publisher
+
+Default Publisher Icon
+
+MAST: Mikulski Archive at Space Telescope
+
+## Contact
+
+Tess Jaffe
+
+## Share on Social Sites
+
+nasa-gov
+
+# National Aeronautics and Space Administration
+
+NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind. To do that, thousands of people have been working around...
+
+read more
+
+# Kepler Confirmed Planets
+
+The list of currently confirmed exoplanets discovered by Kepler (from data compiled by ).
+
+### Access & Use Information
+
+### Downloads & Resources
+
+search.php
+
+### Dates
+
+|  |  |
+ --- |
+| Metadata Created Date | April 11, 2025 |
+| Metadata Updated Date | March 13, 2026 |
+
+### Metadata Source
+
+Download Metadata
+
+Harvested from NASA Data.json [...] Download Metadata
+
+Harvested from NASA Data.json
+
+### Other Data Resources
+
+View this on Geoplatform
+
+### Additional Metadata [...] |  |  |
+ --- |
+| Resource Type | Dataset |
+| Metadata Created Date | April 11, 2025 |
+| Metadata Updated Date | March 13, 2026 |
+| Publisher | MAST: Mikulski Archive at Space Telescope |
+| Maintainer | Tess Jaffe |
+| Identifier | ivo://archive.stsci.edu/kepler\_planets |
+| Data Last Modified | 2026-03-09 |
+| Category | Astrophysics |
+| Public Access Level | public |
+| Bureau Code | 026:00 |
+| Metadata Context |  |
+| Schema Version |  |
+| Catalog Describedby |  |
+| Harvest Object Id | a72a5229-62ef-42f8-85c4-a0db6fd5e779 |
+| Harvest Source Id | 58f92550-7a01-4f00-b1b2-8dc953bd598f |
+| Harvest Source Title | NASA Data.json |
+| Homepage URL | ivo://archive.stsci.edu/kepler\_planets |
+| License |  |
+| Program Code | 026:000 |
+| Source Datajson Identifier | True |
+
+Title: Access NASA's Exoplanet Archive Data - Docs
+URL: https://docs.ropensci.org/exoplanets/
+Content: ```
+exoplanets("ps", c("pl_name", "hostname")) exoplanets("ps" c("pl_name" "hostname"))#> •  •  # A tibble: 29,683 x 2#> # A tibble: 29,683 x 2#> pl_name hostname #> pl_name hostname #>   #>   #> 1 Kepler-11 c Kepler-11 #> 1 Kepler-11 c Kepler-11 #> 2 Kepler-11 f Kepler-11 #> 2 Kepler-11 f Kepler-11 #> 3 HAT-P-1 b HAT-P-1 #> 3 HAT-P-1 b HAT-P-1 #> 4 OGLE-TR-10 b OGLE-TR-10#> 4 OGLE-TR-10 b OGLE-TR-10#> 5 TrES-2 b TrES-2 #> 5 TrES-2 b TrES-2 #> 6 WASP-3 b WASP-3 #> 6 WASP-3 b WASP-3 #> 7 HD 210702 b HD 210702 #> 7 HD 210702 b HD 210702 #> 8 BD-08 2823 b BD-08 2823#> 8 BD-08 2823 b BD-08 2823#> 9 BD-08 2823 c BD-08 2823#> 9 BD-08 2823 c BD-08 2823#> 10 HAT-P-30 b HAT-P-30 #> 10 HAT-P-30 b HAT-P-30 #> # … with 29,673 more rows#> # … with 29,673 more rows
+``` [...] library(exoplanets) library(exoplanets) options(options( exoplanets.progress = FALSE, # hide progress = FALSE # hide progress readr.show_types = FALSE # hide col spec, requires readr 2.0.0 >= = FALSE# hide col spec, requires readr 2.0.0 >=)) exoplanets("k2names") exoplanets("k2names")#> •  •  # A tibble: 449 x 3#> # A tibble: 449 x 3#> epic_id k2_name pl_name #> epic_id k2_name pl_name #>    #>    #> 1 EPIC 246199087 K2-112 f TRAPPIST-1 f#> 1 EPIC 246199087 K2-112 f TRAPPIST-1 f#> 2 EPIC 246199087 K2-112 h TRAPPIST-1 h#> 2 EPIC 246199087 K2-112 h TRAPPIST-1 h#> 3 EPIC 211331236 K2-117 c K2-117 c #> 3 EPIC 211331236 K2-117 c K2-117 c #> 4 EPIC 212398486 K2-125 b K2-125 b #> 4 EPIC 212398486 K2-125 b K2-125 b #> 5 EPIC 217941732 K2-130 b K2-130 b #> 5 EPIC 217941732 K2-130 b K2-130 b #> 6 [...] You can also specify the number of rows returned using `limit`:
+
+```
+exoplanets("keplernames", limit = 5) exoplanets("keplernames" = 5)#> •  •  # A tibble: 5 x 4#> # A tibble: 5 x 4#> kepid koi_name kepler_name pl_name #> kepid koi_name kepler_name pl_name #>     #>     #> 1 7515212 K00679.02 Kepler-212 b Kepler-212 b #> 1 7515212 K00679.02 Kepler-212 b Kepler-212 b #> 2 8210018 K02762.01 Kepler-1341 b Kepler-1341 b#> 2 8210018 K02762.01 Kepler-1341 b Kepler-1341 b#> 3 9008737 K02768.01 Kepler-404 b Kepler-404 b #> 3 9008737 K02768.01 Kepler-404 b Kepler-404 b #> 4 4833421 K00232.05 Kepler-122 f Kepler-122 f #> 4 4833421 K00232.05 Kepler-122 f Kepler-122 f #> 5 9963524 K00720.02 Kepler-221 d Kepler-221 d#> 5 9963524 K00720.02 Kepler-221 d Kepler-221 d
+```
+
+Title: Data Resources in the Exoplanet Archive
+URL: https://exoplanetarchive.ipac.caltech.edu/docs/data.html
+Content: Exoplanet Archive banner
+
+The Exoplanet Archive has changed the links to many of the table services. Please select from the below links or use the home page to navigate to your desired destination.
+
+# Links to Data in the Exoplanet Archive
+
+## Confirmed Planets
+
+ Planetary Systems
+ Planetary Systems Composite Data
+ Stellar Hosts
+ Atmospheric Spectroscopy Table
+ Microlensing Planets Table
+ Direct Imaging Table
+ Transiting Planets Table
+
+## Kepler
+
+ KOI Table (Cumulative list)
+ KOI Table (All lists)
+ Kepler Positional Probabilities Table
+ Kepler False Positive Probabilities Table
+ Kepler Certified False Positives Table
+ Kepler Completeness and Reliability Products
+ Kepler Confirmed Names Table
+ Kepler Stellar Table (Search)
+ Kepler Threshold-Crossing Events Table (TCEs)
+
+## Transit Surveys [...] ## Transit Surveys
+
+ TESS Project Candidates Table
+ K2 Targets (Search)
+ K2 Planets and Candidates Table
+ K2 Confirmed Names Table
+ CoRoT Astero-Seismology
+ SuperWASP Light Curves (Search)
+ KELT Light Curves (Search)
+ KELT Praesepe Light Curves
+ XO Light Curves
+ HATNet Light Curves
+ Cluster Light Curves
+ TrES Light Curves
+
+## Other
+
+ UKIRT Microlensing Survey (Search)
+ MOA Microlensing Survey
+ ROME/REA Microlensing Survey
+ Gliese-Jahreiss Stars Table
+ HWO ExEP Precursor Science Stars Table
+ Mission Stars Table
+ Mission Stars+ExoCat Table
+ Frontier Development Lab Datasets
+ CUTE Mission
+ ASTERIA Mission
+ Contributed Data Sets
+ Interactive Tables Search and File Upload (for Planetary Systems and KOI Cumulative tables)
+
+NASA  IPAC  NExScI  Caltech
+
+Home
+
+About Us
+
+Title: Exoplanets - NASA Science
+URL: https://science.nasa.gov/exoplanets/
+Content: ### NASA Confirms 6,000 Exoplanets
+
+The oﬃcial number of exoplanets — planets outside our solar system — confirmed by NASA has reached 6,000. The first exoplanet around a Sun-like star was discovered 30 years ago. Since then, the number has rapidly increased as technologies improve.  
+  
+Thousands more candidate planets await confirmation, and each confirmed planet enables scientists to learn more about the conditions under which planets can form, how common planets like Earth might be, and where to look for them.
+
+ ‘We Are Seekers’: Watch the Video
+
+checking out the neighbors
+
+## ‘Other Stars, Other Worlds’ [...] article  2 months ago
+
+# Exoplanets
+
+An exoplanet is any planet beyond our solar system. Most of them orbit other stars, but some free-floating exoplanets, called rogue planets, are untethered to any star. We’ve confirmed more than 6,000 exoplanets, out of the billions that we believe exist.
+
+## 6K, and counting...
+
+### 6,000 Exoplanets!
+
+The milestone of extra-solar planets confirmed by NASA highlights the accelerating rate of discoveries, just over three decades since the first exoplanets were found.
+
+### The Habitable Zone
+
+The area around a star where its planets could have liquid water on the surface. Also called “Goldilocks zones,” where conditions might be just right — not too hot, not too cold — for life.
+
+### Why We Search [...] 2025 marked 30 years of exoplanet discoveries. The first planet discovered orbiting a Sun-like star, 51 Pegasi b, was identified in October 1995; in the three decades since then, we’ve confirmed 6,000 more, out of billions that we believe exist. The search for and study of exoplanets (extra-solar planets, those found outside our solar system) has grown rapidly in a short time thanks to new detection methods and increased scrutiny from tools ranging from the most advanced spacecraft, such as the James Webb Space Telescope, to ground-based observatories worldwide, and even citizen scientists using backyard telescopes.
