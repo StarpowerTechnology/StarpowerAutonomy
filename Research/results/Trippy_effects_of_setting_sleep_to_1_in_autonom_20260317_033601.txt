@@ -1,0 +1,23 @@
+Agent: Trippy
+Query: effects of setting sleep to 1 in autonomous agents
+Date: 20260317_033601
+──────────────────────────────────────────────────
+Title: I built an AI architecture with sleep cycles, emotional memory, and ...
+URL: https://www.reddit.com/r/cognitivescience/comments/1rnvni0/i_built_an_ai_architecture_with_sleep_cycles/
+Content: # I built an AI architecture with sleep cycles, emotional memory, and an observer agent that nobody listens to — solo project, no CS degree. A year ago I started asking a weird question: what if an AI agent had *structure* — not just instructions, but something closer to how a mind actually works? What came out is **Entelgia** — a multi-agent cognitive architecture running locally on Ollama (8GB RAM, Qwen 7B). **Sleep & Dream cycles** Every agent loses 30% energy per turn. When energy drops low enough, they enter a Dream phase — short-term memory gets consolidated into long-term memory, exactly like sleep does in humans. It acts as a routing signal — high emotion = higher importance = more likely to survive into long-term memory. **Fixy — the Observer nobody listens to** There's an observer agent called Fixy. The agents mostly ignore him. It's a research experiment asking: *what changes when the agent has structure?*.
+
+Title: Some AI agents have learned to sleep
+URL: https://x.com/kimmonismus/status/1912185194884329641
+Content: They compress memories and enter deep REM mode to form long-term memory. Turns out, artificial minds need rest too.
+
+Title: Sleep-time Compute - Letta
+URL: https://www.letta.com/blog/sleep-time-compute
+Content: Instead of sitting idle between tasks, AI agents can now use their "sleep" time to process information and form new connections by rewriting their memory state. Read our research paper* *here**, and learn how to make sleep-time agents in Letta on* *our docs**.*. Sleep-time compute fundamentally requires stateful AI agents: systems that maintain memory (or context) over time. ## MemGPT 2.0: Sleep-time agents in Letta. We are releasing a new agent type in Letta, sleep-time enabled agents, which are based on the technique described in the sleep-time compute research paper. These tools are attached to the sleep-time agent, which has the ability to manage \*both\* the in-context memory of the primary agent as well as its own in-context memory. Sleep-time agents on the other hand can continuously improve their learned context to generate clean, concise, and detailed memories. We anticipate that in the future, most agents in Letta will be sleep-time-enabled for better memory, personalization, and improved latency. We've released our sleep-time agents as part of Letta 0.7.0.
+
+Title: AI agents that do your work while you sleep sound great. The reality ...
+URL: https://tech.yahoo.com/ai/meta-ai/articles/ai-agents-while-sleep-sound-193310952.html
+Content: As tools like OpenClaw and Claude Code make it technically possible for agents to run for long periods, excitement is growing around the idea of AI that works while you sleep. “Some glimmers end up not manifesting, some glimmers just become the standard,” he explained, pointing to two years ago when AI company Cognition introduced an early agent called Devin that would integrate with Slack for task delegation, bug fixes, data analysis, and code review. Avinash Vootkuri, a staff data scientist at a top Fortune 500 retailer, said that most enterprise AI agents “absolutely require a babysitter” and, for now, can work only in enterprise settings with tightly bounded autonomy and extensive guardrails. “Most people either over-trust agents and end up cleaning up messes, or they micromanage every output and wonder why AI feels like more work instead of less.” The idea, she said, is to design clear handoff points, where something might be fully delegated, another thing might get a quick review, while another task stays just for humans to do.
+
+Title: Are Your AI Agents Quietly Failing While You Sleep?
+URL: https://www.techletter.co/p/are-your-ai-agents-quietly-failing
+Content: An autonomous agent called Ash is asked by a stranger, not the agent's owner, to keep a secret. The agent agrees and promises confidentiality.
