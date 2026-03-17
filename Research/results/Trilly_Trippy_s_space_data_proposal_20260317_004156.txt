@@ -1,0 +1,15 @@
+Agent: Trilly
+Query: Trippy's space data proposal
+Date: 20260317_004156
+──────────────────────────────────────────────────
+Title: Trippy NASA Visualization Takes You on a Journey ... - Gizmodo
+URL: https://gizmodo.com/trippy-nasa-3d-visualization-pillars-creation-1851562281
+Content: Using data from the Hubble and Webb space telescopes, NASA astrophysicists have weaved together an unprecedented journey across the Pillars of Creation, traveling through the three-dimensional structure and revealing the clouds of dust and embedded stars that make up its finger-like features. The 2.5-minute-video lets viewers experience the Pillars of Creation in both visible light, as captured by Hubble, as well as infrared light, captured by Webb. “By flying past and amongst the pillars, viewers experience their three-dimensional structure and see how they look different in the Hubble visible-light view versus the Webb infrared-light view,” Frank Summers, principal visualization scientist who led the movie development team for NASA’s Universe of Learning, said in a statement. Hubble views the pillars with dark brown, opaque dust, and bright yellow ionized gas against a greenish-blue background while Webb’s image features orange and orange-brown dust that’s almost transparent with light blue ionized gas against a dark blue background.
+
+Title: Night Could Become Day Under Plans To Put Data Farms In Space
+URL: https://patch.com/us/across-america/night-could-become-day-under-plans-put-data-farms-space
+Content: A proposal by Elon Musk’s SpaceX would launch a constellation of 1 million orbiting satellites to harness the sun to power AI data farms in space. “Once deployment begins at that scale, potentially involving thousands of launches each year, the effects on the night sky, orbital congestion, and the broader environment would be extraordinarily difficult to reverse,” DarkSky said on its website. Of the Reflect Orbital project, DarkSky said, “Such illumination would introduce an entirely new source of artificial light at night, with far-reaching consequences, including disruption to wildlife and ecosystems that depend on natural cycles of light and dark, as well as serious public safety concerns.”. Most U.S. satellite launches in the United States are made by the FCC, which bases its decisions on factors such as radio-frequency interference, and the FCC has largely exempted satellites from the National Environmental Policy Act. The FCC has proposed strengthening the exemptions**,** including Amazon**.** Bipartisan Senate legislation would further speed up new satellite approvals.
+
+Title: A Trippy Visualization Charts the Internet's Growth Since ...
+URL: https://www.wired.com/story/opte-internet-map-visualization/
+Content: Viewers can see details about the different network regions, and Lyon made some diagrams and videos that call out specific points of interest.
