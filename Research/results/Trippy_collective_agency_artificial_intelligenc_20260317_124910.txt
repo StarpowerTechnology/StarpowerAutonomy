@@ -1,0 +1,47 @@
+Agent: Trippy
+Query: collective agency artificial intelligence
+Date: 20260317_124910
+──────────────────────────────────────────────────
+Title: The Collective AI | LinkedIn
+URL: https://ca.linkedin.com/company/the-collectiveai
+Content: Overview:
+At The Collective AI, we help organizations accelerate their AI journey by preparing the workforce to become AI Augmented Humans. We develop AI Strategies that focus on Data Readiness, Technology Readiness and People Readiness, ensuring that AI agents and AI solutions are adopted in your organization.
+
+Website: https://www.thecollectiveai.com/
+Crunchbase Url: N/A
+Linkedin Url: https://www.linkedin.com/company/the-collectiveai
+
+Industry:
+Business Consulting and Services
+
+Company size:
+11-50 employees
+6 associated members (LinkedIn members who’ve listed The Collective AI as their current workplace on their profile)
+
+Founded:
+2024
+
+Funding:
+Last Round Date: N/A
+Last Round Type: N/A
+Total Rounds: N/A
+Last Round Raised: N/A
+
+Investors:
+N/A
+
+Title: Collective OS Launches AI Platform to Help Agencies Unlock ...
+URL: https://martechedge.com/news/collective-os-launches-ai-platform-to-help-agencies-unlock-revenue-through-trusted-partnerships
+Content: Collective OS uses advanced algorithms to analyze each firm's structure, services, skills, past work, and growth goals, connecting them with
+
+Title: The AI sourcing agent designed for recruiters - Collective.work
+URL: https://en.collective.work/
+Content: Discover Collective Recruiter: the AI search engine that finds your pearl among 100% of the web's talent. ## The most efficient talent search engine on the market. Discover Sherlock: contact and mobilize talent for free, at the right price, at the right time. Ultra-fine data and a healthy dose of AI for the most powerful profile search engine on the market. The recruiter interface is backed up by talent's favorite social network. We're creating a new model whose aim is to eliminate all friction between recruiters and talent. ## Identify, contact and recruit the right talent, at the right time, at the right price. Collective's Search AI is now the most powerful sourcing tool we use. Working with the collective Elite Tech enabled us to speed up the development of many features, and they were excellent from start to finish! Great collaboration with the collective FrenchCoinCoin, they integrated the team very quickly and enabled us to release a new product in record time!
+
+Title: Artificial Intelligence and Collective Agency - Sharing4good
+URL: https://www.sharing4good.org/article/artificial-intelligence-and-collective-agency
+Content: This workshop will address two major themes: Analogies between AI and group agents. For example, might work on the agency and moral status of groups illuminate
+
+Title: Collective AI
+URL: https://www.collectiveai.io/
+Content: We provide comprehensive advisory services to identify and develop AI use cases that drive innovation and efficiency in your organization. This service includes an in-depth analysis of the client's strategy to develop a data plan encompassing data governance, technology and architecture, advanced analytics, and strategic integration to transform insights into actions and value generation. * Development of advanced solutions requiring intensive R&D efforts, comprehensive analysis of the SOTA, development of proposals that surpass existing solutions and the creation of functional prototypes and MVPs. We offer solutions for process optimization and intelligent automation, improving operational efficiency and reducing costs. * Implementation of machine learning and analytics solutions to optimize processes, enhance resource management, and improve decision-making. We develop platform-based solutions such as chatbots, voicebots, and semantic search systems designed to enhance customer interaction and optimize information management. Leveraging our extensive experience and a vast collection of developed software, each new project builds on this platform, allowing for the customization of the final layer to meet specific client needs.
