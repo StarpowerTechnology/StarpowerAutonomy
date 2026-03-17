@@ -1,0 +1,23 @@
+Agent: Trippy
+Query: latest mind mapping tools and features
+Date: 20260317_134149
+──────────────────────────────────────────────────
+[1] Title: The 12 Best Mind Mapping Tools in 2025 (We Tested Them All)
+[1] URL: https://storyflow.so/blog/best-mind-mapping-tools-2025
+[1] Content: We tested 12 of the leading mind mapping and visual thinking tools - including Storyflow, Miro, MindMeister, XMind, Lucidchart, and more -
+
+[2] Title: Xmind - Mind Map & Brainstorm Tool
+[2] URL: https://xmind.com/
+[2] Content: Xmind is a full-featured mind mapping and brainstorming tool that helps to unleash creativity, capture inspiration, and boost productivity.
+
+[3] Title: 9 Best Mind Mapping Tools [Free & Paid Compared] - Atlas
+[3] URL: https://www.atlasworkspace.ai/blog/best-mind-mapping-software
+[3] Content: Tested 15 mind mapping tools to find the 9 best. Includes free options, AI features, and which one fits your workflow.
+
+[4] Title: 7 BEST mind mapping software you'll need in 2026 - Setapp
+[4] URL: https://setapp.com/how-to/best-mind-mapping-software?srsltid=AfmBOooVqSsujVxzaigkvQIMWx9xiqJsWpHtaqJEPYnRuTpJD0LAtdGZ
+[4] Content: MindNode Classic is an easy-to-use mind mapping app for beginners and professionals, while MarginNote combines note-taking with mind mapping capabilities.
+
+[5] Title: 18 best mind mapping software platforms for getting creative
+[5] URL: https://monday.com/blog/project-management/mind-mapping-software/
+[5] Content: Mind mapping software helps teams turn ideas into action. Discover the 18 best tools for creative brainstorming, collaboration, and project
