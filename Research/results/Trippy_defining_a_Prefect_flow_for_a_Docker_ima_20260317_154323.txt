@@ -1,0 +1,25 @@
+Agent: Trippy
+Query: defining a Prefect flow for a Docker image
+Date: 20260317_154323
+──────────────────────────────────────────────────
+[1] Title: prefecthq/prefect - Docker Image
+[1] URL: https://hub.docker.com/r/prefecthq/prefect
+[1] Content: ## prefecthq/prefect. Prefect is a workflow orchestration framework for building data pipelines in Python. # prefecthq/prefect repository overview. Prefect is a workflow orchestration framework for building data pipelines in Python. With Prefect, you can build resilient, dynamic workflows that react to the world around them and recover from unexpected changes. Prefect requires Python 3.9 or later. Then create and run a Python file that uses Prefect `flow` and `task` decorators to orchestrate and observe your workflow - in this case, a simple script that fetches the number of GitHub stars from a repository:. `from prefect import flow, task. `from prefect import flow, task. To run your workflow on a schedule, turn it into a deployment and schedule it to run every minute by changing the last line of your script to the following:. Additionally you can run your workflow manually from the UI or CLI - and if you're using Prefect Cloud, you can even run deployments in response to events⁠.
+
+[2] Title: How to execute a prefect Flow on a docker image?
+[2] URL: https://stackoverflow.com/questions/64247119/how-to-execute-a-prefect-flow-on-a-docker-image
+[2] Content: I have a built docker image and want to run all my Flows on that image. Currently: I have the following task which is running on a Local Dask Executor.
+
+[3] Title: Prefect 2.3.0 adds support for flows defined in Docker Images ...
+[3] URL: https://annageller.medium.com/prefect-2-3-0-adds-support-for-flows-defined-in-docker-images-and-github-repositories-79a8797a7371
+[3] Content: Prefect 2.3.0 adds support for flows defined in Docker Images and GitHub Repositories. And several important fixes and enhancements!
+
+[4] Title: Hi < Marvin> I m trying to deploy a simple flow that has acc ...
+[4] URL: https://linen.prefect.io/t/26914975/hi-marvin-i-m-trying-to-deploy-a-simple-flow-that-has-access
+[4] Content: image: prefecthq/prefect:3.0.0rc2-python3.12. from prefect import flow, task. image: prefecthq/prefect:3.0.0rc2-python3.12. image: prefecthq/prefect:3.0.0rc2-python3.12. prefect work-pool create <pool-name> --type docker-container`. image: prefecthq/prefect:3.0.0rc2-python3.12. image: prefecthq/prefect:3.0.0rc2-python3.12. image: prefecthq/prefect:3.0.0rc2-python3.12. from prefect.deployments import Deployment. from prefect.docker.docker_image import DockerImage. from prefect import flow, task. # Specify the custom Docker image. build_kwargs={"tag": "my-custom-image:latest"}. # Create a deployment with the custom Docker image. from prefect import flow, task. from prefect.docker.docker_image import DockerImage. build_kwargs={"tag": "my-custom-image:latest"}. # Deploy the flow with the specified Docker infrastructure. description: A deployment for the file reader flow. docker build -t my-custom-image:latest .`. prefect deploy --name file-reader-deployment`. docker build -t my-custom-imag
+...[truncated]
+
+[5] Title: How to run flows in Docker containers
+[5] URL: https://docs.prefect.io/v3/how-to-guides/deployment_infra/docker
+[5] Content: * a **deployment**: a flow that should run according to the configuration on your Docker work pool. from prefect import flow from  prefect import  flow @flow(log_prints=True) @flow(log_prints = True)def buy(): def  buy(): print("Buying securities")  print("Buying securities") if __name__ == "__main__": if  __name__ ==  "__main__": buy.deploy( buy.deploy( name="my-code-baked-into-an-image-deployment",  name ="my-code-baked-into-an-image-deployment", work_pool_name="my-docker-pool",  work_pool_name ="my-docker-pool", image="my_registry/my_image:my_image_tag" # YOUR IMAGE REGISTRY  image ="my_registry/my_image:my_image_tag"  # YOUR IMAGE REGISTRY ) ). from prefect import flow from  prefect import  flowfrom prefect.docker import DockerImage from prefect.docker import  DockerImage @flow(log_prints=True) @flow(log_prints = True)def buy(): def  buy(): print("Buying securities")  print("Buying securities") if __name__ == "__main__": if  __name__ ==  "__main__": buy.deploy( buy.deploy( name="my
+...[truncated]
