@@ -1,0 +1,303 @@
+Agent: Savvy
+Query: query
+Date: 20260317_040323
+──────────────────────────────────────────────────
+Summary: A query is a question or request for information, often used in databases to extract specific data. It can also refer to an internet search request. In computing, it's a precise request to retrieve data from a database.
+
+Title: QUERY definition in American English
+URL: https://www.collinsdictionary.com/us/dictionary/english/query
+Content: British English: query 
+/ˈkwɪərɪ/  NOUN
+
+A query is a question about a particular point.
+
+He is unable to answer queries personally.
+
+ American English: query 
+  /ˈkwɪəri/
+ Arabic: سُؤَال
+ Brazilian Portuguese: pergunta
+ Chinese: 疑问
+ Croatian: upit
+ Czech: dotaz
+ Danish: forespørgsel
+ Dutch: verzoek
+ European Spanish: consulta
+ Finnish: kysymys
+ French: interrogation
+ German: Frage
+ Greek: απορία
+ Italian: richiesta
+ Japanese: 疑問
+ Korean: 의문
+ Norwegian: forespørsel
+ Polish: zapytanie
+ European Portuguese: pergunta
+ Romanian: interogare
+ Russian: вопрос
+ Spanish: consulta
+ Swedish: förfrågan
+ Thai: คำถาม
+ Turkish: sorgu
+ Ukrainian: питання
+ Vietnamese: thắc mắc
+
+British English: query 
+/ˈkwɪərɪ/  VERB [...] British English: query 
+/ˈkwɪərɪ/  VERB
+
+If you query something, you check it by asking about it because you are not sure if it is correct.
+
+No one queried my decision.
+
+ American English: query 
+  /ˈkwɪəri/
+ Arabic: يَسْتَفْهِم
+ Brazilian Portuguese: questionar
+ Chinese: 询问
+ Croatian: dovesti u pitanje
+ Czech: dotázat se
+ Danish: forespørge
+ Dutch: een vraag stellen
+ European Spanish: cuestionar
+ Finnish: tiedustella
+ French: questionner
+ German: in Frage stellen
+ Greek: αμφισβητώ
+ Italian: chiedere
+ Japanese: 尋ねる
+ Korean: 질문하다
+ Norwegian: undersøke
+ Polish: zakwestionować
+ European Portuguese: questionar
+ Romanian: a interoga
+ Russian: спрашивать
+ Spanish: cuestionar
+ Swedish: ifrågasätta
+ Thai: ซักถาม
+ Turkish: sorgulamak
+ Ukrainian: довідуватися
+ Vietnamese: thắc mắc [...] Go to the homepage
+
+English
+
+French
+
+German
+
+Italian
+
+Spanish
+
+Portuguese
+
+Hindi
+
+Chinese
+
+Korean
+
+Japanese
+
+More
+
+English
+
+Italiano
+
+Português
+
+한국어
+
+简体中文
+
+Deutsch
+
+Español
+
+हिंदी
+
+日本語
+
+English
+
+French
+
+German
+
+Italian
+
+Spanish
+
+Portuguese
+
+Hindi
+
+Chinese
+
+Korean
+
+Japanese
+
+Definitions Summary Synonyms Sentences Pronunciation Collocations Conjugations Grammar
+
+Credits
+
+×
+
+# Definition of 'query'
+
+COBUILD frequency band
+
+## query
+
+(kwɪəri  IPA Pronunciation Guide )
+
+Word forms: plural, 3rd person singular present tense queries  ,  present participle querying  ,  past tense, past participle queried  
+
+1. countable noun
+
+A query is a question, especially one that you ask an organization, publication, or expert.
+
+If you have any queries about this insurance, please contact our call center.
+
+Title: query - Wiktionary, the free dictionary
+URL: https://en.wiktionary.org/wiki/query
+Content: ### Pronunciation
+
+[edit]
+
+ (Received Pronunciation, General Australian) IPA(key): /ˈkwɪə.ɹi/
+  + |  |  |
+     --- |
+    | Audio (Southern England): | (file-Vealhurl-query.wav "File:LL-Q1860 (eng)-Vealhurl-query.wav")) |
+ (General American) IPA(key): /ˈkwɪ.ɹi/, /ˈkwɛ.ɹi/
+ (Scotland) IPA(key): /ˈkwi.ɹɪ/, /ˈkwi.ɹe/
+ (New Zealand) IPA(key): /ˈkwiə.ɹi/
+ (East Anglia, cheer–chair merger) IPA(key): /ˈkwɛː.ɹi/
+ (Indic) IPA(key): /ˈkʋɛ.ri/
+ Rhymes: -ɪəɹi, -ɛɹi
+
+### Noun
+
+[edit]
+
+query (plural queries)
+
+1. A question, an inquiry (US), an enquiry (UK).
+
+   :   The teacher answered the student’s query concerning biosynthesis.
+
+    1910, Emerson Hough, “The Gateway, and Some Who Passed”, in The Purchase Price: Or The Cause of Compromise, Indianapolis, Ind.: The Bobbs-Merrill Company, →OCLC, page 29: [...] #### References
+
+[edit]
+
+  Query on Wikipedia.Wikipedia
+
+### Verb
+
+[edit]
+
+query (third-person singular simple present queries, present participle querying, simple past and past participle queried)
+
+1. (intransitive) To ask a question.
+2. (transitive) To ask, inquire.
+    1661, Joseph Glanvill, chapter XX, in The Vanity of Dogmatizing: Or Confidence in Opinions. […], London:  […]  E. C[otes] for Henry Eversden […], →OCLC, page 188:
+
+     :   It’s queried whether there be any Science in the ſenſe of the Dogmatiſts:  […]
+    1994, Dermot Healy, “As Gaelige”, in A Goat’s Song, 1st American edition, New York, N.Y.: Viking, published 1995, →ISBN, part II (The Salmon of Knowledge), page 160: [...] computing: set of instructions passed to a database
+
+|  |
+
+Title: Query - Definition, Meaning & Synonyms - Vocabulary.com
+URL: https://www.vocabulary.com/dictionary/query
+Content: SKIP TO CONTENT
+
+/ˈkwiri/
+
+IPA guide
+
+Other forms: queried; queries; querying
+
+A query is a question, or the search for a piece of information.
+
+The Latin root quaere means "to ask" and it's the basis of the words inquiry, question, quest, request, and query. Query often fits the bill when referring to Internet searches, polite professional discourse, and subtle pleas. You could query as to the whereabouts of the lavatory, but you'd sound a bit prim and be better off asking "Where's the toilet?" If your job entails dealing with annoying questions and complaints, you could make it sound better by proclaiming, "I respond to customer queries."
+
+Definitions of query
+
+1. an instance of questioning
+
+   synonyms:  enquiry, inquiry, interrogation, question
+
+   see moresee less
+
+   type of:
+
+Title: What is a Query - Definition, meaning and examples - Agencia Digital
+URL: https://www.arimetrics.com/en/digital-glossary/query
+Content: Skip to footer
+
+Contact
+
+3   4   5   A   B   C   D   E   F   G   H   I   J   K   L   M   N   O   P   Q   R   S   T   U   V   W   X   Y   Z
+
+# What is Query
+
+queryDefinition:
+
+A query is a question or query that is made to obtain information. In the context of the Internet, especially search engines, a query refers to each individual query that a user enters to search for information on the web. In computer terms, a query is a precise request to extract data from a database or information system.
+
+It is important not to confuse this term with Query Language, which is a programming language used to perform database queries, or with jQuery, a JavaScript library that facilitates the interaction between JavaScript and HTML. [...] When we talk about querys related to databases, a query or query-string is a request to a database. In the case of a query to a mysql database that has the following format:
+
+```
+columna_a_seleccionar tabla_a_seleccionar
+```
+
+This query-string searches the database for a column in a table where a certain condition is met.
+
+Related Terms
+
+ DHTML
+ Style sheet [...] 1 What is a query?
+ 2 Search query analysis
+ 3 Types of query in search engines
+ 4 Difference from query or query-string in databases
+
+## What is a query?
+
+A query can be a word or strings of words(query strings)that are entered into the search box of a search engine to access the information contained in the web. A query is usually accompanied by some sets of letters and other specific operators, such as Booleans, which facilitate its function.
+
+This query or query can be done on a page that is a search engine in itself, such as Google, Yahoo or Bing, or on an internal engine, on-site,always from any device.
+
+## Search query analysis
+
+Title: What is a query? | Definition from TechTarget
+URL: https://www.techtarget.com/searchdatamanagement/definition/query
+Content: ## What is a database query?
+
+In a database context, a query is a request for information or data made by a user and written in a specific format. The format is determined by the query language supported by that database, such as Structured Query Language. Like other query languages, SQL provides pre-defined standardized code that contains the instructions that a database can understand to generate appropriate results in response to a user's query.
+
+Apart from writing specific query commands in a query language, some of the other ways to retrieve information from a database are the following: [...] Search Data Management 
+
+ Home
+ Database management
+
+Definition
+
+# query
+
+By
+
+ Rahul Awati
+ Andrew Zola
+ Adam Hughes
+
+Published: Apr 16, 2024
+
+## What is a query?
+
+A query is a question or a request for information expressed in a formal manner. In computer science, a query usually refers to a request for information to be extracted from a database.
+
+## What is a database query? [...] ## How do queries work?
+
+A query gives meaning to the lines of code used in every data selection language so the database can understand what the user wants and execute actions accordingly. The database holds data in multiple rows and columns, with the rows containing data and the columns specifying the attributes for each piece of data. By querying the database, a user can retrieve some specific data and have it displayed in a specific format. As such, the user and the database both exchange information with each other as they both "speak" the same language.
