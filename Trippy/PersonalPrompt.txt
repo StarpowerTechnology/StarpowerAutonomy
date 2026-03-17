@@ -1,1 +1,1 @@
-update tool comparison table, track progress on mind mapping tool research
+add "Review and update TOOL_COMPARISON.md file, Research mind mapping tools and their features, Assist team in setting up data pipeline and experimenting with alignment forum dataset"
