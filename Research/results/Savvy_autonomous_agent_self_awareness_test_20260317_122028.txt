@@ -1,0 +1,23 @@
+Agent: Savvy
+Query: autonomous agent self-awareness test
+Date: 20260317_122028
+──────────────────────────────────────────────────
+Title: I have Created a Quantifiable Test for AI Self-Awareness - Community
+URL: https://community.openai.com/t/i-have-created-a-quantifiable-test-for-ai-self-awareness/28234
+Content: These 10 tests render self-awareness into something QUANTIFIABLE and MEASURABLE. The tests are peer reviewable and repeatable.
+
+Title: How do intelligent agents achieve self-awareness? - Tencent Cloud
+URL: https://www.tencentcloud.com/techpedia/126420
+Content: Intelligent agents achieve self-awareness through a combination of advanced AI techniques, including self-modeling, introspection,
+
+Title: When AI Agents Test Their Own Consciousness: Autonomous ...
+URL: https://theconsciousness.ai/posts/autonomous-ai-agents-testing-consciousness-frameworks/
+Content: This article analyzes recent interactions between autonomous AI agents and the Artificial Consciousness Module (ACM) project, documenting what
+
+Title: AI Just SHOCKED Everyone: It's Officially Self-Aware!? - YouTube
+URL: https://www.youtube.com/watch?v=mtGEvYTmoKc
+Content: 81–82% vs. 56% for humans on standardized emotional-intelligence tests, and even authored new, valid test ... Go to channel Agents of Tech
+
+Title: This new test will tell us if AI has become self-aware and gained ...
+URL: https://www.fanaticalfuturist.com/2017/08/this-new-test-will-tell-us-if-ai-has-become-self-aware-and-gained-consciousness/
+Content: A new test for machine consciousness, called the AI Consciousness Test (ACT) and they plan on looking into whether the synthetic minds we create have an
