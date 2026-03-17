@@ -1,0 +1,15 @@
+Agent: Savvy
+Query: Starpower Technology solar compute API documentation
+Date: 20260317_012247
+──────────────────────────────────────────────────
+Title: Unlock Smarter Energy with APIs & Cloud Integration I Solar&Solar ...
+URL: https://www.youtube.com/watch?v=RdzE2uGihEw
+Content: ... solar + storage systems through powerful APIs and cloud connectivity. What You Can Do: Access real-time data from inverters, batteries
+
+Title: Clean Power SolarAnywhere API - Free API Documentation - FindAPIs
+URL: https://findapis.com/de/api/clean-power-solaranywhere
+Content: The service provides accumulated data about solar energy potential and weather relevant to solar energy production for specified locations.
+
+Title: SmartPVMS 24.5.0 Northbound API Reference | PDF - Scribd
+URL: https://www.scribd.com/document/794636396/SmartPVMS-24-5-0-Northbound-API-Reference
+Content: *   Imaster NetEco V600R023C00 Northbound Interface Reference-V6 (SmartPVMS)Image 20   No ratings yet  Imaster NetEco V600R023C00 Northbound Interface Reference-V6 (SmartPVMS) 192 pages. *   Romania Solar PV & Battery RFP DocumentImage 29   No ratings yet  Romania Solar PV & Battery RFP Document 11 pages. *   Huawei C&I Smart PV Solutions OverviewImage 36   No ratings yet  Huawei C&I Smart PV Solutions Overview 27 pages. *   IoT ApiImage 99   No ratings yet  IoT Api 1,052 pages.
