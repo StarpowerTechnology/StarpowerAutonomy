@@ -1,0 +1,26 @@
+Agent: Trippy
+Query: FastMCP documentation
+Date: 20260317_153232
+──────────────────────────────────────────────────
+[1] Title: GitHub - PrefectHQ/fastmcp: The fast, Pythonic way to build MCP ...
+[1] URL: https://github.com/prefecthq/fastmcp
+[1] Content: [Skip to content](https://github.com/prefecthq/fastmcp#start-of-content). [Reload](https://github.com/prefecthq/fastmcp) to refresh your session.You signed out in another tab or window. [Reload](https://github.com/prefecthq/fastmcp) to refresh your session.You switched accounts on another tab or window. [Reload](https://github.com/prefecthq/fastmcp) to refresh your session.Dismiss alert. *   [Code](https://github.com/PrefectHQ/fastmcp). *   [Issues 208](https://github.com/PrefectHQ/fastmcp/issues). *   [Pull requests 6](https://github.com/PrefectHQ/fastmcp/pulls). *   [Discussions](https://github.com/PrefectHQ/fastmcp/discussions). *   [Actions](https://github.com/PrefectHQ/fastmcp/actions). *   [Projects](https://github.com/PrefectHQ/fastmcp/projects). *   [Security 5](https://github.com/PrefectHQ/fastmcp/security). *   [Insights](https://github.com/PrefectHQ/fastmcp/pulse). *   [Code](https://github.com/PrefectHQ/fastmcp). *   [Issues](https://github.com/PrefectHQ/fastmcp/issues). * 
+...[truncated]
+
+[2] Title: Welcome to FastMCP - FastMCP
+[2] URL: https://gofastmcp.com/getting-started/welcome
+[2] Content: Deploy FastMCP servers for free on Prefect Horizon. ##### Get Started. ##### Servers. ##### Apps. ##### Clients. ##### Integrations. ##### CLI. # Welcome to FastMCP. The fast, Pythonic way to build MCP servers, clients, and applications. def add(a: int, b: int) -> int:. ## ​ Move Fast and Make Things. ## Servers. ## Apps. ## Clients. `New in version: 3.0.0`. ## ​ LLM-Friendly Docs. ### ​ MCP Server. async with Client("https://gofastmcp.com/mcp") as client:. arguments={"query": "deploy a FastMCP server"}. ### ​ Text Formats. `https://gofastmcp.com/getting-started/welcome.md`.
+
+[3] Title: Quickstart - FastMCP
+[3] URL: https://gofastmcp.com/getting-started/quickstart
+[3] Content: ##### Servers. This guide will help you quickly set up FastMCP, run your first MCP server, and deploy a server to Prefect Horizon. A FastMCP server is a collection of tools, resources, and other MCP components. To create a server, start by instantiating the `FastMCP` class. The simplest way to run your FastMCP server is to call its `run()` method. You can also use the `fastmcp run` command to start your server. For example, to run this server with the default stdio transport (no matter how you called `mcp.run()`), you can use the following command:. fastmcp run my_server.py:mcp fastmcp  run my_server.py:mcp. fastmcp run my_server.py:mcp --transport http --port 8000 fastmcp  run my_server.py:mcp --transport  http --port  8000. Once your server is running with HTTP transport, you can connect to it with a FastMCP client or any LLM client that supports the MCP protocol:. Horizon will build and deploy your server, making it available at a URL like `https://your-project.fastmcp.app/mcp`.
+
+[4] Title: OpenAPI FastMCP
+[4] URL: https://gofastmcp.com/integrations/openapi
+[4] Content: ## ​ Create a Server. ### ​ Authentication. # Create MCP server with authenticated client. ## ​ Route Mapping. `from fastmcp.server.openapi import RouteMap, MCPType. ### ​ Custom Route Maps. from fastmcp.server.openapi import RouteMap, MCPType. RouteMap(methods=["GET"], pattern=r".*\{.*\}.*", mcp_type=MCPType.RESOURCE_TEMPLATE),. from fastmcp.server.openapi import RouteMap, MCPType. # Exclude all routes tagged "internal". ### ​ Excluding Routes. from fastmcp.server.openapi import RouteMap, MCPType. RouteMap(pattern=r"^/admin/.*", mcp_type=MCPType.EXCLUDE),. RouteMap(tags={"internal"}, mcp_type=MCPType.EXCLUDE),. from fastmcp.server.openapi import RouteMap, MCPType. ### ​ Advanced Route Mapping. from fastmcp.server.openapi import RouteMap, MCPType, HTTPRoute. def custom_route_mapper(route: HTTPRoute, mcp_type: MCPType) -> MCPType | None:. elif "internal" in route.tags:. ## ​ Customization. ### ​ Component Names. ### ​ Tags. #### ​ RouteMap Tags. `from fastmcp.server.openapi import Route
+...[truncated]
+
+[5] Title: The FastMCP Client
+[5] URL: https://gofastmcp.com/clients/client
+[5] Content: ##### Clients. ##### Integrations. # The FastMCP Client. Programmatic client for interacting with MCP servers through a well-typed, Pythonic interface. ## ​ Creating a Client. from fastmcp import Client, FastMCP. client = Client("https://example.com/mcp"). result = await client.call_tool("example_tool", {"param": "value"}). `from fastmcp import Client, FastMCP. client = Client(server) # In-memory, no network or subprocess`. client = Client("my_server.py", env={"API_KEY": "secret"})`. client = Client("https://api.example.com/mcp")`. ## ​ Configuration-Based Clients. weather_data = await client.call_tool("weather_get_forecast", {"city": "London"}). response = await client.call_tool("assistant_answer_question", {"question": "What's the capital of France?"}). # Resources use prefixed URIs. icons = await client.read_resource("weather://weather/icons/sunny")`. `from fastmcp import Client, FastMCP. async with Client(mcp) as client:. print(f"Server: {client.initialize_result.serverInfo.name}")
+...[truncated]
