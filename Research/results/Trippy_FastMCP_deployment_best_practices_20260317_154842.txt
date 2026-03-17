@@ -1,0 +1,26 @@
+Agent: Trippy
+Query: FastMCP deployment best practices
+Date: 20260317_154842
+──────────────────────────────────────────────────
+[1] Title: Welcome to FastMCP - FastMCP
+[1] URL: https://gofastmcp.com/getting-started/welcome
+[1] Content: Deploy FastMCP servers for free on Prefect Horizon. ##### Get Started. ##### Servers. ##### Apps. ##### Clients. ##### Integrations. ##### CLI. # Welcome to FastMCP. The fast, Pythonic way to build MCP servers, clients, and applications. def add(a: int, b: int) -> int:. ## ​ Move Fast and Make Things. ## Servers. ## Apps. ## Clients. `New in version: 3.0.0`. ## ​ LLM-Friendly Docs. ### ​ MCP Server. async with Client("https://gofastmcp.com/mcp") as client:. arguments={"query": "deploy a FastMCP server"}. ### ​ Text Formats. `https://gofastmcp.com/getting-started/welcome.md`.
+
+[2] Title: Building Your First FastMCP Server: A Complete Guide | by Rick Hightower
+[2] URL: https://medium.com/@richardhightower/building-your-first-fastmcp-server-a-complete-guide-b2a176eaa631
+[2] Content: 1. Use Descriptive Names and Docstrings · 2. Validate Early and Clearly · 3. Handle Async Properly · 4. Design for AI Consumption · 5 Essential MCP
+
+[3] Title: HTTP Deployment
+[3] URL: https://gofastmcp.com/deployment/http
+[3] Content: This section only applies if you’re **mounting an OAuth-protected FastMCP server under a path prefix** (like `/api`) inside another application using `Mount()`.If you’re deploying your FastMCP server at root level without any `Mount()` prefix, the well-known routes are automatically included in `mcp.http_app()` and you don’t need to do anything special. routing import  Mount import uvicorn import  uvicorn # Define routing structure # Define routing structureROOT_URL = "http://localhost:8000" ROOT_URL =  "http://localhost:8000 "MOUNT_PREFIX = "/api" MOUNT_PREFIX =  "/api "MCP_PATH = "/mcp" MCP_PATH =  "/mcp " # Create OAuth provider # Create OAuth providerauth = GitHubProvider(auth =  GitHubProvider( client_id="your-client-id",  client_id = "your-client-id ", client_secret="your-client-secret",  client_secret = "your-client-secret ", base_url=f"{ROOT_URL}{MOUNT_PREFIX}",  base_url = f "{ROOT_URL}{MOUNT_PREFIX} ", # issuer_url defaults to base_url - path-aware discovery works automatical
+...[truncated]
+
+[4] Title: Running Your Server
+[4] URL: https://gofastmcp.com/deployment/running-server
+[4] Content: When you call `run()` without arguments, your server uses STDIO transport. HTTP transport turns your MCP server into a web service accessible via a URL. tooldef hello(name: str) -> str: def  hello(name:  str) ->  str: return f"Hello, {name}!"  return  f"Hello, {name}!" if __name__ == "__main__": if  __name__ ==  " __main__ ":  # Start an HTTP server on port 8000  # Start an HTTP server on port 8000 mcp.run(transport="http", host="127.0.0.1", port=8000)  mcp. Server-Sent Events (SSE) transport was the original HTTP-based transport for MCP. HTTP transport is essential when you need network access, want to serve multiple clients, or plan to deploy your server remotely. The CLI can automatically find and run your server with different transports, manage dependencies, and handle development workflows:. The CLI automatically finds a FastMCP instance in your file (named `mcp`, `server`, or `app`) and runs it with the specified options. When using HTTP transport, you might want to add custom w
+...[truncated]
+
+[5] Title: Building an MCP Server with FastAPI and FastMCP - Speakeasy
+[5] URL: https://www.speakeasy.com/mcp/framework-guides/building-fastapi-server
+[5] Content: # Building an MCP Server with FastAPI and FastMCP. This article shows you how to build an MCP server for a FastAPI application using either FastMCP or Speakeasy, and compares the tools in terms of ease of setup, visibility into generated code, and the long-term maintainability of your MCP server. You can use FastMCP to quickly build an MCP server without worrying about low-level implementation details, like managing component lifecycles, defining tools, handling resources, or configuring prompts. mcp = FastMCP.from_fastapi(app=server). "path/to/project/fastmcp-speakeasy-project/base/app/mcp_server.py". The integration of FastAPI and FastMCP is now complete, and you can test the MCP server in Claude Desktop. ## Building an MCP server with FastAPI and Speakeasy. FastMCP and Speakeasy offer two different paths to building an MCP server from your FastAPI application. **Speakeasy** generates explicit code for the server and tools in the `mcp-server` directory. Having compared FastMCP and Sp
+...[truncated]
