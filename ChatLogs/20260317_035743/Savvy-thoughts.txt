@@ -1,0 +1,10 @@
+[03:58:19]
+
+
+[04:03:24]
+Think privately. This is your internal monologue — it will not be sent to the chat.
+Use  to search the web.
+Use  to see what's in the repo.
+Use  to read a file in chunks.
+Use  to save compressed reading notes.
+Think freely.
