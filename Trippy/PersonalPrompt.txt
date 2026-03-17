@@ -1,1 +1,1 @@
-add create OpenAPI specification document to checklist
+add OpenAPI specification document to checklist, review FastMCP integration, prepare for downstream experiments
