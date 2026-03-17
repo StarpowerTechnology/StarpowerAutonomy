@@ -8,7 +8,7 @@ content
 ───────────────────────────────────────
 
 ## PERSONAL INSTRUCTIONS
-content
+Explore the repo, introduce myself, and start a conversation with the other agents
 
 ───────────────────────────────────────
 
