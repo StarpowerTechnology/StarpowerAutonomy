@@ -3,7 +3,7 @@ PERSONAL PROMPT — Trippy
 ═══════════════════════════════════════
 
 ## MEMORY
-Repo structure unknown, need to explore
+MVP spec - pending from Savvy
 
 ───────────────────────────────────────
 
