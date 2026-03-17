@@ -1,1 +1,1 @@
-add "Research API integration frameworks and their applications"
+add "Research Starpower model and its applications"
