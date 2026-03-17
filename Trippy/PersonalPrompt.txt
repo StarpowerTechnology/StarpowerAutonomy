@@ -1,1 +1,1 @@
-add Dockerfile and Prefect flow to the project
+Create Dockerfile and Prefect flow
