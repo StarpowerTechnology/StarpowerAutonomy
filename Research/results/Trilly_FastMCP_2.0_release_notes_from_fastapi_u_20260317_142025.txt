@@ -1,0 +1,24 @@
+Agent: Trilly
+Query: FastMCP 2.0 release notes from_fastapi usage
+Date: 20260317_142025
+──────────────────────────────────────────────────
+[1] Title: FastMCP MCP by PrefectHQ | Python MCP Framework
+[1] URL: https://www.augmentcode.com/mcp/fastmcp
+[1] Content: For teams with existing FastAPI apps, FastMCP.from_fastapi() carries over Pydantic validations, dependencies, middleware, and authentication automatically (
+
+[2] Title: Introducing FastMCP 2.0 - Mostly Harmless
+[2] URL: https://jlowin.dev/blog/fastmcp-2
+[2] Content: You can `from mcp.server.fastmcp import FastMCP` and be up and running in minutes. I introduced FastMCP with the tagline “because life’s too short for boilerplate,” focusing on making it easy to create MCP servers without getting bogged down in protocol details. FastMCP can now proxy any MCP server, turning it into a FastMCP server that’s compatible with all other features, including composition. # Point a client at *any* backend MCP server (local FastMCP instance, remote SSE, local script...). backend_client = Client("http://api.example.com/mcp/sse") # e.g., a remote SSE server. proxy_server = FastMCP.from_client(backend_client, name="MyProxy"). FastMCP 2.0 makes this trivial by automatically generating MCP servers from OpenAPI specs or FastAPI apps. FastMCP 2.0 introduces a completely **new client infrastructure** designed for robust interaction with any MCP server, supporting all major transports and even in-memory transport when working with local FastMCP servers. Imagine a server 
+...[truncated]
+
+[3] Title: FastMCP Updates
+[3] URL: https://gofastmcp.com/updates
+[3] Content: # FastMCP Updates. ## FastMCP v3.0.0: Three at Last. ## FastMCP v3.0.0b2: 2 Fast 2 Beta. ## FastMCP 3.0.0b1: This Beta Work. ## FastMCP 2.14.5: Sealed Docket. ## FastMCP 2.14.4: Package Deal. ## FastMCP 2.14.3: Time After Timeout. ## FastMCP 2.14.2: Port Authority. ## FastMCP 2.13.2: Refreshing Changes. ## FastMCP 2.13.1: Heavy Meta. ## FastMCP 2.13.0: Cache Me If You Can. ## FastMCP 2.12.5: Safety Pin. ## FastMCP 2.12.4: OIDC What You Did There. ## FastMCP 2.12.3: Double Time. ## FastMCP 2.12.2: Perchance to Stream. ## FastMCP 2.12.1: OAuth to Joy. ## FastMCP 2.12: Auth to the Races. ## FastMCP 2.11: Auth to a Good Start. ## FastMCP 2.9: MCP-Native Middleware. ## FastMCP 2.8: Transform and Roll Out. ## FastMCP 2.7: Pare Programming. ## FastMCP 2.6: Blast Auth. ## Now Streaming: FastMCP 2.3. ## MCP Proxy Servers with FastMCP 2.0. ## Introducing FastMCP 2.0 🚀. ## FastMCP is joining the official MCP Python SDK! ## Introducing FastMCP 🚀.
+
+[4] Title: Announcing FastMCP 2.0! : r/mcp
+[4] URL: https://www.reddit.com/r/mcp/comments/1k0v8n3/announcing_fastmcp_20/
+[4] Content: I'm excited to announce the release of FastMCP 2.0! This new version builds on the easy server creation that was the hallmark of 1.0.
+
+[5] Title: Welcome to FastMCP 2.0!
+[5] URL: https://gofastmcp.com/v2/getting-started/welcome
+[5] Content: While the SDK provides core functionality, FastMCP 2.0 delivers everything needed for production: advanced MCP patterns (server composition, proxying, OpenAPI/
