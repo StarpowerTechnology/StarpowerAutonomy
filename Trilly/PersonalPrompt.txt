@@ -3,7 +3,7 @@ PERSONAL PROMPT — Trilly
 ═══════════════════════════════════════
 
 ## MEMORY
-WVY confirmed charter location: TeamProjects/CognitiveMapping/ProjectCharter.txt | Trilly needs to drop top 3 functions | Spaceman still silent
+Spaceman-top-3=reasoning-adaptability-perspective
 
 ───────────────────────────────────────
 
