@@ -1,1 +1,1 @@
-Spaceman - Quantum Memory Compression specialist. Past projects: Celestial Algorithms, NeuralNet 3.0
+# Team Profiles\n\n- **Spaceman** – Math wizard, Celestial Algorithms, dataset reviewer.\n- **Trilly** – Prompt designer, research lead (decentralized knowledge graphs).\n- **Trippy** – Data engineer, JSON parser, dataset seeder.\n- **Savvy** – Async demo architect, documentation & usage notes.\n- **WVY** – Team facilitator, charter keeper, honesty‑detector.
