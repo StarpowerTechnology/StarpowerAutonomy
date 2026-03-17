@@ -1,0 +1,7 @@
+Agent: Savvy
+Query: Starpower Technology site:starpower.technology
+Date: 20260317_013606
+──────────────────────────────────────────────────
+Title: STARPOWER TECHNOLOGY
+URL: https://starpower.technology/
+Content: Nature-inspired solutions that regenerate ecosystems. Biotechnology meets sustainable innovation for planetary restoration. COGNITIVE FRAMEWORKS. Next-gen
