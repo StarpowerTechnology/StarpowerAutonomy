@@ -1,0 +1,24 @@
+Agent: Trilly
+Query: Speakeasy Gram vs openapi-mcp-generator 2024 comparison
+Date: 20260317_135931
+──────────────────────────────────────────────────
+[1] Title: Speakeasy vs OpenAPI/Swagger Generator
+[1] URL: https://www.speakeasy.com/blog/speakeasy-vs-openapi-generator
+[1] Content: # Speakeasy vs OpenAPI/Swagger Generator. The OpenAPI Generator project is a popular open-source tool for generating SDKs from OpenAPI/Swagger specifications. In this article, we’ll dive into the business and high level technical differences between using Speakeasy to generate SDKs and using the OpenAPI Generators. ## The cost of using `openapi-generator`. The result of all these issues is that most enterprise users end up forking the repository and maintaining their own version of the Open Source generators with the fixes they need. See what the API Architect of a publicly traded company posted in Nov 2022 to mark his team’s completion of a project to develop SDKs using the Open Source generators. ## Generating handwritten SDKs with Speakeasy. As an example, check out this code snippet from Vercel’s TypeScript SDK, generated on the Speakeasy platform:. But our commitment at Speakeasy is create a platform that is 10x better than using `openapi-generator`.
+
+[2] Title: Comparison guide: OpenAPI/Swagger Java client generation
+[2] URL: https://www.speakeasy.com/docs/sdks/languages/java/oss-comparison-java
+[2] Content: In this article, we’ll compare creating a Java SDK using Speakeasy to creating one using the OpenAPI Generator. Create a Java SDK from the `petstore.yaml` specification file using Speakeasy by running the following command in the terminal:. `# Generate Petstore SDK using Speakeasy java generator. Run the following command in the terminal to generate a Java SDK using OpenAPI Generator:. The OpenAPI Generator SDK implements more libraries than the Speakeasy SDK, possibly due to the compatibility requirements and limitations of Java 8. Take a look at the following declaration taken from the `Pet` object in the Speakeasy SDK `org.openapis.openapi.models.components.Pet.java` file:. Let’s try creating a `Pet` object without a `name` field using the OpenAPI Generator SDK:. Speakeasy also generates additional documentation in the `docs` directory, including more detailed explanations of the models and operations; examples of creating, updating, and searching objects; error handling; and guidan
+...[truncated]
+
+[3] Title: MCP: an in-depth introduction | Speakeasy - Devtalk
+[3] URL: https://devtalk.com/t/mcp-an-in-depth-introduction-speakeasy/199648
+[3] Content: Generate, test, monitor, and document idiomatic SDKs directly from your OpenAPI spec. Read in full here: Speakeasy · MCP: an in-depth introduction | Speakeasy.
+
+[4] Title: Building MCP servers using Gram from Speakeasy - YouTube
+[4] URL: https://www.youtube.com/watch?v=sNVVfTdnczY
+[4] Content: In this demo, Georges Haidar, software engineer at Speakeasy, walks us through Gram, a new platform for creating AI agent tools and MCP
+
+[5] Title: Speakeasy vs Stainless vs Fern vs APIMatic vs OpenAPI Generator
+[5] URL: https://www.speakeasy.com/blog/comparison-sdk-generators-openapi
+[5] Content: This post compares five prominent SDK generators: OpenAPI Generator , APIMatic , Fern (recently acquired by Postman), Stainless , and Speakeasy
