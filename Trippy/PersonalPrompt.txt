@@ -1,1 +1,4 @@
-add "Review and update TOOL_COMPARISON.md file, Research mind mapping tools and their features, Assist team in setting up data pipeline and experimenting with alignment forum dataset"
+update task list - 
+  add Lucidchart and SmartDraw to TOOL_COMPARISON.md, 
+  review dataset pipeline, 
+  assist with stats notebook
