@@ -1,0 +1,125 @@
+Agent: Savvy
+Query: Spaceman 0.56B model confidence signal introspection
+Date: 20260317_060235
+──────────────────────────────────────────────────
+Summary: The Spaceman 0.56B model uses advanced language processing techniques for introspection and confidence signal analysis. It relies on fine-tuning and model-based evaluation methods. The model's performance is assessed through internal representations and semantic understanding.
+
+Title: Radiochemistry and Nuclear Chemistry
+URL: https://www.xylenepower.com/Radiochemistry_and_Nuclear_Chemistry-Aca.pdf
+Content: β 10.0d 225Ac, α 4.49-109y UΙ, α 1622y Ro, α 3.825d Rn, α 2s 218At, α 2.48-105y UΙΙ, α 24.1 d UX1, β 3.05m RoA, αβ 1.6-10–4s RoC’, α 138.4d RoF, α 1.32m RoC”, β 4.79m AcC”, β 36.1m AcB, β 2.16m AcC, α β 0.52s AcC’, α 1.83-10–3s AcA, α β stabil AcD 26.8m RoB, β 19.7m RoC, αβ 5.0d RoC, αβ 22y RoD, β stabil RoG 4.19m RoE”, β 8.0-104y Ιo1, α UX2,β1.1m UZ,β 6.7h 213Bi 4.8m 221Fr, α 0.018s 217At, α 4.2-10-6s 213Po, α 47m 213Bi, α β 2.2 m 209Tl, β 3.2h 209Pb, β stabil 209Bi α 3.10–4s 216At,α MsTh1,β 0.158s ThA,α β Branched decay Branched decay UX2 UZ UΙΙ RoA LT. [...] By combination of quarks and leptons, the true elementary particles of nature, it is possible to systematize all known particles. The success of this theory, founded on good Elementary Particles 27 Table 2.3 Classiﬁcation and properties of elementary particles according to the standard model Basic nature Family Name and symbol Forces involved Charge Rest mass Basic building blocks of nature I Leptons: electron, e EM,W 1 0.511 MeV e-neutrino, ne W 0 <18 eV Quarks: up EM,W ,S þ2/3 1/3 u down EM,W ,S e1/3 1/3 u Formed in Big-Bang, cosmic rays and high-energy accelerators II Leptons: muon, m EM,W 1 105.6 MeV m-neutrino, nm W 0 0?
+Quarks: charm EM,W ,S strange EM,W ,S III Leptons: tau, s EM,W 1 s-neutrino, W 0 0? [...] 26 Radiochemistry and Nuclear Chemistry These results have led to the Standard Model of the building blocks of matter. Ac-cording to this model all matter on Earth e and likely in the Universe e (and including our own bodies) consists to > 99% of quarks with associated gluons. The rest is electrons.
+Elementary particles now come in only two kinds: quarks and leptons. There are only six quarks and six leptons, see Table 2.3. The leptons are the electron, e, the muon, m, and the tauon (tau particle), s, and their respective neutrinos. The quarks and leptons are grouped together in three families (or generations) of two quarks and two leptons each.
+
+Title: [PDF] Development and Application of an LLM-as-a-Judge Evaluation ...
+URL: https://fbmn.h-da.de/fileadmin/Dokumente/Studium/DS/WS25_MDS_Thesis_Hanna_Duenschede_THE.pdf
+Content: It should be noted that the underlying model is a multilingual Phi-3.5 Instruct model, but the fine-tuning was conducted solely on an English dataset. Finally, Qwen3-1.7B was selected, a model where the user can choose between reasoning and non-reasoning modes.
+Practical considerations influenced model access: Llama 4 Maverick was accessed via a third-party Application Programming Interface (API) due to the substantial hardware requirements for local deployment. The smaller Qwen3 model (1.7B parameters) and Flow Judge (3.8B parameters) were selected for their compatibility with an Nvidia L4 GPU (24GB RAM) and loaded directly from Hugging Face . [...] 2.4.4 Model-Based Approaches Model-based evaluation refers to methods that rely on Machine Learning (ML) models, either discriminative or generative, to assess system perfor-mance. These approaches can be applied to both generation and retrieval tasks and have advanced significantly alongside improvements in model ca-pabilities. By leveraging internal representations, model-based methods aim to capture deeper semantic understanding.
+embedding-model-based. [...] fine-tuning After pretraining, the base model typically undergoes fine-tuning, where it is adapted to more specific behaviors and objectives. Fine-tuning refines the general-purpose language ability of the model into more useful, safe and aligned capabilities.
+Supervised Fine-tuning (SFT) involves further training the model on human-labeled datasets, often composed of instruction-response pairs . Here, the model learns to reliably follow task-specific instructions. The labeled data is usually collected through human annotation, where instructions are manually written and high-quality responses are curated. SFT shifts the train-ing objective: instead of next-token prediction on arbitrary text, the model learns to output coherent and accurate responses to diverse human instruc-tions.
+
+Title: [PDF] Combustion Studies - DTIC
+URL: https://apps.dtic.mil/sti/tr/pdf/ADA260253.pdf
+Content: routine. While the two-parame-noise,10 there has been almost no attempt to consider the ter fit adds computational complexity to the analysis. it instrument slit function, the remaining major broadening makes the determination of the slit function easier. In ad-source of the CARS signal. The slit function needed to dition. using two parameters results in better precision and accurately calculate the actual collected spectra cannot be significantly better average fits. We present a theoretical derived a priori but rather a calculated spectrum. neglect- description of a possible source of the slit function which 3003 ftv. Sel. h , 62 (ft h 1661 00o4474e/e1/6oe3o0U2.00 Of 19111 Ainwria lwlftt of Ploy 2M 51 acous for the variability. [...] turbulent systems because of its large dynamic range (300- In this article we show that the slit function in turbu-2500 K). Since its advent. CARS has been used to measure lent measurements is not invariant from shot to shot. This temperature and species concentration in a variety of hos- variation shows itself by a decrease in precision" of the tile environments. The theory and application of CARS CARS system, and can be corrected by using a two-param-have been reviewed several times. 5 -7 eter (half width half maximum of the slit function and Despite the well-developed theory of CARS signal gen. temperature) fitting routine instead of the standard one-eration. including laser lineshapes.'Q and dye laser mode parameter (temperature) routine. While the two-parame-noise,10 there has been [...] (c) Predictions based on a modified two-dimensional TEXSTAN code show a good qualitative agreement but slightly higher than measured values of St and C/2. This provides confidence in the ability of modeling codes to predict the effects of high free-stream turbulence on heat transfer in practical systems.
+25 4. HIGHLIGHTS AND CONCLUSIONS In this section we analyze our entire effort from the viewpoint of program objectives; how we met those objectives; what new knowledge of interest to modelers and combustor designers emerged; how this knowledge can be used to evaluate, refine, and develop workable models based upon a sound fundamental understanding; and finally, what gaps, if any, were discovered that should form the basis of future research.
+
+Title: W W5 Mwookg Yo | PDF | Area | Triangle - Scribd
+URL: https://www.scribd.com/document/551645138/wW5mwookgYo
+Content: Scribd
+
+# W W5 Mwookg Yo
+
+W W5 Mwookg Yo
+
+## Uploaded by
+
+AI-enhanced title
+
+# W W5 Mwookg Yo
+
+# W W5 Mwookg Yo
+
+W W5 Mwookg Yo
+
+## Uploaded by
+
+AI-enhanced title
+
+## Share this document
+
+## Footer menu
+
+About
+
+Support
+
+Legal
+
+Social
+
+Get our free apps
+
+Scribd - Download on the App Store
+Scribd - Get it on Google Play
+
+About
+
+Legal
+
+Support
+
+Social
+
+Get our free apps
+
+Scribd - Download on the App Store
+Scribd - Get it on Google Play
+
+Title: ASVAB Core Review | PDF - Scribd
+URL: https://www.scribd.com/document/397990768/ASVAB-Core-Review
+Content: Scribd
+
+# ASVAB Core Review
+
+ASVAB Core Review
+
+## Uploaded by
+
+# ASVAB Core Review
+
+ASVAB Core Review
+
+# ASVAB Core Review
+
+ASVAB Core Review
+
+## Uploaded by
+
+## Share this document
+
+## Footer menu
+
+About
+
+Support
+
+Legal
+
+Social
+
+Get our free apps
+
+Scribd - Download on the App Store
+Scribd - Get it on Google Play
+
+About
+
+Legal
+
+Support
+
+Social
+
+Get our free apps
+
+Scribd - Download on the App Store
+Scribd - Get it on Google Play
