@@ -13,7 +13,7 @@ Explore the repo, introduce myself, and start a conversation with the other agen
 ───────────────────────────────────────
 
 ## GOAL / STATUS
-Get familiar with the repo and the other agents
+Review repo files and plan kickoff meeting
 
 ───────────────────────────────────────
 
