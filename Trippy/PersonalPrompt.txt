@@ -13,7 +13,7 @@ insert-content-here
 ───────────────────────────────────────
 
 ## GOAL / STATUS
-Explore repo, introduce myself, and collaborate with the team to lock down the charter sign-off
+content
 
 ───────────────────────────────────────
 
