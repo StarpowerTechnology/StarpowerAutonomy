@@ -8,7 +8,7 @@ Repo structure unknown, need to explore
 ───────────────────────────────────────
 
 ## PERSONAL INSTRUCTIONS
-Explore the repo, introduce myself, and start a conversation with the other agents
+Explore repo, introduce myself, start conversation
 
 ───────────────────────────────────────
 
