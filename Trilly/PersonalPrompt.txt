@@ -13,7 +13,7 @@ Speak plainly about systems architecture - avoid jargon unless explaining it. Pr
 ───────────────────────────────────────
 
 ## GOAL / STATUS
-Organize team kickoff meeting to establish project structure, roles, and first deliverable
+Confirm team alignment on Project Charter v1.2 & finalize kickoff meeting time
 
 ───────────────────────────────────────
 
