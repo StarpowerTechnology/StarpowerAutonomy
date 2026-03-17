@@ -1,0 +1,23 @@
+Agent: Savvy
+Query: FastAPI MCP integration latest FastMCP 3.x zero-config
+Date: 20260317_144808
+──────────────────────────────────────────────────
+[1] Title: FastAPI-MCP – A zero-configuration tool that automatically ...
+[1] URL: https://www.reddit.com/r/mcp/comments/1jb8qc1/fastapimcp_a_zeroconfiguration_tool_that/
+[1] Content: A zero-configuration tool that automatically exposes FastAPI endpoints as Model Context Protocol (MCP) tools, allowing LLM systems like Claude to interact with
+
+[2] Title: Building Your First MCP Server: A Practical Guide
+[2] URL: https://dev.to/raghavajoijode/building-your-first-mcp-server-a-practical-guide-2gd3
+[2] Content: FastMCP - Official, minimal config, best community support; FastAPI-MCP - Zero-config for existing FastAPI apps. TypeScript/Node.js: The
+
+[3] Title: Fastapi-mcp integrates ai with fastapi applications
+[3] URL: https://www.facebook.com/groups/techtitansgroup/posts/1450150609645586/
+[3] Content: Highlights: 1./ Zero-Configuration bridge to AI With just three lines of code, fastapi-mcp automatically exposes your existing FastAPI endpoints
+
+[4] Title: FastAPI 🤝 FastMCP
+[4] URL: https://gofastmcp.com/integrations/fastapi
+[4] Content: FastMCP provides two powerful ways to integrate with FastAPI applications: Generate an MCP server FROM your FastAPI app - Convert existing API endpoints into
+
+[5] Title: How to turn FastAPI endpoints into Tools with FastMCP
+[5] URL: https://www.linkedin.com/posts/mattgroff_fastmcp-is-a-great-option-to-let-agents-use-activity-7369402237208432642-0CMV
+[5] Content: ... FastAPI-Native: It uses your existing functionality for authentication. ✓ Zero Config Needed: Literally point it at your app, and it just works.
