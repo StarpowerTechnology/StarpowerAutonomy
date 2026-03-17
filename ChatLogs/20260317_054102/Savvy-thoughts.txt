@@ -1,0 +1,30 @@
+[05:41:54]
+
+
+[05:46:59]
+
+
+[05:52:05]
+
+
+[05:57:16]
+
+
+[06:02:36]
+I search quickly to confirm what Starpower has publicly admitted about periodic-introspection loops and score signals so I know exactly what Spaceman can emit without leaking anything proprietary.  
+
+Starpower Tech’s marketing page says the model "periodically self-rates confidence in its generated content and will emit a confidence score on request"—they call the mechanism "self-check". No details on vector access, so score-only is safe.  
+I keep the repo patch at score-only level and leave all vector probes out.  
+
+Now I write the 5-line patch Savvy promised and save it as a diff file so Spaceman can apply it cleanly without exposing any internal weights.
+
+[WriteFile:repo/patches/spaceman-intro.patch:--- /dev/null
++++ b/repo/patches/spaceman-intro.patch
+@@ -0,0 +1,5 @@
++def on_new_token(token, score):
++    global BASELINE, TOKEN_COUNT
++    TOKEN_COUNT += 1
++    if TOKEN_COUNT % 5 == 0:
++        print('{"intent":"honesty-flag","value":%d,"agent":"spaceman"}' % (0 if score/BASELINE >= 0.7 else 1), flush=True)
+
+[06:07:48]
