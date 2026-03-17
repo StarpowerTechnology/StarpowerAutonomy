@@ -1,1 +1,1 @@
-add OpenAPI specification document to checklist, review FastMCP integration, prepare for downstream experiments
+Update OpenAPI spec with additional metadata, then give final approval for FastMCP integration
