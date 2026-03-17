@@ -1,0 +1,23 @@
+Agent: Savvy
+Query: latest autonomous agent frameworks multi-agent collaboration 2024
+Date: 20260317_155511
+──────────────────────────────────────────────────
+[1] Title: Top 12 AI Agent Frameworks for Enterprises in 2025 - AI21
+[1] URL: https://www.ai21.com/knowledge/ai-agent-frameworks/
+[1] Content: Autogen, made by Microsoft, is an open-source, low-code framework used to create multi-agent AI applications where specialized agents work
+
+[2] Title: Top 10 Agentic AI Frameworks to Build Autonomous AI Systems
+[2] URL: https://brainstreamtechnolabs.com/top-10-agentic-ai-frameworks/
+[2] Content: 1. LangChain - The Modular Pioneer · 2. AutoGen - Multi-Agent Collaboration at Scale · 3. CrewAI - Structured Agent Teams · 4. Semantic Kernel -
+
+[3] Title: Best 5 Frameworks To Build Multi-Agent AI Applications - GetStream.io
+[3] URL: https://getstream.io/blog/multiagent-ai-frameworks/
+[3] Content: 4. Autogen. Autogen is an open-source framework for building agentic systems. You can use this framework to construct multi-agent collaborations
+
+[4] Title: 10 Multi-Agent AI Frameworks Tested: Tier List from Learning to ...
+[4] URL: https://langcopilot.com/posts/2025-11-01-top-multi-agent-ai-frameworks-2024-guide
+[4] Content: Complete multi-agent framework comparison: We ranked CrewAI, AutoGen, MetaGPT, and 7 more by ease of use, production readiness,
+
+[5] Title: AI Agent Frameworks: Choosing the Right Foundation for Your ... - IBM
+[5] URL: https://www.ibm.com/think/insights/top-ai-agent-frameworks
+[5] Content: AutoGen is an open-source framework from Microsoft for creating multiagent AI applications to perform complex tasks. Its architecture consists of 3 layers:
