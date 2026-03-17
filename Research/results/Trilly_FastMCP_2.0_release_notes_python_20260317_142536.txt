@@ -1,0 +1,24 @@
+Agent: Trilly
+Query: FastMCP 2.0 release notes python
+Date: 20260317_142536
+──────────────────────────────────────────────────
+[1] Title: Introducing FastMCP 2.0 - Mostly Harmless
+[1] URL: https://jlowin.dev/blog/fastmcp-2
+[1] Content: You can `from mcp.server.fastmcp import FastMCP` and be up and running in minutes. I introduced FastMCP with the tagline “because life’s too short for boilerplate,” focusing on making it easy to create MCP servers without getting bogged down in protocol details. FastMCP can now proxy any MCP server, turning it into a FastMCP server that’s compatible with all other features, including composition. # Point a client at *any* backend MCP server (local FastMCP instance, remote SSE, local script...). backend_client = Client("http://api.example.com/mcp/sse") # e.g., a remote SSE server. proxy_server = FastMCP.from_client(backend_client, name="MyProxy"). FastMCP 2.0 makes this trivial by automatically generating MCP servers from OpenAPI specs or FastAPI apps. FastMCP 2.0 introduces a completely **new client infrastructure** designed for robust interaction with any MCP server, supporting all major transports and even in-memory transport when working with local FastMCP servers. Imagine a server 
+...[truncated]
+
+[2] Title: Welcome to FastMCP 2.0!
+[2] URL: https://gofastmcp.com/v2/getting-started/welcome
+[2] Content: Fast: High-level interface means less code and faster development Simple: Build MCP servers with minimal boilerplate Pythonic: Feels natural to Python
+
+[3] Title: Announcing FastMCP 2.0! : r/mcp
+[3] URL: https://www.reddit.com/r/mcp/comments/1k0v8n3/announcing_fastmcp_20/
+[3] Content: I'm excited to announce the release of FastMCP 2.0! This new version builds on the easy server creation that was the hallmark of 1.0.
+
+[4] Title: FastMCP 2.0: Building the USB-C of AI with Python
+[4] URL: https://llmmultiagents.com/en/blogs/FastMCP-2.0--Building-the-USB-C-of-AI-with-Python
+[4] Content: A comprehensive guide to FastMCP 2.0, the Python framework revolutionizing how LLMs connect with external tools and resources through the
+
+[5] Title: Releases
+[5] URL: https://gofastmcp.com/development/releases
+[5] Content: Deploy FastMCP servers for free on Prefect Horizon. ##### Get Started. ##### Servers. ##### Apps. ##### Clients. ##### Integrations. ##### CLI. # Releases. FastMCP versioning and release process. ## ​ Versioning Policy. ### ​ Semantic Versioning. ### ​ Breaking Changes. ### ​ Production Use. `fastmcp==2.11.0 # Good. fastmcp>=2.11.0 # Bad - will install breaking changes`. ## ​ Creating Releases. ### ​ Release Cadence.
