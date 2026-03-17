@@ -1,0 +1,15 @@
+Agent: Savvy
+Query: Hugging Face SDXL latest inference link
+Date: 20260317_000001
+──────────────────────────────────────────────────
+Title: stabilityai/sdxl-turbo
+URL: https://huggingface.co/stabilityai/sdxl-turbo
+Content: SDXL-Turbo is a fast generative text-to-image model that can synthesize photorealistic images from a text prompt in a single network evaluation.
+
+Title: Stable Diffusion XL
+URL: https://huggingface.co/docs/diffusers/using-diffusers/sdxl
+Content: Stable Diffusion XL (SDXL) is a powerful text-to-image generation model that iterates on the previous Stable Diffusion models in three key ways.
+
+Title: stabilityai/stable-diffusion-xl-base-0.9
+URL: https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9
+Content: SDXL consists of a two-step pipeline for latent diffusion: First, we use a base model to generate latents of the desired output size.
