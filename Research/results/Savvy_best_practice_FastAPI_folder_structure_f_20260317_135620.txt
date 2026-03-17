@@ -1,0 +1,25 @@
+Agent: Savvy
+Query: best practice FastAPI folder structure for REST API
+Date: 20260317_135620
+──────────────────────────────────────────────────
+[1] Title: Mastering Folder Structure for Scalable FastAPI Applications
+[1] URL: https://www.youtube.com/watch?v=PRGZjKiCPYo
+[1] Content: ... guide! In this video, we'll dive into best practices for organizing your folder structure in FastAPI applications, perfect for large-scale
+
+[2] Title: FastAPI - how to write a simple REST API in Python? - part 1 - innokrea
+[2] URL: https://www.innokrea.com/fastapi-how-to-write-a-simple-rest-api-in-python-part-1/
+[2] Content: Let's start by creating a folder called “innokrea,” and within it, a folder named “rest” where we will place our project.
+
+[3] Title: A Basic FastAPI Microservice Folder Structure | by Hassaan Saleem
+[3] URL: https://medium.com/@hassaan.saleem0214/a-basic-fastapi-microservice-folder-structure-01a05da43f5b
+[3] Content: In this article, we explored the folder structure for organizing a FastAPI project, emphasizing the importance of clear organization for maintainability and
+
+[4] Title: What are the best practices for structuring a FastAPI project? [closed]
+[4] URL: https://stackoverflow.com/questions/64943693/what-are-the-best-practices-for-structuring-a-fastapi-project
+[4] Content: ### more stack exchange communities. # [What are the best practices for structuring a FastAPI project? [closed]](/questions/64943693/what-are-the-best-practices-for-structuring-a-fastapi-project). Narrowing the question will help others answer the question concisely. The community reviewed whether to reopen this question 3 years ago and left it closed:. When it comes to structuring the backend, if you want to render templates with Jinja, you can have something that is close to MVC Pattern. It is good to have your tests inside your backend folder. │   ├── __init__.py # this file makes "app" a "Python package". │   ├── main.py # "main" module, e.g. import app.main. │   ├── dependencies.py # "dependencies" module, e.g. import app.dependencies. │   │ ├── __init__.py # makes "routers" a "Python subpackage". │   │ ├── items.py # "items" submodule, e.g. import app.routers.items. │   │ └── users.py # "users" submodule, e.g. import app.routers.users. │   ├── __init__.py # makes "internal" a "Py
+...[truncated]
+
+[5] Title: Structuring a FastAPI Project: Best Practices - DEV Community
+[5] URL: https://dev.to/mohammad222pr/structuring-a-fastapi-project-best-practices-53l6
+[5] Content: my_fastapi_project/ ├── app/ │ ├── __init__.py │ ├── main.py │ ├── dependencies.py │ ├── routers/ │ │ ├── __init__.py │ │ ├── users.py │ │ └── items.py │ ├── internal/ │ │ ├── __init__.py │ │ └── admin.py │ ├── core/ │ │ ├── __init__.py │ │ ├── config.py │ │ └── security.py │ ├── models/ │ │ ├── __init__.py │ │ ├── user.py │ │ └── item.py │ ├── schemas/ │ │ ├── __init__.py │ │ ├── user.py │ │ └── item.py │ ├── services/ │ │ ├── __init__.py │ │ ├── user_service.py │ │ └── item_service.py │ └── db/ │ ├── __init__.py │ ├── database.py │ └── migrations/ ├── tests/ │ ├── __init__.py │ ├── test_main.py │ ├── test_users.py │ ├── test_items.py ├── .env ├── .gitignore ├── requirements.txt ├── README.md └── run.sh. from fastapi import APIRouter, Depends fromsqlalchemy.orm import Session fromapp.schemas.user import UserCreate fromapp.services.user_service import create_user fromapp.dependencies import get_db router = APIRouter(prefix = "/users ", tags =[" users "])@router.post("/ ", response_mode
+...[truncated]
