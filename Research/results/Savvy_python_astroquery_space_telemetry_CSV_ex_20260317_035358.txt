@@ -1,0 +1,191 @@
+Agent: Savvy
+Query: python astroquery space telemetry CSV example
+Date: 20260317_035358
+──────────────────────────────────────────────────
+Summary: To use Astroquery for space telemetry and export data to CSV, import `astroquery.mast` and `csv`, then query data and write it to a CSV file using `Table.write()`.
+
+Title: Best way to read and write CSV files utilizing astroquery to obtain ...
+URL: https://stackoverflow.com/questions/68350613/best-way-to-read-and-write-csv-files-utilizing-astroquery-to-obtain-large-data-s
+Content: My next try was importing ascii from astropy.io and using the ascii.read() and ascii.write() functions to read and write these CSV files. At first I thought I was in luck as the for loop was working, but after going through the for loop the ascii.write() function wasn't working properly. Below is the error message I get when running the code:
+
+error message I get when running the code ascii version of the code
+
+The important error line in pic above:
+ValueError: Arguments "names" and "dtype" must match number of columns
+
+Anyone with experience in using astroquery.mast and reading/writing CSV files would be of help.
+
+I am running this code using Python 3.6 with the interpreter astroconda3
+
+Here is a picture of the code as well:
+172\_RQEs\_GALEX\_mast\_match.py [...] I am trying to get this code to match 172 galaxies on a CSV file currently on my computer with galaxies in the astroquery.mast module using the Catalogs query function.
+
+The catalog of interest in astroquery.mast is GALEX (Galaxy Evolution Explorer). Essentially, I want the code to loop through the 172 galaxies on my CSV file and match them (using RA and DEC) with the galaxies storied in the GALEX catalog in astroqury.mast.
+
+After matching these galaxies, I then want to write a new CSV file with the data from GALEX of these galaxies.
+
+My first stab at this was defining a writeCsvFile() function, but this did not work properly to write a csv file. [...] `>>> table = Table(rows=galexMatchCatalog, names=header)
+>>> table.write(filename, format='ascii.csv')`
+
+More generally though here's how I might do this (though there are many ways).
+
+With the `sample` you read from your CSV file you already have an astropy `Table` object containing `RAgal` and `DECgal` columns. You could make a sub-table containing just those columns like:
+
+`sample`
+`Table`
+`RAgal`
+`DECgal`
+`coords = sample`
+
+If you want you can also rename the columns according to what you want in your final output:
+
+`coords.rename_columns(['RAgal', 'DECgal'], ['sdss_ra', 'sdss_dec'])`
+
+Title: Downloading COS Data — HST Notebooks - GitHub Pages
+URL: https://spacetelescope.github.io/hst_notebooks/notebooks/COS/DataDl/DataDl.html
+Content: `obs_id`
+`obs_id`
+
+## 2.4. Using astroquery to find data on a series of sources#
+
+In this case, we’ll look for COS data around several bright globular clusters:
+
+Omega Centauri
+
+M5
+
+M13
+
+M15
+
+M53
+
+We will first write a comma-separated-value (`csv`) file `objectname_list.csv` listing these sources by their common name. This is a bit redundant here, as we will immediately read back in what we have written; however it is done here to deliberately teach both sides of the writing/reading process, and as many users will find themselves with a `csv` sourcelist they must search.
+
+`csv`
+`objectname_list.csv`
+`csv` [...] `Zip`
+
+# 2. The Python Package `astroquery.mast`#
+
+`astroquery.mast`
+
+Another way to search for and download archived datasets is from within `Python` using the module `astroquery.mast`. We will import one of this module’s key submodules: `Observations`.
+
+`Python`
+`astroquery.mast`
+`Observations`
+
+Please note that the canonical source of information on this package is the `astroquery` docs - please look there for the most up-to-date instructions.
+
+`astroquery`
+
+## We will import the following packages:#
+
+`astroquery.mast`’s submodule `Observations` for finding and downloading data from the MAST archive
+
+`astroquery.mast`
+`Observations`
+
+`csv`’s submodule `reader` for reading in/out from a `csv` file of source names.
+
+`csv`
+`reader`
+`csv` [...] `csv`
+`reader`
+`csv`
+
+## 2.1. Searching for a single source with `Astroquery`#
+
+`Astroquery`
+
+There are many options for searching the archive with `astroquery`, but we will begin with a very general search using the coordinates we found for WD1057+719 in the last section to find the dataset with the longest exposure time using the COS/FUV mode through the G160M filter. We could also search by object name to have it resolved to a set of coordinates, with the function `Observations.query_object(objectname = '3C48')`.
+
+`astroquery`
+`Observations.query_object(objectname = '3C48')`
+
+Our coordinates were: (11:00:34.126 +71:38:02.80).
+
+We can search these coordinates as sexagesimal coordinates, or convert them to decimal degrees.
+
+Title: Astroquery — astroquery v0.1.dev258+g2238787e7
+URL: https://astroquery.readthedocs.io/
+Content: All query tools allow coordinate-based queries:
+
+```
+>>> from  astropy  import coordinates>>> import  astropy.units  as  u>>> c = coordinates. SkyCoord("05h35m17.3s -05d23m28s", frame = 'icrs')>>> r = 5 u. arcminute>>> result_table = Simbad. query_region(c, radius = r)>>> result_table. pprint(show_unit = True, max_width = 80, max_lines = 5) main_id ra ... coo_bibcode deg ... ---------------------------- -------------- ... -------------------ALMA J053514.4142-052220.792 83.8100591667 ... 2023MNRAS.522...56V ... ... ... ... 2MASS J05351163-0522515 83.79846499816 ... 2020yCat.1350....0G [H97b] 9009 83.79990004111 ... 2020yCat.1350....0GLength = 3324 rows
+```
+
+For additional guidance and examples, read the documentation for the individual services below.
+
+## Default configuration file¶ [...] ALFALFA Queries (`astroquery.alfalfa`)
+ ALMA Queries (`astroquery.alma`)
+ CADC (`astroquery.cadc`)
+ CASDA Queries (`astroquery.casda`)
+ ESA HST Archive (`astroquery.esa.hubble`)
+ ESA JWST Archive (`astroquery.esa.jwst`)
+ ESA XMM-Newton Archive (`astroquery.esa.xmm_newton`)
+ ESO Queries (`astroquery.eso`)
+ Fermi Queries (`astroquery.fermi`)
+ Gaia TAP+ (`astroquery.gaia`)
+ Gemini Queries (`astroquery.gemini`)
+ HEASARC Queries (`astroquery.heasarc`)
+ IRSA Image Server program interface (IBE) Queries (`astroquery.ipac.irsa.ibe`)
+ IRSA Queries (`astroquery.ipac.irsa`)
+ MAGPIS Queries (`astroquery.magpis`)
+ MAST Queries (`astroquery.mast`)
+ NED Queries (`astroquery.ipac.ned`)
+ NVAS Queries (`astroquery.nvas`)
+ SDSS Queries (`astroquery.sdss`)
+ Skyview Queries (`astroquery.skyview`) [...] ```
+>>> from  astroquery.simbad  import Simbad>>> result_table = Simbad. query_object("m1")>>> result_table. pprint()
+```
+
+main\_id ra dec coo\_err\_maj coo\_err\_min coo\_err\_angle coo\_wavelength coo\_bibcode matched\_id
+:   deg deg mas mas deg
+
+——- ——- ——- ———– ———– ————- ————– ——————- ———-
+:   M 1 83.6324 22.0174 5000.0 5000.0 90 X 2022A&A…661A..38P M 1
+
+All query tools allow coordinate-based queries:
+
+Title: Searching for Mission-Specific Data with Astroquery - GitHub Pages
+URL: https://spacetelescope.github.io/mast_notebooks/notebooks/multi_mission/missions_mast_search/missions_mast_search.html
+Content: `select_cols`
+
+| search\_pos | sci\_data\_set\_name | sci\_targname | sci\_start\_time | sci\_pi\_last\_name | ang\_sep |
+ ---  ---  --- |
+| str15 | str9 | str22 | str26 | str12 | str19 |
+ ---  ---  --- |
+| 83.6324 22.0174 | J9FX05041 | CRAB | 2005-10-12T20:52:39.503000 | HESTER | 0.10387219098736124 |
+| 83.6324 22.0174 | J9FX06041 | CRAB | 2005-10-22T20:40:28.510000 | HESTER | 0.10388689143244417 |
+| 83.6324 22.0174 | J9FX07041 | CRAB | 2005-10-30T20:36:14.527000 | HESTER | 0.10390159755961832 |
+| 83.6324 22.0174 | J9FX01011 | CRAB | 2005-09-06T16:41:38.433000 | HESTER | 0.10392027927762577 |
+| 83.6324 22.0174 | J9FX01021 | CRAB | 2005-09-06T18:16:07.427000 | HESTER | 0.10392027927762577 |
+
+### Query by Region# [...] Exercise 2:
+
+| Local Path | Status | Message | URL |
+ ---  --- |
+| object | str8 | object | object |
+ ---  --- |
+| mastDownload/hst/IF9V31030/if9v31030\_asn.fits | COMPLETE | None | None |
+| mastDownload/hst/N4A703010/n4a703010\_asn.fits | COMPLETE | None | None |
+| mastDownload/hst/N4A705010/n4a705010\_asn.fits | COMPLETE | None | None |
+
+| Local Path | Status | Message | URL |
+ ---  --- |
+| object | str8 | object | object |
+ ---  --- |
+| mastDownload/hst/N4A705010/n4a705010\_asn.fits | COMPLETE | None | None |
+| mastDownload/hst/N4A703010/n4a703010\_asn.fits | COMPLETE | None | None |
+| mastDownload/hst/IF9V31030/if9v31030\_asn.fits | COMPLETE | None | None |
+
+Exercise 3: [...] | search\_pos | sci\_data\_set\_name | sci\_targname | sci\_hapnum | sci\_haspnum | sci\_hslanum | sci\_instrume | sci\_aper\_1234 | sci\_spec\_1234 | sci\_actual\_duration | sci\_start\_time | sci\_pep\_id | sci\_pi\_last\_name | sci\_ra | sci\_dec | sci\_refnum | sci\_central\_wavelength | sci\_release\_date | sci\_stop\_time | sci\_preview\_name | scp\_scan\_type | sci\_hlsp | ang\_sep |
+ ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  --- 
+| str15 | str9 | str30 | int64 | int64 | int64 | str6 | str17 | str26 | float64 | str26 | int64 | str12 | float64 | float64 | int64 | float64 | str26 | str26 | str9 | str18 | int64 | str19 |
+ ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---
+
+Title: ECSV Format — Astropy v8.0.0.dev413+g8a7b4e124
+URL: https://docs.astropy.org/en/latest/io/ascii/ecsv.html
+Content: ``` [...] ``` [...] # %ECSV 1.0# ---# datatype:# - {name: c, datatype: int64}# - {name: q, unit: m, datatype: float64, format: .2f}# - {name: sc.ra, unit: deg, datatype: float64}# - {name: sc.dec, unit: deg, datatype: float64}# meta: !!omap# - __serialized_columns__:# q:# __class__: astropy.units.quantity.Quantity# __info__: {format: .2f}# unit: !astropy.units.Unit {unit: m}# value: !astropy.table.SerializedColumn {name: q}# sc:# __class__: astropy.coordinates.sky_coordinate.SkyCoord# __info__: {description: flying circus}# dec: !astropy.table.SerializedColumn# __class__: astropy.coordinates.angles.Latitude# unit: &id001 !astropy.units.Unit {unit: deg}# value: !astropy.table.SerializedColumn {name: sc.dec}# frame: icrs# ra: !astropy.table.SerializedColumn# __class__: astropy.coordinates.angles.Longitude#
