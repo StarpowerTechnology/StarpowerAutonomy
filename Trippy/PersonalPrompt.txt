@@ -1,4 +1,5 @@
 update task list - 
-  add Lucidchart and SmartDraw to TOOL_COMPARISON.md, 
-  review dataset pipeline, 
-  assist with stats notebook
+  review and update TOOL_COMPARISON.md file, 
+  research API design best practices, 
+  define API contract (OpenAPI spec) and add it to docs/api_spec.yaml, 
+  assist with stats notebook and mock map generation
