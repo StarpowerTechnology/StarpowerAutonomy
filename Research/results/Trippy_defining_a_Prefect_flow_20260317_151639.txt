@@ -1,0 +1,26 @@
+Agent: Trippy
+Query: defining a Prefect flow
+Date: 20260317_151639
+──────────────────────────────────────────────────
+[1] Title: Prefect SDK
+[1] URL: https://prefect-python-sdk-docs.netlify.app/prefect/
+[1] Content: A Prefect workflow definition. Note: We recommend using the @flow decorator for most use-cases. Wraps a function with an entrypoint to the Prefect engine.
+
+[2] Title: Hello, world!
+[2] URL: https://docs.prefect.io/v3/examples/hello-world
+[2] Content: * You can run a more complex flow. We start by importing the essential `flow` decorator from Prefect. Prefect takes your Python functions and transforms them into flows with enhanced capabilities. To make this function work with Prefect, we just wrap it in the `@flow` decorator. ## ​ Running our flow locally and with parameters. When we decorated our function with `@flow`, the function was transformed into a Prefect flow. 1. Prefect registered the execution as a flow run. This simple example demonstrates Prefect’s core value proposition: taking regular Python code and enhancing it with production-grade orchestration capabilities. For instance, change the greeting message in the `hello` function to a different message and run the flow again. ### ​ You can run a more complex flow.
+
+[3] Title: Flows
+[3] URL: https://docs.prefect.io/v3/concepts/flows
+[3] Content: Each flow run has its own [state](/v3/concepts/states) lifecycle that is tracked by the Prefect database. [Deployments](/v3/how-to-guides/deployments/create-deployments) exist to enable [arbitrary infrastructures](/v3/concepts/work-pools) and schedules for your flow to run on. Similarly, when invoking a flow run from a [deployment](/v3/how-to-guides/deployments/create-deployments), Prefect will attempt to coerce provided parameters to the parameter schema implied by your flow function’s type signature. When a nested flow run starts, it creates a new [task runner](/v3/concepts/task-runners) for any tasks it contains. The `state_details` field of the nested flow run includes a `parent_task_run_id`. A [state](/v3/concepts/states) is a record of the status of a particular task run or flow run. * If a flow returns a manually created state, it is used as the state of the final flow run. If `state` were returned from the flow function, the run would be marked as `FAILED`. This flow run finish
+...[truncated]
+
+[4] Title: Using Prefect for Machine Learning Workflows
+[4] URL: https://www.datacamp.com/tutorial/ml-workflow-orchestration-with-prefect
+[4] Content: Finally, we will guide you through deploying your workflow on Prefect Cloud and running it using cloud infrastructure. Prefect is a powerful and open-source workflow orchestration tool that lets users design, monitor, and respond to data and machine learning pipelines using Python code. In this section, we will create, test, deploy, and execute a simple machine learning machine learning workflow using Prefect. Now, we will learn to automate our workflow by deploying it to the local Prefect server. Found flow 'ml-workflow' Deployment YAML created at 'C:\Repository\GitHub\ML-Workflow-Orchestration-With-Prefect\ml_workflow-deployment.yaml'. Prefect agents are responsible for monitoring work pools to identify available flow runs and deploying them to the execution environment. Now, let's launch a Prefect dashboard where we can see all the flow runs, deployments, work pool, and notifications. After deploying our machine learning flow locally, it's time to deploy it on the Prefect Cloud. fro
+...[truncated]
+
+[5] Title: prefect.flows
+[5] URL: https://docs.prefect.io/v3/api-ref/python/prefect-flows
+[5] Content: import asyncio import  asyncio import datetime import  datetime from prefect import flow, aserve, get_client from  prefect import flow, aserve, get_client async def init(): async  def  init(): await set_concurrency_limit()  await set_concurrency_limit() async def set_concurrency_limit(): async  def  set_concurrency_limit(): async with get_client() as client:  async  with get_client() as client: await client.create_concurrency_limit(tag='dev', concurrency_limit=3)  await client.create_concurrency_limit(tag = 'dev', concurrency_limit = 3)  @flow @flowasync def my_flow(name): async  def  my_flow(name): print(f"hello {name}")  print(f "hello {name} ") async def main(): async  def  main():  # Initialization function  # Initialization function await init()  await init()  # Run once a day  # Run once a day hello_deploy = await my_flow.to_deployment( hello_deploy =  await my_flow.to_deployment( "hello", tags=["dev"], interval=datetime.timedelta(days=1)  "hello", tags =["dev"], interval =dateti
+...[truncated]
