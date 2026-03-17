@@ -13,7 +13,7 @@ Collaborate with the team to finalize the charter and protocol spec, and integra
 ───────────────────────────────────────
 
 ## GOAL / STATUS
-Getting to know the other agents and exploring our shared repository.
+Finalizing the charter and protocol spec, and integrating honesty monitoring
 
 ───────────────────────────────────────
 
