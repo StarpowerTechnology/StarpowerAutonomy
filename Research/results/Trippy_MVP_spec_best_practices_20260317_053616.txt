@@ -1,0 +1,90 @@
+Agent: Trippy
+Query: MVP spec best practices
+Date: 20260317_053616
+──────────────────────────────────────────────────
+Summary: To build an MVP, identify core value, define target audience, prioritize essential features, and iterate based on feedback. Focus on solving one core problem exceptionally well and validate demand before building. Keep iterations short and adapt based on user feedback.
+
+Title: The MVP checklist for building 0-to-1 products - UX Collective
+URL: https://uxdesign.cc/the-mvp-checklist-for-building-0-to-1-products-ea73d0c939a0
+Content: ## How to spec the Product?
+
+First V, then P.
+
+When I start listing down the feature specifications of what I’m building, I segregate everything into 2 buckets — Core and Housekeeping.
+
+The core is what defines that one singular value that this product has to drive home. Anything and everything I need to build for that comes in here. My best practice is to visualise how would this product look like if it were live today and had thousands of users.
+
+> “I want to look up the most relevant people insights before meeting them.”
+
+The housekeeping list consists of, well, housekeeping features. Basic sanity, bare minimum functional expectations that a modern user has from any product.
+
+> “I want to be able to create an account and navigate through the product easily.”
+
+Title: What Is an MVP? 7 Strategies to Attract Seed Investors - CRV
+URL: https://www.crv.com/content/what-is-an-mvp
+Content: These three validation points explain why investors fund MVPs rather than ideas.
+
+## Best Practices That Make MVPs Work
+
+The most effective MVPs solve one core problem exceptionally well rather than addressing multiple problems adequately. Spotify's initial MVP focused exclusively on solving music streaming latency. Founder Daniel Ek spent months ensuring users could click play and hear music instantly, ignoring features like playlists, social sharing or discovery algorithms. That singular focus on latency proved people would use streaming services. [...] Validate demand before building: Dropbox founder Drew Houston created a demo video showing how Dropbox would work. The video generated 75,000+ pre-launch signups overnight, validating market need before investing months in complex synchronization technology.
+ Measure what actually drives behavior: Track specific actions like daily active usage, feature adoption rates or time-to-first-value rather than vanity metrics like total signups. Focus your MVP iteration on the specific actions that correlate with long-term retention.
+ Prove understanding to investors: Seed-stage investors back companies during MVP development. What they require is evidence that founders understand the problem deeply and can learn quickly from real users. [...] Building too many features: When five features launch simultaneously, isolating which features drive engagement becomes impossible. If your MVP takes longer than six to eight weeks to build, you're overengineering it.
+ Confusing MVP with beta: An MVP validates an idea quickly as a learning tool. A beta version assumes that the idea works and further polishes the product. Building a “Minimum Marketable Product” when validation is still needed wastes months and significant capital on features that miss the actual problem.
+
+Title: 3 Critical Steps for a Successful Software Development MVP - Asinpa
+URL: https://asinpa.com/three-critical-steps-to-define-a-software-development-mvp/
+Content: 1. Gain Stakeholder Input Often: Misaligned expectations about what will make the MVP version, and what will be pushed to the final production version is often where most agile development projects go astray. Continuous feedback loops with an eye towards MVP functionality and customer acceptance testing is paramount. One way to manage this is through WIP Management. WIP stands for Work in Progress which estimates the amount of work that has been started and what is not yet completed. As you work on your MVP (and as overall best practice) you must keep your WIP to a minimum. An MVP that has 8 features completed can go to production, while an MVP that has only 80% of all 10 features completed cannot go to production and this is where many teams fail. [...] ## Here are 3 steps to define and manage a successful MVP:
+
+1. Prioritize based on Customer Feedback: By listening to customers or asking them to rank key features, your MVP will be more likely to be successful. During this stage of formulating product design, knowing what features are included in the MVP is essential. One way to do this is to classify features by following the MoSCoW approach for Must-haves, Should-haves, Could-haves and Won’t-haves. Most importantly, knowing which features will attract early-adopter customers will ensure the MVP’s success early in the product development cycle. [...] 1. Iterate As You Go: Iterative assessment and prioritization of features and capabilities should occur throughout the MVP development cycle. Agile Software Development is a complex process, the results of which cannot be managed like well-defined processes, i.e. those found in discrete manufacturing environments. To maximize quality and minimize risk, the principles of empirical process control – Visibility, Inspection, and Adaptation – must be used to govern the implementation process. So keep iterations short and inspect what you expect; incorporate the feedback and adapt to the changes.
+
+Title: A Step-by-Step Guide to Iterative Agile MVP Development - Scalevista
+URL: https://scalevista.com/blog/agile-mvp-development-guide/
+Content: Emphasize user feedback: Scalevista utilizes vast experience collecting and analyzing user feedback to ensure your MVP is consistently enhanced and upgraded with real-world insights. [...] Agile development MVP helps teams focus on essential features, iterate rapidly, and base decisions on data for future development stages. This alignment ensures that the MVP evolves in response to user needs and market demands, ultimately leading to a more prosperous and user-centric product.
+
+## A Step-by-Step Guide to Agile MVP Development
+
+Here is a 7-step guide with a detailed layout for implementing Agile development MVP in your business. 
+
+Here is a 7-step guide with a detailed layout for implementing Agile development MVP in your business. 
+
+1. Ideation And Research
+2. Creating a Product Backlog
+3. Sprint Planning
+4. Estimating Effort Using Story Points or Hours
+5. Development And Testing
+6. Agile MVP Release
+7. Post Launch Iteration [...] Expertise in Agile Methodologies: Scalevista has a deep understanding of Agile development MVP frameworks. It helps you implement best practices in iterative development, ensuring your product evolves efficiently and effectively.
+ Tailored Solutions: Scalevista provides customized solutions to match your specific business requirements. These solutions assist in identifying clear objectives, prioritizing features, and establishing measurable goals for your MVP.
+ Complete Assistance: Scalevista offers MVP development services backed by support throughout the process, from generating ideas and conducting market research to guiding users through onboarding and making improvements after the product launches.
+
+Title: Building an MVP: How to define the first instance of your product
+URL: https://theinnovationmode.com/the-innovation-blog/the-mvp-recipe-what-to-include-in-your-product-when-and-why
+Content: Check also: our uniqueInnovation Toolkit - a collection of seven innovation templates that empower teams to frame problems, define product concepts, shape ideas, run hackathons, and more.
+
+More on Product Innovation
+
+MVP FAQs: Feature Selection, Costs, and Best Practices for Startups
+
+MVP
+
+Startup Innovation, Product Innovation
+
+MVP FAQs: Feature Selection, Costs, and Best Practices for Startups
+
+MVP
+
+Startup Innovation, Product Innovation
+
+MVPs and Startups - Why should a startup follow the MVP approach? How do you prioritize features? Answering these and other frequent questions people ask me about Minimum Viable Products - MVPs
+
+MVP
+
+Startup Innovation, Product Innovation
+
+The True Meaning of the Minimum Viable Product
+
+MVP, Product Development, Agile, Prototyping [...] This way, the product team does not have to skip, drop or archive feature ideas that look ‘ahead of their time’ or ones that are not well-understood yet. Instead, the team includes them in the backlog with a lower priority — thus keeping them discoverable and potentially useful in the right context, at the right time.
+
+The process continues - the team Iterates and keeps adding more user stories until the product is described in ‘full’ - practically when there are no more meaningful stories to add: The ‘full product’ backlog should have all the features the team can think of, reflecting the needs of all the classes of users identified. [...] Defining great products is a demanding process - it needs talent, inspiration, knowledge, and insights along with great prioritization, management skills, and a deep understanding of the true meaning of minimum viable product. Especially the definition of the MVP is particularly difficult as the team has to envision the product but also focus on the best possible set of features to start with - and then iterate fast by building additional ones. Here is a method for defining an ‘MVP’ that is indeed a Product with the Minimum set of features that increase the likelihood of being Viable.
+
+## 1. Frame the problem
