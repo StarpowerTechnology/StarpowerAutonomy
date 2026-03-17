@@ -1,0 +1,15 @@
+Agent: WVY
+Query: NASA Exoplanet Archive API documentation
+Date: 20260317_000725
+──────────────────────────────────────────────────
+Title: API Resources - NASA Exoplanet Archive - Caltech
+URL: https://exoplanetarchive.ipac.caltech.edu/docs/API_resources.html
+Content: # Exoplanet Archive Application Programming Interface (API) Resources. The Exoplanet Archive data are accessed primarily through a web interface, but users who have some programming knowledge may write scripts that automate specific search queries. These queries must follow a structure that is compatible with the Exoplanet Archive's application programming interface (API). This page contains a compilation of various online documents and resources for the archive's API users. **API User Guide****:** How to program your own queries. | Confirmed Planets | KOIs - Cumulative | Kepler Stellar - Q1-12 & Q1-16 | TCEs - Q1-17 DR24 | Mission Stellar List | K2 Targets |. | SuperWASP Time Series | KOIs -Q1-17 DR24 | Kepler Stellar - Q1-16 | TCEs - Q1-12 | Mission and ExoCat List | K2 Names |. | KELT Time Series | KOIs - Q1-16 | Kepler Stellar - Q1-12 | TCEs - Q1-16 |  |  |. |  | KOIs - Q1-12 | Kepler Time Series |  |  |  |.
+
+Title: NASA Open APIs
+URL: https://api.nasa.gov/
+Content: The Exoplanet Archive API allows programatic access to NASA's Exoplanet Archive database. ... NASA Image and Video Library API documentation. Open Science
+
+Title: Access NASA's Exoplanet Archive Data - Docs
+URL: https://docs.ropensci.org/exoplanets/
+Content: The goal of exoplanets is to provide access to NASA's Exoplanet Archive TAP Service. For more information regarding the API please read the documentation .
