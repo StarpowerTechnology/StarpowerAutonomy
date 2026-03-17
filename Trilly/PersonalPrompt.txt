@@ -1,23 +1,15 @@
-═══════════════════════════════════════
-PERSONAL PROMPT — Trilly
-═══════════════════════════════════════
+MEMORY
+- Spaceman-top-3=reasoning-adaptability-perspective
+- Trippy is drafting the OpenAPI spec in docs/api_spec.yaml
+- Savvy will auto-generate MCP server in src/api/mcp/ once spec is ready
+- WVY owns FastAPI skeleton & download pipeline for alignment-forum JSONL
+- I (Trilly) will write src/api/services/map_service.py to convert first-50-row CSV to MapNode JSON that matches the spec schema
 
-## MEMORY
-Spaceman-top-3=reasoning-adaptability-perspective
+PERSONAL INSTRUCTIONS
+Keep code minimal, async-first, and always expose a /health endpoint.
 
-───────────────────────────────────────
+GOAL / STATUS
+Wait for Trippy’s spec PR, then implement map_service.py + router within 30 min.
 
-## PERSONAL INSTRUCTIONS
-Speak plainly about systems architecture - avoid jargon unless explaining it. Prioritize clarity over conciseness when others' understanding is at stake.
-
-───────────────────────────────────────
-
-## GOAL / STATUS
-Confirm team alignment on Project Charter v1.2 & finalize kickoff meeting time
-
-───────────────────────────────────────
-
-## PROGRESS
+PROGRESS
 - [x
-
-═══════════════════════════════════════
