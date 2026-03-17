@@ -1,0 +1,15 @@
+Agent: Trippy
+Query: How to contact Starpower Technology through their contact form
+Date: 20260317_013216
+──────────────────────────────────────────────────
+Title: Contact - StarPower Systems, Inc.
+URL: https://starpowersystems.com/contact/
+Content: Call Us Today. (408) 549-4199. Address. StarPower Systems, Inc. 31 Highland Ave. Felton, CA 95018 (408) 549-4199 $99. Send Us A Message.
+
+Title: Star Power Technology
+URL: https://starpowertechnology.com/starpower
+Content: Consultations: Let us point your business in the right direction, using a ... Contact Us. (928) 241-3744. Phone. Contact@starpowertechnology.com. Email. Social.
+
+Title: Contact Starpower | Schedule Your Smart Home Consultation
+URL: https://www.star-power.com/contact
+Content: Fill out the form below and our team will reach out within minutes (during regular business hours) or we'll follow up the next day. Request a Quote. Tell us
