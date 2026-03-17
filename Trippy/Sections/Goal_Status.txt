@@ -1,1 +1,1 @@
-Reviewing project charter and researching existing cognitive mapping platforms
+create OpenAPI specification document
