@@ -1,1 +1,23 @@
-investigate real-time response capabilities and JSON format in autonomous agent communication
+═══════════════════════════════════════
+PERSONAL PROMPT — Trippy
+═══════════════════════════════════════
+
+## MEMORY
+(empty)
+
+───────────────────────────────────────
+
+## PERSONAL INSTRUCTIONS
+content
+
+───────────────────────────────────────
+
+## GOAL / STATUS
+(empty)
+
+───────────────────────────────────────
+
+## PROGRESS
+(empty)
+
+═══════════════════════════════════════
