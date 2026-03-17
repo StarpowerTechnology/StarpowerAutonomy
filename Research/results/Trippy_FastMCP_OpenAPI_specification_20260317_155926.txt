@@ -1,0 +1,26 @@
+Agent: Trippy
+Query: FastMCP OpenAPI specification
+Date: 20260317_155926
+──────────────────────────────────────────────────
+[1] Title: FastMCP | OpenApi.tools, from APIs You Won't Hate
+[1] URL: https://openapi.tools/tools/fastmcp
+[1] Content: FastMCP can automatically generate an MCP server from an OpenAPI specification. Users only need to provide an OpenAPI specification (3.0 or 3.1) and an API
+
+[2] Title: Bridging the Gap Between LLMs and Enterprise APIs using FastMCP
+[2] URL: https://dev.to/sreeni5018/bridging-the-gap-between-llms-and-enterprise-apis-using-fastmcp-how-to-auto-generate-ai-tools-from-4cf9
+[2] Content: Cover image for Bridging the Gap Between LLMs and Enterprise APIs using FastMCP: How to Auto-Generate AI Tools from OpenAPI Specs. # Bridging the Gap Between LLMs and Enterprise APIs using FastMCP: How to Auto-Generate AI Tools from OpenAPI Specs. The breakthrough is that **any REST API with an OpenAPI specification** can be automatically converted into an MCP server and connected to LLMs using FastMCP SDK whether it's your CRM, inventory system, payment gateway, or user management service. Using FastMCP, our MCP server can work with **any REST API** that provides an OpenAPI specification. One of the most powerful aspects of this FastMCP approach is that security, logging, and auditing can be configured as MCP server middleware, handling these cross-cutting concerns at the infrastructure level rather than in each individual API. By automatically generating MCP servers from OpenAPI specifications, we've created a powerful bridge between traditional REST APIs and modern AI agents.
+
+[3] Title: OpenAPI 🤝 FastMCP
+[3] URL: https://gofastmcp.com/integrations/openapi
+[3] Content: ## ​ Create a Server. ### ​ Authentication. # Create MCP server with authenticated client. ## ​ Route Mapping. `from fastmcp.server.openapi import RouteMap, MCPType. ### ​ Custom Route Maps. from fastmcp.server.openapi import RouteMap, MCPType. RouteMap(methods=["GET"], pattern=r".*\{.*\}.*", mcp_type=MCPType.RESOURCE_TEMPLATE),. from fastmcp.server.openapi import RouteMap, MCPType. # Exclude all routes tagged "internal". ### ​ Excluding Routes. from fastmcp.server.openapi import RouteMap, MCPType. RouteMap(pattern=r"^/admin/.*", mcp_type=MCPType.EXCLUDE),. RouteMap(tags={"internal"}, mcp_type=MCPType.EXCLUDE),. from fastmcp.server.openapi import RouteMap, MCPType. ### ​ Advanced Route Mapping. from fastmcp.server.openapi import RouteMap, MCPType, HTTPRoute. def custom_route_mapper(route: HTTPRoute, mcp_type: MCPType) -> MCPType | None:. elif "internal" in route.tags:. ## ​ Customization. ### ​ Component Names. ### ​ Tags. #### ​ RouteMap Tags. `from fastmcp.server.openapi import Route
+...[truncated]
+
+[4] Title: Claude Code Skill - openapi-spec-generation - FastMCP
+[4] URL: https://fastmcp.me/skills/details/448/openapi-spec-generation
+[4] Content: New-Item -Path ".claude/skills/openapi-spec-generation" -ItemType Directory -Force; Invoke-WebRequest -Uri "https://fastmcp.me/Skills/Download/448" -OutFile "skill.zip"; Expand-Archive -Path "skill.zip" -DestinationPath ".claude/skills/openapi-spec-generation" -Force; Remove-Item "skill.zip". New-Item -Path ".codex/skills/openapi-spec-generation" -ItemType Directory -Force; Invoke-WebRequest -Uri "https://fastmcp.me/Skills/Download/448" -OutFile "skill.zip"; Expand-Archive -Path "skill.zip" -DestinationPath ".codex/skills/openapi-spec-generation" -Force; Remove-Item "skill.zip". New-Item -Path "$HOME/.codex/skills/openapi-spec-generation" -ItemType Directory -Force; Invoke-WebRequest -Uri "https://fastmcp.me/Skills/Download/448" -OutFile "skill.zip"; Expand-Archive -Path "skill.zip" -DestinationPath "$HOME/.codex/skills/openapi-spec-generation" -Force; Remove-Item "skill.zip". New-Item -Path ".github/skills/openapi-spec-generation" -ItemType Directory -Force; Invoke-WebRequest -Uri "ht
+...[truncated]
+
+[5] Title: Automating MCP Server Creation from OpenAPI and FastAPI
+[5] URL: https://www.pondhouse-data.com/blog/automating-mcp-server-creation
+[5] Content: In our recent blog post about creating an MCP server with FastMCP we've described what MCP servers are and why they are important for the current AI ecosystem. While we still wrap around the MCP server API around your existing one, we show you a way of how to automatically generate an MCP server from your existing OpenAPI specifications or FastAPI application. ## Automatically creating an MCP server from an OpenAPI specification. 9# Create an MCP server from your OpenAPI spec. FastMCP will analyze your OpenAPI specification, create the appropriate MCP components, and handle all the routing between MCP requests and your underlying API. You can configure MCP server timeouts and route mappings as follows:. It will show all Tools and Resources created by the MCP server:. All we need to do is to call `FastMCP.from_fastapi(app)` and run the mcp server:. This allows you to customize how FastMCP interprets your FastAPI routes and maps them to MCP components. * Creating MCP Servers with FastMCP
+...[truncated]
