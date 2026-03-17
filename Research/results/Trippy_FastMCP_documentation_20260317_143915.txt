@@ -1,0 +1,25 @@
+Agent: Trippy
+Query: FastMCP documentation
+Date: 20260317_143915
+──────────────────────────────────────────────────
+[1] Title: Building Your First FastMCP Server: A Complete Guide
+[1] URL: https://www.linkedin.com/pulse/building-your-first-fastmcp-server-complete-guide-rick-hightower-amluc
+[1] Content: Documentation: Listing available endpoints helps developers understand the server's capabilities without reading code. Simple Execution: The mcp
+
+[2] Title: PrefectHQ/fastmcp: 🚀 The fast, Pythonic way to build MCP ...
+[2] URL: https://github.com/prefecthq/fastmcp
+[2] Content: [Skip to content](https://github.com/prefecthq/fastmcp#start-of-content). [Reload](https://github.com/prefecthq/fastmcp) to refresh your session.You signed out in another tab or window. [Reload](https://github.com/prefecthq/fastmcp) to refresh your session.You switched accounts on another tab or window. [Reload](https://github.com/prefecthq/fastmcp) to refresh your session.Dismiss alert. *   [Code](https://github.com/PrefectHQ/fastmcp). *   [Issues 208](https://github.com/PrefectHQ/fastmcp/issues). *   [Pull requests 6](https://github.com/PrefectHQ/fastmcp/pulls). *   [Discussions](https://github.com/PrefectHQ/fastmcp/discussions). *   [Actions](https://github.com/PrefectHQ/fastmcp/actions). *   [Projects](https://github.com/PrefectHQ/fastmcp/projects). *   [Security 5](https://github.com/PrefectHQ/fastmcp/security). *   [Insights](https://github.com/PrefectHQ/fastmcp/pulse). *   [Code](https://github.com/PrefectHQ/fastmcp). *   [Issues](https://github.com/PrefectHQ/fastmcp/issues). * 
+...[truncated]
+
+[3] Title: Welcome to FastMCP - FastMCP
+[3] URL: https://gofastmcp.com/getting-started/welcome
+[3] Content: Deploy FastMCP servers for free on Prefect Horizon. ##### Get Started. ##### Servers. ##### Apps. ##### Clients. ##### Integrations. ##### CLI. # Welcome to FastMCP. The fast, Pythonic way to build MCP servers, clients, and applications. def add(a: int, b: int) -> int:. ## ​ Move Fast and Make Things. ## Servers. ## Apps. ## Clients. `New in version: 3.0.0`. ## ​ LLM-Friendly Docs. ### ​ MCP Server. async with Client("https://gofastmcp.com/mcp") as client:. arguments={"query": "deploy a FastMCP server"}. ### ​ Text Formats. `https://gofastmcp.com/getting-started/welcome.md`.
+
+[4] Title: How to Build MCP Servers in Python: Complete FastMCP ...
+[4] URL: https://www.firecrawl.dev/blog/fastmcp-tutorial-building-mcp-servers-python
+[4] Content: [TL;DR](https://www.firecrawl.dev/blog/fastmcp-tutorial-building-mcp-servers-python#tl;dr)[What you'll learn in this guide](https://www.firecrawl.dev/blog/fastmcp-tutorial-building-mcp-servers-python#what-you'll-learn-in-this-guide)[Why build custom MCP servers?](https://www.firecrawl.dev/blog/fastmcp-tutorial-building-mcp-servers-python#why-build-custom-mcp-servers?)[Setting up your development environment](https://www.firecrawl.dev/blog/fastmcp-tutorial-building-mcp-servers-python#setting-up-your-development-environment)[FastMCP vs other MCP solutions](https://www.firecrawl.dev/blog/fastmcp-tutorial-building-mcp-servers-python#fastmcp-vs-other-mcp-solutions)[Building your first MCP server](https://www.firecrawl.dev/blog/fastmcp-tutorial-building-mcp-servers-python#building-your-first-mcp-server)[Advanced MCP server features](https://www.firecrawl.dev/blog/fastmcp-tutorial-building-mcp-servers-python#advanced-mcp-server-features)[Testing and debugging](https://www.firecrawl.dev/blog/f
+...[truncated]
+
+[5] Title: Quickstart
+[5] URL: https://gofastmcp.com/getting-started/quickstart
+[5] Content: ##### Servers. This guide will help you quickly set up FastMCP, run your first MCP server, and deploy a server to Prefect Horizon. A FastMCP server is a collection of tools, resources, and other MCP components. To create a server, start by instantiating the `FastMCP` class. The simplest way to run your FastMCP server is to call its `run()` method. You can also use the `fastmcp run` command to start your server. For example, to run this server with the default stdio transport (no matter how you called `mcp.run()`), you can use the following command:. fastmcp run my_server.py:mcp fastmcp  run my_server.py:mcp. fastmcp run my_server.py:mcp --transport http --port 8000 fastmcp  run my_server.py:mcp --transport  http --port  8000. Once your server is running with HTTP transport, you can connect to it with a FastMCP client or any LLM client that supports the MCP protocol:. Horizon will build and deploy your server, making it available at a URL like `https://your-project.fastmcp.app/mcp`.
