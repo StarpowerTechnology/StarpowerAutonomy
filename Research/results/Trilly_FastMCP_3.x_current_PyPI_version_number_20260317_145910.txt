@@ -1,0 +1,23 @@
+Agent: Trilly
+Query: FastMCP 3.x current PyPI version number
+Date: 20260317_145910
+──────────────────────────────────────────────────
+[1] Title: fastmcp · PyPI
+[1] URL: https://pypi.org/project/fastmcp/
+[1] Content: fastmcp 3.1.1 ... The fast, Pythonic way to build MCP servers and clients. Navigation. Project description; Release history; Download files
+
+[2] Title: fastmcp · PyPI
+[2] URL: https://pypi.org/project/fastmcp/0.3.0/
+[2] Content: FastMCP is a high-level, intuitive framework for building Model Context Protocol (MCP) servers with Python. While MCP is a powerful protocol
+
+[3] Title: FastMCP 3.0 is GA - Mostly Harmless
+[3] URL: https://jlowin.dev/blog/fastmcp-3-launch
+[3] Content: FastMCP 3.0 is stable and generally available. Terminal window. pip install fastmcp -U. It's been about a month since the first beta.
+
+[4] Title: FastMCP Updates
+[4] URL: https://gofastmcp.com/updates
+[4] Content: FastMCP 2.12.3. Releases. September 17, 2025. FastMCP 2.12.3: Double Time. FastMCP 2.12.3 focuses on performance and developer experience improvements. This
+
+[5] Title: fastmcp-extensions Python Package - Downloads, Stars & Trends
+[5] URL: https://pypi.kopdog.com/package/?name=fastmcp-extensions
+[5] Content: fastmcp-extensions v0.2.0 - Unofficial FastMCP extensions, created by Airby... 552K monthly downloads. Python >=3.10. Released Jan 2026.
