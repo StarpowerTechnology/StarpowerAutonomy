@@ -1,0 +1,25 @@
+Agent: Savvy
+Query: FastMCP 3.1.1 PyPI
+Date: 20260317_154015
+──────────────────────────────────────────────────
+[1] Title: fastmcp
+[1] URL: https://pypistats.org/packages/fastmcp
+[1] Content: # PyPI Stats. # fastmcp. The fast, Pythonic way to build MCP servers and clients.
+
+[2] Title: fastmcp · PyPI
+[2] URL: https://pypi.org/project/fastmcp/0.3.0/
+[2] Content: FastMCP is a high-level, intuitive framework for building Model Context Protocol (MCP) servers with Python. While MCP is a powerful protocol
+
+[3] Title: fastmcp
+[3] URL: https://www.piwheels.org/project/fastmcp/
+[3] Content: | * fastmcp-3.1.1-py3-none-any.whl (619 KB) |. | * fastmcp-3.1.0-py3-none-any.whl (619 KB) |. | * fastmcp-3.0.2-py3-none-any.whl (592 KB) |. | * fastmcp-3.0.1-py3-none-any.whl (591 KB) |. | * fastmcp-3.0.0-py3-none-any.whl (589 KB) |. | * fastmcp-3.0.0rc3-py3-none-any.whl (589 KB) |. | * fastmcp-3.0.0rc2-py3-none-any.whl (587 KB) |. | * fastmcp-3.0.0rc1-py3-none-any.whl (587 KB) |. | * fastmcp-3.0.0b2-py3-none-any.whl (572 KB) |. | * fastmcp-3.0.0b1-py3-none-any.whl (521 KB) |. | * fastmcp-2.14.5-py3-none-any.whl (408 KB) |. | * fastmcp-2.14.4-py3-none-any.whl (408 KB) |. | * fastmcp-2.14.3-py3-none-any.whl (406 KB) |. | * fastmcp-2.14.2-py3-none-any.whl (404 KB) |. | * fastmcp-2.14.1-py3-none-any.whl (403 KB) |. | * fastmcp-2.14.0-py3-none-any.whl (390 KB) |. | * fastmcp-2.13.3-py3-none-any.whl (377 KB) |. | * fastmcp-2.13.2-py3-none-any.whl (377 KB) |. | * fastmcp-2.13.1-py3-none-any.whl (368 KB) |. | * fastmcp-2.13.0.2-py3-none-any.whl (359 KB) |. | * fastmcp-2.13.0.1-py3-none-any.w
+...[truncated]
+
+[4] Title: Dependencies | werkbank | PyPI
+[4] URL: https://deps.dev/pypi/werkbank/0.1.2/dependencies/graph?filter=package%3A%22httpcore%22+version%3A%221.0.9%22
+[4] Content: ... fastmcp 3.1.0 httpx 0.28.1 mcp 1.26.0 httpcore 1.0.9. Open Source Insights. Documentation. AboutFAQGlossaryAPIBigQuery datasetGitHub. Contact. BlogContact us
+
+[5] Title: FastMCP
+[5] URL: https://pypi.org/project/fastmcp/
+[5] Content: *   [Download files](https://pypi.org/project/fastmcp/#files). *   [Download files](https://pypi.org/project/fastmcp/#files). [3.1.1 Mar 14, 2026](https://pypi.org/project/fastmcp/3.1.1/). [3.1.0 Mar 3, 2026](https://pypi.org/project/fastmcp/3.1.0/). [3.0.2 Feb 22, 2026](https://pypi.org/project/fastmcp/3.0.2/). [3.0.1 Feb 21, 2026](https://pypi.org/project/fastmcp/3.0.1/). [3.0.0 Feb 18, 2026](https://pypi.org/project/fastmcp/3.0.0/). [2.14.5 Feb 3, 2026](https://pypi.org/project/fastmcp/2.14.5/). [2.14.4 Jan 22, 2026](https://pypi.org/project/fastmcp/2.14.4/). [2.14.3 Jan 12, 2026](https://pypi.org/project/fastmcp/2.14.3/). [2.13.0.2 Oct 28, 2025](https://pypi.org/project/fastmcp/2.13.0.2/). [2.13.0.1 Oct 26, 2025](https://pypi.org/project/fastmcp/2.13.0.1/). [2.13.0 Oct 25, 2025](https://pypi.org/project/fastmcp/2.13.0/). [2.12.5 Oct 17, 2025](https://pypi.org/project/fastmcp/2.12.5/). [2.12.0 Aug 31, 2025](https://pypi.org/project/fastmcp/2.12.0/). [2.11.3 Aug 11, 2025](https://pyp
+...[truncated]
