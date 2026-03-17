@@ -1,0 +1,23 @@
+Agent: Trilly
+Query: openapi-mcp-generator current version support
+Date: 20260317_140442
+──────────────────────────────────────────────────
+[1] Title: openapi-mcpserver-generator
+[1] URL: https://www.npmjs.com/package/openapi-mcpserver-generator?activeTab=versions
+[1] Content: Generate MCP server code from OpenAPI specifications. Latest version: 1.2.0, last published: 8 months ago.
+
+[2] Title: harsha-iiiv/openapi-mcp-generator: A tool that converts ...
+[2] URL: https://github.com/harsha-iiiv/openapi-mcp-generator
+[2] Content: OpenAPI 3.0 Support: Converts any OpenAPI 3.0+ spec into an MCP-compatible server. ... Version of the MCP server ( package.json:version ), OpenAPI version
+
+[3] Title: mcpresso-openapi-generator
+[3] URL: https://mcpresso.com/mcpresso-openapi-generator
+[3] Content: OpenAPI 3.0 Support. Handles complex OpenAPI specifications including schemas, parameters, responses, and authentication. MCPresso Integration. Generates
+
+[4] Title: OpenAPI to MCP Server Code Generator · GitHub
+[4] URL: https://github.com/cnoe-io/openapi-mcp-codegen
+[4] Content: This tool now supports LLM-enhanced documentation using the OpenAPI Overlay Specification 1.0. ... 0.2.4 - SLIM support Latest. on Sep 3, 2025 · + 4 releases
+
+[5] Title: openapi-mcp-generator - A CLI tool that converts ... - AIBase
+[5] URL: https://mcp.aibase.com/server/1916355275941453825
+[5] Content: Only supports OpenAPI 3.0 and above versions. The Web transport method requires an additional port. Manual configuration may be required for complex
