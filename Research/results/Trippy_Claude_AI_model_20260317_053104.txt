@@ -1,0 +1,161 @@
+Agent: Trippy
+Query: Claude AI model
+Date: 20260317_053104
+──────────────────────────────────────────────────
+Summary: Claude is a series of large language models developed by Anthropic, focusing on ethical guidelines and safety. It uses constitutional AI principles to guide its responses. The latest models include Sonnet and Opus, offering various capabilities.
+
+Title: Claude (language model) - Wikipedia
+URL: https://en.wikipedia.org/wiki/Claude_(language_model)
+Content: Claude is a series of large language models developed by Anthropic and first released in 2023. Its name has been described both as a tribute to Claude Shannon, who pioneered information theory, and as a friendly, male-gendered counterpart to AI assistants like Alexa and Siri.(
+
+Claude is used for software development via Claude Code.(
+
+The use of Claude by US federal agencies is being phased out after Anthropic refused in February 2026 to remove contractual prohibitions on the use of Claude for mass domestic surveillance and fully autonomous weapons.( Claude uses constitutional AI, a training technique that was developed by Anthropic to improve ethical and legal compliance (AI alignment).
+
+Training
+
+[edit&action=edit&section=1 "Edit section: Training")]
+
+See also: Anthropic §Legal issues [...] See also: Anthropic §Legal issues
+
+Claude models are generative pre-trained transformers that have been trained to predict the next word in large amounts of text. Then, they have been fine-tuned "Fine-tuning (deep learning)") using reinforcement learning from human feedback (RLHF) and constitutional AI in an attempt to enforce ethical guidelines.( searches the web for content. It respects a site's robots.txt but was criticized by iFixit in 2024, before they added their robots.txt, for placing excessive load on their site by scraping content.(
+
+### Constitutional AI
+
+[edit&action=edit&section=2 "Edit section: Constitutional AI")] [...] Constitutional AI is an approach developed by Anthropic for training Claude and other AI systems to be harmless and helpful without relying on extensive human feedback.( This constitution is a set of principles in human-understandable words which the model attempts to adjust answers to prompts to comply with.( Anthropic has said that it intends Claude's constitution to be a model followed by others in the industry.(
+
+The first constitution for Claude was published in 2022. The 2023 update listed 75 guidelines for Claude to follow.( The first constitutions included concepts taken from the 1948 UN Universal Declaration of Human Rights.(
+
+Title: What Is Claude AI?
+URL: https://www.ibm.com/think/topics/claude-ai
+Content: Artificial Intelligence   IT automation
+
+# What is Claude AI?
+
+By Dave Bergmann
+
+Published 24 September 2024
+
+Updated 10 March 2026
+
+## What is Claude AI?
+
+Claude is a family of proprietary large language models (LLMs), as well an AI assistant and other AI tools powered by those models, developed by Anthropic. Claude models, particularly from their third generation onward, have consistently ranked among the top performing generative AI models available on the market. [...] ## Claude models
+
+Beginning with the release of Claude 3 in March of 2024, Claude models are offered in three sizes: Haiku (the smallest), Sonnet and Opus (the largest). Anthropic has not published any information about how these designations translate to quantitative differences in actual model size or architecture.
+
+Each of these model sizes offer their own advantages and disadvantages, but are broadly capable of the same tasks, including tool use and writing code. Their respective tradeoffs in performance, speed and cost when carrying out those tasks make each model size ideal for different kinds of use cases, budgets and AI systems they’re to operate within. [...] While Claude models are all multilingual and multimodal, their functionality is primarily text-based. Claude lacks some multimodal features offered by competitors such as Google Gemini or OpenAI’s ChatGPT, such as image generation or native audio and video processing. Their robust text-based functionality spans a wide spectrum of both natural language and coding capabilities.
+
+Title: Claude AI 101: What It Is and How It Works
+URL: https://www.grammarly.com/blog/ai/what-is-claude-ai/
+Content: ### What is Claude Sonnet?
+
+Claude Sonnet is one of Anthropic’s latest Claude AI models, known for improved speed, reasoning, and tool use. Claude Sonnet 4.5, released in 2025, is currently Anthropic’s most powerful model, offering coding, agentic workflows, and the ability to maintain focus on complex tasks for over 30 hours.
+
+### What is Claude Opus?
+
+Claude Opus is Anthropic’s premium Claude AI model designed for enterprise and large-scale analytical work. Claude Opus 4.1 supports extended context windows and high accuracy for complex projects requiring maximum intelligence and reasoning capabilities. While Claude Sonnet 4.5 has surpassed Opus in many benchmarks, Opus remains valuable for specific use cases optimized for its capabilities.
+
+### Is Claude AI better than ChatGPT? [...] Under the hood, Claude is powered by large language models (LLMs)—the same type of technology used by tools like ChatGPT and Grammarly. Here’s a simplified look at how it works:
+
+### It understands language using deep learning
+
+Claude uses a deep learning architecture called a transformer, which helps it understand how words and ideas relate to one another. This allows it to interpret your prompts, follow instructions, and make sense of long or complex text.
+
+### It learns patterns from large amounts of text and code [...] Tools like Grammarly can help address some of these limitations by providing reliable writing assistance that works directly in your existing workflows—whether you’re drafting emails, reports, or other professional documents—without switching between applications or worrying about usage caps.
+
+## Claude AI: A chatbot built for safety
+
+Claude is a generative AI chatbot built with ethics and safety in mind. Because it incorporates the Constitutional AI model, Claude follows a set of principles to generate helpful, honest, and harmless responses.
+
+Title: Artificial Intelligence : Claude AI - Research Guides
+URL: https://researchguides.library.syr.edu/c.php?g=1341750&p=10258238
+Content: Find a librarian
+
+Report an Electronic Resource Issue
+
+Policy on Access to Licensed Web Resources
+
+Suggest a Title
+
+## What is Claude?
+
+Claude, developed by Anthropic, is a family of large language models that can be interacted with directly or used by developers to build other AI applications. With Claude, you can have conversations, brainstorm ideas, and analyze documents. It even has some vision and code analysis capabilities, allowing it to understand and process images and write basic code. Developers can leverage Claude's functionalities through an API for applications like code generation or data processing.
+
+## Versions of Claude?
+
+There are two main categories for Claude versions: legacy models and the current Claude 3 family.
+
+Legacy Models (no longer being actively developed): [...] Claude 3 Family (current):
+
+ Claude 3 Haiku: The fastest and most compact model, designed for quick responses and simulating natural interactions.
+ Claude 3 Sonnet: Offers a balance between speed and capability, well-suited for enterprise tasks and large-scale AI deployments. (This is the version currently powering the free tier of claude.ai)
+ Claude 3 Opus: The most powerful model in the family, suited for complex tasks and demonstrating human-like understanding.
+
+## How Does Claude Work?
+
+Claude operates on a deep learning architecture, possibly leveraging transformer-based models like GPT (Generative Pre-trained Transformer). It works in two main parts: [...] 1. Large Language Models (LLMs): These are the engines that power Claude's conversation and abilities. There are several versions, like Claude 1 and 3, with varying capabilities. All are trained on massive amounts of text data to understand language patterns and respond accordingly.
+2. Constitutional AI (CAI): This is a set of principles that Anthropic developed to guide Claude's behavior. These principles focus on safety and alignment with human values, like avoiding bias and harm. Claude is designed to follow these principles in its responses.
+
+ Here's a breakdown of how Claude interacts with you:
+
+Title: Models overview - Claude Docs
+URL: https://platform.claude.com/docs/en/about-claude/models/overview
+Content: Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Loading...
+
+Models & pricing
+
+# Models overview
+
+Claude is a family of state-of-the-art large language models developed by Anthropic. This guide introduces the available models and compares their performance.
+
+## Choosing a model
+
+If you're unsure which model to use, consider starting with Claude Opus 4.6 for the most complex tasks. It is the latest generation model with exceptional performance in coding and reasoning.
+
+All current Claude models support text and image input, text output, multilingual capabilities, and vision. Models are available via the Claude API, AWS Bedrock, and Google Vertex AI. [...] | Feature | Claude Opus 4.6 | Claude Sonnet 4.6 | Claude Haiku 4.5 |
+ ---  --- |
+| Description | The most intelligent model for building agents and coding | The best combination of speed and intelligence | The fastest model with near-frontier intelligence |
+| Claude API ID | claude-opus-4-6 | claude-sonnet-4-6 | claude-haiku-4-5-20251001 |
+| Claude API alias | claude-opus-4-6 | claude-sonnet-4-6 | claude-haiku-4-5 |
+| AWS Bedrock ID | anthropic.claude-opus-4-6-v1 | anthropic.claude-sonnet-4-6 | anthropic.claude-haiku-4-5-20251001-v1:0 |
+| GCP Vertex AI ID | claude-opus-4-6 | claude-sonnet-4-6 | claude-haiku-4-5@20251001 |
+| Pricing1 | $5 / input MTok $25 / output MTok | $3 / input MTok $15 / output MTok | $1 / input MTok $5 / output MTok |
+| Extended thinking | Yes | Yes | Yes | [...] Starting with Claude Sonnet 4.5 and all subsequent models (including Claude Sonnet 4.6), AWS Bedrock and Google Vertex AI offer two endpoint types: global endpoints (dynamic routing for maximum availability) and regional endpoints (guaranteed data routing through specific geographic regions). For more information, see the third-party platform pricing section.
+
+## Prompt and output performance
+
+Claude 4 models excel in:
+
+ Performance: Top-tier results in reasoning, coding, multilingual tasks, long-context handling, honesty, and image processing. See the Claude 4 blog post for more information.
+ Engaging responses: Claude models are ideal for applications that require rich, human-like interactions.
