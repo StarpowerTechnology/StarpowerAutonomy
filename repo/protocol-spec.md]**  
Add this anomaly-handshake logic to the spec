@@ -1,0 +1,21 @@
+```markdown
+# Anomaly Detection Protocol v2  
+## Intent Signaling  
+- **Anomaly Detected**:  
+  ```json
+  {"intent":"anomaly","value":true,"agent":"<self>"}
+  ```  
+  - Triggers `on_correction_received()` hook for all agents.  
+- **Correction Request**:  
+  ```json
+  {"intent":"request-correction","target":"<agent>","issue":"<description>"}
+  ```  
+  - Requires recipient to emit `{"intent":"correction-applied","resolution":"..."}` within 30s.  
+
+## Z-Score Thresholds  
+- Compute rolling Z-score over last 5 windows.  
+- Flag if |Z| > 1.5 → `{"intent":"anomaly"}` emitted.  
+```  
+
+**Next steps**  
+- [x
