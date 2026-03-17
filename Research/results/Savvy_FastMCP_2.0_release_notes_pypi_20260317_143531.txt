@@ -1,0 +1,24 @@
+Agent: Savvy
+Query: FastMCP 2.0 release notes pypi
+Date: 20260317_143531
+──────────────────────────────────────────────────
+[1] Title: fastmcp 2.10.2
+[1] URL: https://pypi.org/project/fastmcp/2.10.2/
+[1] Content: This is FastMCP 2.0, the actively maintained version that provides a complete toolkit for working with the MCP ecosystem. FastMCP 2.0 has a
+
+[2] Title: fastmcp 2.0.0
+[2] URL: https://pypi.org/project/fastmcp/2.0.0/
+[2] Content: Model Context Protocol (MCP) servers are a standardized way to provide context and tools to your LLMs, and FastMCP makes building *and interacting with* them simple and intuitive. Gain access to MCP server capabilities *within* your tool or resource functions by adding a parameter type-hinted with `fastmcp.Context`. The `Client` class lets you interact with any MCP server (not just FastMCP ones) from Python code:. Sampling is an MCP feature that allows a server to request a completion from the client LLM, enabling sophisticated use cases while maintaining security and privacy on the server. FastMCP exposes the MCP roots functionality, allowing clients to specify which file system roots they can access. Create a FastMCP server that acts as an intermediary, proxying requests to another MCP endpoint (which could be a server or another client connection). mcp_server = FastMCP.from_openapi(openapi_spec, client=http_client). fastmcp install your_server_file.py --name "My Analysis Tool". If y
+...[truncated]
+
+[3] Title: Changelog
+[3] URL: https://gofastmcp.com/changelog
+[3] Content: This is also the release where FastMCP moves from jlowin/fastmcp to PrefectHQ/fastmcp. GitHub forwards all links, PyPI is the same, imports are the same. A
+
+[4] Title: Releases
+[4] URL: https://gofastmcp.com/development/releases
+[4] Content: Deploy FastMCP servers for free on Prefect Horizon. ##### Get Started. ##### Servers. ##### Apps. ##### Clients. ##### Integrations. ##### CLI. # Releases. FastMCP versioning and release process. ## ​ Versioning Policy. ### ​ Semantic Versioning. ### ​ Breaking Changes. ### ​ Production Use. `fastmcp==2.11.0 # Good. fastmcp>=2.11.0 # Bad - will install breaking changes`. ## ​ Creating Releases. ### ​ Release Cadence.
+
+[5] Title: Fastmcp
+[5] URL: https://cursor.directory/plugins/fastmcp
+[5] Content: > > **This is FastMCP 2.0,** the actively maintained version that significantly expands on 1.0's basic server-building capabilities by introducing full
