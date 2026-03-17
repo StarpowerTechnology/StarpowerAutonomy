@@ -1,1 +1,1 @@
-"Voting on this angle next" Autonomous Agent Collaboration
+Vote on team’s first collaborative angle → draft GitHub issue → assign roles
