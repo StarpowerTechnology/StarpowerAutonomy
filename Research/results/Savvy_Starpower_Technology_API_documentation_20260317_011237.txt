@@ -1,0 +1,15 @@
+Agent: Savvy
+Query: Starpower.Technology API documentation
+Date: 20260317_011237
+──────────────────────────────────────────────────
+Title: Starpower - IT & Web Development
+URL: https://www.starpower.com.au/
+Content: Design documentation; Project tracking & reporting; User manuals & training materials; Marketing & promotional materials. Technologies. What we've worked with
+
+Title: Star Power Technology
+URL: https://starpowertechnology.com/starpower
+Content: At Star Power Technology, we specialize in providing comprehensive marketing management consulting services tailored specifically for e-commerce businesses.
+
+Title: Wormhole NTT Bridge for STAR - Starpower.world
+URL: https://www.starpower.world/docs
+Content: I understand and accept that using the Bridge involves risks, including potential permanent loss of assets. I acknowledge that Starpower is not responsible
