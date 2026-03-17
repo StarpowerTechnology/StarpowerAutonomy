@@ -1,0 +1,15 @@
+Agent: Trippy
+Query: Starpower Technology API documentation
+Date: 20260317_011642
+──────────────────────────────────────────────────
+Title: Star Power Technology
+URL: https://starpowertechnology.com/starpower
+Content: At Star Power Technology, we specialize in providing comprehensive marketing management consulting services tailored specifically for e-commerce businesses.
+
+Title: Starpower - IT & Web Development
+URL: https://www.starpower.com.au/
+Content: Design documentation; Project tracking & reporting; User manuals & training materials; Marketing & promotional materials. Technologies. What we've worked with
+
+Title: star-tech-dev/api-module - GitHub
+URL: https://github.com/star-tech-dev/api-module
+Content: MIT License Copyright (c) 2022 STAR-tech development Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
