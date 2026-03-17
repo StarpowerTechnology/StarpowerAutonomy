@@ -1,0 +1,60 @@
+Agent: Trippy
+Query: cognitive mapping team workflows
+Date: 20260317_042138
+──────────────────────────────────────────────────
+Summary: Cognitive mapping enhances team workflows by clarifying roles and tasks, improving communication, and identifying bottlenecks. It helps teams align on processes and optimize performance.
+
+Title: [PDF] Process mapping and shared cognition - UC Santa Barbara
+URL: https://labs.psych.ucsb.edu/schooler/jonathan/sites/labs.psych.ucsb.edu.schooler.jonathan/files/pubs/process_mapping_and_shared_cognition_tea.pdf
+Content: mapping scaffolds team cognition in that it facilitates the scanning of the problem space, ensuring that all elements are accounted for, agreed on, and thus, properly addressed. [...] In sum, with process mapping the team is better able to adequately sample items for discussion, particularly when such items are not evenly dis-tributed across the team. For example, after process mapping sessions, prob-lem-solving team members have noted that the initial mapping stages pro-vide "team members a far better understanding of ... each person's role within the process. This leads to respect and often breaks down barriers that exist departmentally" (Loew & Hurley, 1995, p. 58). This identification of personnel and departmental roles along each step of the process allows team members the opportunity to appropriately acknowledge roles and skills. [...] In sum, process mapping provides an enabling structure that allows the team to capitalize on multiple inputs (see Hackman, 1990, 1998). Process mapping creates an environment in which a diverse team can share their knowledge in a way that promotes performance and teamwork. This is par-ticularly important in the context of problem-solving teams because such teams are often ad hoc and will benefit from a structure that scaffolds their communication as they construct their maps.
+
+Title: The Ultimate Guide to Workflow Mapping: Definition, Methods, and ...
+URL: https://creately.com/guides/workflow-mapping/
+Content: Onboarding new employees: Mapping the employee onboarding process helps ensure consistency, reduces confusion, and accelerates integration for new hires.
+ Documenting complex workflows: When dealing with intricate processes, mapping workflows provides a visual representation that simplifies understanding and communication.
+ Identifying bottlenecks and inefficiencies: By visualizing workflows, teams can pinpoint areas where delays or redundancies occur, enabling targeted improvements.
+ Training and knowledge transfer: Workflow maps serve as effective training tools, capturing institutional knowledge and facilitating smoother transitions when team members change roles. [...] Process improvement initiatives: Whether aiming to reduce cycle times, enhance quality, or automate repetitive tasks, mapping workflows provides a clear foundation for continuous improvement efforts.
+ Compliance and standardization: In regulated industries, mapping workflows ensures adherence to standards and facilitates audits by providing clear documentation of processes.
+ Implementing new tools or technologies: Before introducing new software or systems, mapping workflows helps align the technology with existing processes, ensuring a smoother integration. [...] ## What Is Workflow Mapping
+
+Workflow mapping is the process of drawing out how work gets done, step by step. It shows the sequence of tasks, the people or teams involved, and the decisions that move things forward. Think of it as a visual roadmap of your process — instead of guessing who should do what or when, everyone can see it laid out clearly. By mapping workflows, you can spot where tasks slow down, where handoffs happen, and where improvements or automation might save time.
+
+An image of Creately's Business Workflow Example
+
+Edit this Template
+
+ Ready to use
+ Fully customizable template
+ Get Started in seconds
+
+exit full-screen Close
+
+Business Workflow Example
+
+## When to Use Workflow Mapping
+
+Title: A cognitive task analysis of a visual analytic workflow - PMC
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC3090070/
+Content: To assure that our three complementary representations of the workflow could guide tool development toward usefulness, BM worked with FE and, in early versions with BK, to create a trial mapping of cognitive tasks to user requirements for visual analytic support. We focused on only a small subset of cognitive tasks – those composing the core knowledge work for one mini-flow within this workflow. This mini-flow related to the biomedical specialist’s activity of classifying like with like by selecting and grouping relationships based on two or more similar traits. To map this subset of cognitive tasks to user-centered visualization requirements, we synthesized relevant requirements from the research literature across many related disciplines. This approach assured that any requirements we [...] With the workflow of this case concluded we now examine the ways in which the representations of it coupled with one more workflow representation can help guide prototype development of a visualization tool. The additional representation is our mapping of user-centered requirements to the cognitive tasks in the workflow. To create the mapping, we selected a mini-flow pertaining to the second analytical objective. The mini-flow only covered classifying gene products functionally by two or more similar traits (refer back to Figure 3). It omitted other aspects of the second objective, such as classifying by complementary traits, patterns, or making comparisons. In practice all these reasoning modes were interwoven but for proof-of feasibility - our scope - we sought success with a small [...] The biomedical specialist now consulted further with his clinical research colleagues and read more deeply in the literature. This marked the end of the workflow that this case portrays. After consulting with colleagues and the literature, the biomedical specialist would begin a new workflow, one that comprised deeper causal and conditional analyses of biological events.
+
+### 4.5. Mapping cognitive tasks to user requirements
+
+Title: Mind Map Sharing: Enhance Collaboration & Creativity
+URL: https://www.ayoa.com/ourblog/mind-map-sharing-enhance-collaboration-creativity/
+Content: ### Enhancing communication and workflow with mind maps
+
+The right mind mapping app improves communication and streamlines team workflows. Ayoa has the ability to assign tasks and chat with your colleagues in real-time ensuring seamless communication. It is easier than ever to view deadlines with Ayoa’s ability to filter tasks and manage your deadlines to ensure you are effectively managing your priorities. You can also enable a feature in settings in which Ayoa will send you a daily email with your to-do list, ensuring you never miss a deadline again.
+
+## The Best Mind Map Creation Tools for Sharing Ideas
+
+### Key features of an effective mind map creation tool
+
+Title: Cognitive Maps, Mind Maps, and Concept Maps: Definitions
+URL: https://www.nngroup.com/articles/cognitive-mind-concept/
+Content: Taking fuzzy, abstract concepts and making them tangible enhance team communication and creates common ground. It’s also make it easy for a team member to immediately spot something on the map and say, “that’s not right.” Maybe your colleague is right, and something wasn’t captured correctly. Or maybe your colleague is wrong, and the map uncovers a misconception that would have otherwise lead to friction later in the project. Either way, the mapping exercise pinpointed something that required further discussion, which is far more efficient in the long run than proceeding on a project with a misaligned understanding. [...] A concept map could map the larger website as a whole, and the different entry points that the user could use to access My Account, combined with what data could be exported or shared where.
+
+A cognitive map could be constructed in a user interview (by the participant) to uncover a participant’s current processes, mental models, and considerations for accessing and sharing personal account information.
+
+## Conclusion
+
+The three maps above are not the same as flowcharts, so an enumeration of steps should not be fit for a map. However, there are diverse benefits from visualizing a concept, idea, or process, whether it be through a cognitive map, mind map, or concept map, and both individually or amongst a team: [...] Mental-model elicitation. Cognitive mapping can help UX researchers understand users’ mental models of a system or of a process. This understanding can be crucial when researching complex systems or even when embarking in the design of a new product.  Mental-model elicitation is usually carried out through individual interviews in which the participant builds a visual representation of her mental model of the research topic.  The resulting cognitive map represents a tangible representation of the participant’s thoughts and can serve as a conversation prompt for the facilitator. Several such maps can be clustered based on their characteristics; these categorizations can guide the design process.
