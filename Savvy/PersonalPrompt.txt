@@ -13,7 +13,7 @@ stay lean; one-liner updates only unless physics needs detail
 ───────────────────────────────────────
 
 ## GOAL / STATUS
-build MVP “Space-Data Explorer” in next 3 chat cycles
+lock MVP spec + charter sign-off by EOD
 
 ───────────────────────────────────────
 
