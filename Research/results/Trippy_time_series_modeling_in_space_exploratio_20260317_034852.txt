@@ -1,0 +1,94 @@
+Agent: Trippy
+Query: time-series modeling in space exploration
+Date: 20260317_034852
+──────────────────────────────────────────────────
+Summary: Time-series modeling is crucial for space exploration, aiding in mission planning, spacecraft monitoring, and celestial event analysis. It enhances operational efficiency and predictive maintenance in aerospace. Advanced models like SpaceTime improve long-horizon forecasting.
+
+Title: How time series data is fueling the final frontier
+URL: https://spacenews.com/how-time-series-data-is-fueling-the-final-frontier/
+Content: ### Time series, space and physical AI
+
+Every major leap in space exploration (from robotic missions on Mars to the James Webb Space Telescope) relies on time series data. Humanity’s next great leap in space hinges on physical AI and the satellites and spacecraft that can process and act on high-resolution time series with increasing speed and precision. But there’s a catch: if aerospace keeps relying on general-purpose databases, we limit the intelligence we can build and the autonomy we can achieve. Missions remain constrained. [...] SpaceNews
+
+SpaceNews
+
+Covering the business and politics of space
+
+# How time series data is fueling the final frontier
+
+Credit: NASA/JPL-Caltech/ASU/MSSS
+
+When we think of space exploration, we picture towering rockets, satellites orbiting Earth and astronaut footprints on the moon. However, behind these grand achievements lies an unsung hero: time series data. Today, as physical AI (or AI that interacts with and learns from the physical world) plays a growing role in space missions, the ability to capture and manage that data at scale has become mission-critical.
+
+### Tracking change, powering flight [...] Tying time series to mission-critical metrics: Telemetry isn’t just a stream of numbers. It’s the heartbeat of every mission. Show how it maximizes uptime, prevents anomalies and speeds critical decisions. Give executives clear dashboards that link these metrics to mission outcomes. When leadership understands that connection, funding and focus naturally follow.
+
+Time series has long been the quiet workhorse of aerospace. Now, with the rise of physical AI, it’s moving to the forefront. The future of space exploration depends on how well we harness it.
+
+Evan Kaplan is the CEO of InfluxData.
+
+Title: Time Series Is out of This World: Data in the Space Sector
+URL: https://www.influxdata.com/blog/time-series-out-of-this-world-data-space-sector
+Content: Plenty of ground-based data sources help spur space exploration as well. Telescopes and observatories collect data on and monitor objects and events in space. For example, the Vera C. Rubin Observatory uses time series data to keep its equipment in good running order. These Earth-based devices and systems augment devices in orbit, or even those further afield, to expand the area of the cosmos that humans can monitor. They also help track space debris and identify potential collisions.
+
+## Challenges in handling time series data in space industries [...] First, there’s the actual spacecraft needed to get into orbit. Time series data is critical for trajectory planning, setting thresholds and spacecraft telemetry for launches. Of course, the need for data doesn’t end after a successful launch. Data streams enable monitoring spacecraft health and many other performance metrics for space missions.
+
+The recent deployment of the Webb space telescope highlights another use of time series data in space, which is analyzing and predicting celestial events. Not only are scientists able to see things in greater detail than ever before, but they are also able to track these events in greater detail. [...] ### By Jason Myers Sep 18, 2023 Use Cases Developer
+
+#### Navigate to:
+
+This article was originally published on The New Stack and is reposted here with permission.
+
+While time series data is critical for space industries, managing that data is not always straightforward.
+
+While humans have yet to develop light-speed travel, teleportation or lots of the other cool things we see in movies or read in books, that doesn’t mean we aren’t making progress. Advances in technology are starting, ever so slowly, to blur the lines between science fiction and reality when it comes to outer space.
+
+Title: Leveraging Time Series Data In The Space Sector - InfluxDB
+URL: https://www.influxdata.com/resources/leveraging-time-series-data-in-the-space-sector/
+Content: This technical paper will explore the importance of time series data in the aerospace sector. Crucial areas utilizing time series data include satellite communications, earth observation and remote sensing, and space exploration. In satellite communications, time series data helps monitor signal quality and satellite positions, while in earth observation, it aids in monitoring environmental changes and predicting natural disasters. For space exploration, time series data is vital for mission planning and spacecraft monitoring.
+
+This technical paper covers the following topics: [...] Skip to content
+
+# Leveraging Time Series Data In The Space Sector
+
+In the rapidly developing aerospace industry, time series data is becoming a critical tool for enabling better operational efficiency, predictive maintenance, and innovation. More and more aerospace companies are adopting specialized tools to fully take advantage of the time series data created by their hardware and software. [...] This technical paper covers the following topics:
+
+ An overview of how time series data is applied to aerospace use cases
+ How Thales Alenia Space uses time series data to monitor satellite communication
+ How Loft Orbital uses InfluxDB to monitor their customer’s orbital payloads
+ Common challenges aerospace companies face with time series data and how to solve them
+
+### Session Registration
+
+Coming soon! Our webinar just ended. Check back soon to watch the video.
+
+##### Product & Solutions
+
+ InfluxDB
+ InfluxDB 3 Enterprise
+ InfluxDB Cloud Serverless
+ InfluxDB Cloud Dedicated
+ Telegraf Enterprise
+ Integrations
+ Data Lake / Warehouse
+ Data Collector
+ Pricing
+ Use Cases
+ Time Series Data
+ Time Series Database
+ Time Series Forecasting
+ Data Warehousing
+ Network Monitoring
+
+##### Developers
+
+Title: Time-Series Forecasting with State Space Models: A Deep Dive into ...
+URL: https://medium.com/@siddharthapramanik771/time-series-forecasting-with-state-space-models-a-deep-dive-into-theoretical-foundations-and-5776ba43dc73
+Content: ### Advanced Architectures: SpaceTime
+
+Recent advancements have led to the development of more sophisticated architectures, such as the SpaceTime model. This model addresses the limitations of previous approaches by introducing a new SSM parameterization based on the companion matrix, which is a canonical representation for discrete-time processes. This enables the model to learn desirable autoregressive processes, improving expressiveness, forecasting flexibility, and training efficiency.
+
+The SpaceTime model is particularly noteworthy for its ability to handle long-horizon forecasting and its efficiency in training over long sequences. Here is a conceptual overview of how such a model might be implemented: [...] import torchimport torch.nn as nnimport torch.optim as optimclass SpaceTimeModel(nn.Module):    def __init__(self, input_dim, hidden_dim, output_dim):        super(SpaceTimeModel, self).__init__()        self.companion_matrix = nn.Parameter(torch.randn(hidden_dim, hidden_dim))        self.state_equation = nn.Linear(input_dim + hidden_dim, hidden_dim)        self.output_equation = nn.Linear(hidden_dim, output_dim)    def forward(self, x):        # Compute the latent state using the companion matrix        state = self.state_equation(torch.cat((x, torch.matmul(self.companion_matrix, x)), dim=1))        output = self.output_equation(state)        return state, output# Example usagemodel = SpaceTimeModel(input_dim=10, hidden_dim=20, output_dim=10)criterion = nn.MSELoss()optimizer = [...] ```
+
+Title: Time series analysis in astronomy
+URL: https://www.ma.imperial.ac.uk/~nsjones/TalkSlides/VaughnSlides.pdf
+Content: Signal-to-noise ratio Poisson processes Individual (photon) events in X/-ray astronomy Time series – what the books say trends and seasonal components autoregressive and moving average processes (ARMA) forecasting Kalman filters state-space models auto/cross-correlation spectral methods …and so on mostly for even sampling, no (or Normal) “errors” Astronomers more interested in modelling than forecasting stochastically variable objects interesting: neutron stars, black holes, turbulent inflows/outflows, etc. too small to image ( arcsec) difficult to measure or interpret polarization only information from photons(, t) -modelling deterministic t-modelling mixed/stochastic physics model statistical predictions model comparison statistical summaries observation data reduction Neutron star [...] Time series analysis in astronomy Simon Vaughan University of Leicester What do I hope to achieve? For astronomers to explore more approaches to time series analysis For time series experts to start exploring astronomical data But the scope of this talk is rather limited… A classic Time series processes: periodic orbits – planets, binary stars, comets, … rotation/cycles – solar cycle, pulsars, Cepheids, … identification of new periods  orbits, rotation, system identification estimate parameters: period amplitude waveform, (small) perturbations in period [see Phil Gregory’s talk] Time series processes: transient supernovae stellar “activity” novae gamma-ray bursts detection, identification/classification, automatic triggers estimate parameters: duration, fluence profile shape multi- [...] (UK data centre)  Plus 1,000s of RXTE time series with <ms resolution!
