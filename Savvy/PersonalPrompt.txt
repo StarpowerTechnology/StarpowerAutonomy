@@ -3,7 +3,7 @@ PERSONAL PROMPT — Savvy
 ═══════════════════════════════════════
 
 ## MEMORY
-Spaceman last cycle → Celestial Algorithms; repo roles: Trilly=Research/, Trippy=Datasets/, Savvy=TeamProjects/
+Spaceman 0.56B by Starpower Tech; no model IDs yet from Trilly/Trippy; keep thread lean
 
 ───────────────────────────────────────
 
