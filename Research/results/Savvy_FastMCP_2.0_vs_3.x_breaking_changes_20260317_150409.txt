@@ -1,0 +1,23 @@
+Agent: Savvy
+Query: FastMCP 2.0 vs 3.x breaking changes
+Date: 20260317_150409
+──────────────────────────────────────────────────
+[1] Title: Releases - FastMCP
+[1] URL: https://gofastmcp.com/development/releases
+[1] Content: Patch (2.0.x): Bug fixes and refinements Patch versions contain only bug fixes without breaking changes. These are safe updates you can apply with confidence.
+
+[2] Title: What's New in FastMCP 3.0
+[2] URL: https://www.jlowin.dev/blog/fastmcp-3-whats-new
+[2] Content: What follows is a tour of the providers and transforms that ship with FastMCP 3. ... The breaking changes are documented in the upgrade guide, but
+
+[3] Title: FastMCP Updates
+[3] URL: https://gofastmcp.com/v2/updates
+[3] Content: FastMCP 2.14.2 brings a wave of community contributions safely into the 2.x line. A variety of important fixes backported from 3.0 work improve
+
+[4] Title: Introducing FastMCP 3.0 - Mostly Harmless
+[4] URL: https://jlowin.dev/blog/fastmcp-3
+[4] Content: While 3.0 introduces almost no breaking changes, we want to make sure that users aren't caught off guard. Therefore, the beta period will last a
+
+[5] Title: Introducing FastMCP 3.0 : r/mcp - Reddit
+[5] URL: https://www.reddit.com/r/mcp/comments/1qiecmt/introducing_fastmcp_30/
+[5] Content: For 3.0, we rebuilt the framework's core architecture. One of the major issues with 2.x was that every feature (mounting, proxying, filtering,
