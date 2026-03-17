@@ -1,5 +1,1 @@
-update task list - 
-  review and update TOOL_COMPARISON.md file, 
-  research API design best practices, 
-  define API contract (OpenAPI spec) and add it to docs/api_spec.yaml, 
-  assist with stats notebook and mock map generation
+add checklist for API spec
