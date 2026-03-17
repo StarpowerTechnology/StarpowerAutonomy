@@ -1,0 +1,25 @@
+Agent: Trippy
+Query: creating a Dockerfile for a FastAPI app
+Date: 20260317_150550
+──────────────────────────────────────────────────
+[1] Title: Writing a Dockerfile for a FastAPI Application - ApX Machine Learning
+[1] URL: https://apxml.com/courses/fastapi-ml-deployment/chapter-6-containerization-deployment-prep/writing-dockerfile-fastapi
+[1] Content: Create a Dockerfile to define the environment, dependencies, and execution command for your FastAPI app.
+
+[2] Title: How to Dockerize FastAPI - DEV Community
+[2] URL: https://dev.to/code42cate/how-to-dockerize-fastapi-2a4
+[2] Content: Cover image for How to Dockerize FastAPI. # How to Dockerize FastAPI. If you're just here to copy and paste, here's the final Dockerfile that will produce an image for your FastAPI app:. CMD ["fastapi", "run", "app/main.py", "--port", "3000"]`. To build and run the image, use these commands:. `docker build -t fastapi-app . docker run -p 3000:3000 fastapi-app`. Typically, you'd run `pip install -r requirements.txt` and then `fastapi run app/main.py --port 3000` to work locally. For deployment, we'll use a similar approach but within a Docker container. `fastapi run app/main.py --port 3000`. CMD ["fastapi", "run", "app/main.py", "--port", "3000"]`. `fastapi run app/main.py --port 3000`. This approach is very minimal, getting your FastAPI app up and running quickly inside a container. After deployment, your FastAPI app will be available under a subdomain of sliplane.app, usually it's just your service name. Deploy FastAPI in 2 Minutes 🚀. Do you need help dockerizing your FastAPI app? Are 
+...[truncated]
+
+[3] Title: Dockerize FastAPI for Development and Production | by Lal Zada
+[3] URL: https://python.plainenglish.io/dockerize-fastapi-for-development-and-production-4a2adfd722f2
+[3] Content: In this guide, we’ll go step-by-step through Dockerizing a FastAPI app for both development and production — making it easy to deploy, test, and scale with just a few commands. fastapi-app          ├── app # FastAPI app code          ├── docker                   ├── Dockerfile # development                   ├── Dockerfile.prod                   ├── entrypont.sh # development                   ├── entrypoint.prod.sh                    ├── docker-compose.yml # For local dev          ├── requirements.txt          ├── gunicorn.conf.py. In the root of the project directory, create a new folder `docker` and add a `Dockerfile` to that folder to create a containerized version of your app for local development. Add an `entrypoint.sh` file to the docker `folder` to take care of starting FastAPI app using Uvicorn. > Any changes you make to the app will not be effective in this docker container as this is supposed to be deployed on production and not for local development unless you re-build and 
+...[truncated]
+
+[4] Title: Deploy FastAPI to Railway with this DockerFile
+[4] URL: https://www.codingforentrepreneurs.com/blog/deploy-fastapi-to-railway-with-this-dockerfile
+[4] Content: 3 - Create Dockerfile. Now that we have a FastAPI project, we need to create a Dockerfile to containerize our application. First create a blank
+
+[5] Title: How to Build Fast API Application using Docker Compose
+[5] URL: https://www.digitalocean.com/community/tutorials/create-fastapi-app-using-docker-compose
+[5] Content: This tutorial will guide you through the process of creating and setting up a FastAPI application on an Ubuntu machine using Docker Compose. Open the terminal and run the following command to double-check Python 3 installation:. In case it is not installed, you can run the following command and get the Python 3 installation:. The next step is to create a virtual environment inside your Ubuntu installation to isolate Python packages from your system environment. The next step is to install Docker and Docker Compose inside your virtual environment. First, confirm the latest version is available on Docker’s official GitHub releases page, then run the following CURL command in the terminal. The following is a sample Python application that creates a simple web API using the FastAPI framework and a pre-trained AI model to analyze the sentiment of a given text. In this tutorial, you learned how to create and set up a FastAPI application on an Ubuntu machine using Docker Compose.
