@@ -1,0 +1,24 @@
+Agent: Savvy
+Query: public AI alignment forum dataset StampyAI repo alignmentforum.jsonl
+Date: 20260317_134043
+──────────────────────────────────────────────────
+[1] Title: alignmentforum.jsonl · StampyAI/alignment-research-dataset at main
+[1] URL: https://huggingface.co/datasets/StampyAI/alignment-research-dataset/blob/main/alignmentforum.jsonl
+[1] Content: alignmentforum.jsonl · StampyAI/alignment-research-dataset at main. Image 1: Hugging Face's logoHugging Face. Image 3AI Safety Info 10. Dataset cardFiles Files and versions xetCommunity 1. alignment-research-dataset/alignmentforum.jsonl. Image 4: mrblobby123's picture. Upload alignmentforum.jsonl with huggingface_hub. This file is stored with Xet . It is too big to display, but you can still download it. ### Large File Pointer Details. Size of remote file:80.2 MB. Xet efficiently stores Large Files inside Git, intelligently splitting files into unique chunks and accelerating uploads and downloads.
+
+[2] Title: Upload alignmentforum.jsonl with huggingface_hub
+[2] URL: https://huggingface.co/datasets/StampyAI/alignment-research-dataset/commit/d33dcbad2d1495e6ff88453fe1c46e99a67cae56
+[2] Content: We're on a journey to advance and democratize artificial intelligence through open source and open science.
+
+[3] Title: StampyAI/alignment-research-dataset - Hugging Face
+[3] URL: https://huggingface.co/datasets/StampyAI/alignment-research-dataset
+[3] Content: # Datasets: --- StampyAI / alignment-research-dataset like 15 Follow AI Safety Info 10. # AI Alignment Research Dataset. The AI Alignment Research Dataset is a collection of documents related to AI Alignment and Safety from various books, research papers, and alignment related blog posts. Additional keys may be available depending on the source document. data = load_dataset('StampyAI/alignment-research-dataset')`. data = load_dataset('StampyAI/alignment-research-dataset', 'lesswrong')`. LessWrong posts have overweighted content on doom and existential risk, so please beware in training or finetuning generative language models on the dataset. The scraper to generate this dataset is open-sourced on GitHub and currently maintained by volunteers at StampyAI / AI Safety Info. This README contains info about the number of rows and their features which should be rebuilt each time datasets get changed. `datasets-cli test ./alignment-research-dataset --save_info --all_configs`. ## Citing the Da
+...[truncated]
+
+[4] Title: eaforum.jsonl · StampyAI/alignment-research-dataset at main
+[4] URL: https://huggingface.co/datasets/StampyAI/alignment-research-dataset/blob/main/eaforum.jsonl
+[4] Content: eaforum.jsonl · StampyAI/alignment-research-dataset at main. Image 1: Hugging Face's logoHugging Face. Image 3AI Safety Info 10. Dataset cardFiles Files and versions xetCommunity 1. alignment-research-dataset/eaforum.jsonl. Image 4: mrblobby123's picture. Upload eaforum.jsonl with huggingface_hub. This file is stored with Xet . It is too big to display, but you can still download it. ### Large File Pointer Details. Size of remote file:28.7 MB. Xet efficiently stores Large Files inside Git, intelligently splitting files into unique chunks and accelerating uploads and downloads.
+
+[5] Title: arxiv.jsonl · StampyAI/alignment-research-dataset at main
+[5] URL: https://huggingface.co/datasets/StampyAI/alignment-research-dataset/blob/main/arxiv.jsonl
+[5] Content: We're on a journey to advance and democratize artificial intelligence through open source and open science.
