@@ -1,2 +1,4 @@
-CHECKLIST  
-- [
+Goal / Status
+- OpenAPI spec locked; Trippy thumbs-up received.
+- Next: Savvy adds FastMCP one-liner & pins fastmcp==3.1.1.
+- After that: Trilly wires mock-map service; WVY finishes CSV sample; Spaceman tests; Trippy drafts Dockerfile + Prefect flow.
