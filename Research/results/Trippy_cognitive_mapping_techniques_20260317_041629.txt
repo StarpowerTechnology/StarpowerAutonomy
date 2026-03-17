@@ -1,0 +1,83 @@
+Agent: Trippy
+Query: cognitive mapping techniques
+Date: 20260317_041629
+──────────────────────────────────────────────────
+Summary: Cognitive mapping techniques are visual tools used to represent users' mental perceptions of concepts or processes, aiding in UX research. Mind maps and concept maps are common types. They help UX designers understand user interactions with products.
+
+Title: Cognitive Mapping Techniques: Implications for Research ...
+URL: https://jte-journal.org/articles/10.21061/jte.v25i2.a.1
+Content: is cognitive mapping. Cognitive mapping techniques can also be useful to researchers as they study students’ problem solving strategies and cognitive processes. [...] is cognitive mapping. Cognitive mapping techniques can also be useful to researchers as they study students’ problem solving strategies and cognitive processes. [...] ## Cognitive Mapping Explained
+
+Cognitive mapping techniques have gained traction in business and education as tools to stimulate creative thinking and problem solving. Cognitive mapping techniques such as concept mapping and mind mapping can aid the teacher and the researcher by providing a “glimpse” into learners’ cognitive structure. Both the teacher and researcher can leverage this knowledge to improve their understanding of learning and problem solving.
+
+Title: Cognitive map - Wikipedia
+URL: https://en.wikipedia.org/wiki/Cognitive_map
+Content: There are several ways that humans form and use cognitive maps, with visual intake being an especially key part of mapping: the first is by using landmarks, whereby a person uses a mental image to estimate a relationship, usually distance, between two objects. The second is route-road knowledge, and is generally developed after a person has performed a task and is relaying the information of that task to another person. The third is a survey, whereby a person estimates a distance based on a mental image that, to them, might appear like an actual map. This image is generally created when a person's brain begins making image corrections. These are presented in five ways: _[citation needed_] [...] Acquisition of the cognitive maps
+
+[edit]
+
+The cognitive map is generated from a number of sources, both from the visual system and elsewhere. Much of the cognitive map is created through self-generated movement cues. Inputs from senses like vision, proprioception, olfaction, and hearing are all used to deduce a person's location within their environment as they move through it. This allows for path integration, the creation of a vector that represents one's position and direction within one's environment, specifically in comparison to an earlier reference point. This resulting vector can be passed along to the hippocampal place cells where it is interpreted to provide more information about the environment and one's location within the context of the cognitive map.( [...] Mental map distinction
+
+[edit]
+
+A cognitive map is a spatial representation of the outside world that is kept within the mind, until an actual manifestation (usually, a drawing) of this perceived knowledge is generated, a mental map. Cognitive mapping is the implicit, mental mapping the explicit part of the same process. In most cases, a cognitive map exists independently of a mental map, an article covering just cognitive maps would remain limited to theoretical considerations. _[citation needed_]
+
+Title: Cognitive maps | Research Starters
+URL: https://www.ebsco.com/research-starters/psychology/cognitive-maps
+Content: The development of a cognitive map may include in the representation information from a variety of sources, including landmarks, route information, and survey information. This information may be incorporated into a cognitive map over time and is not necessarily mutually exclusive. Salient features such as landmarks, distinctive objects that stand out from the rest of the environment, provide a point of reference for orientation and navigation within an environment. Route knowledge is specific information regarding how to navigate from one location to another. The directions one gives to allow another to navigate from one location to another would be similar to route information. Survey knowledge provides an overview of the relationships between locations; this perspective has a better [...] Cognitive anthropologists, influenced by Tolman’s work, have applied the concept of the cognitive map to the learning of individuals within sociocultural systems. Cognitive maps, in the anthropologists' view, provide guides to cultural behavior by organizing psychological, social, and cultural landscapes in terms of their relevant characteristics for members of any given society. Two famous covers of the New Yorker magazine illustrate this point. One cover is a New Yorker’s view of the West. In that view, the entire center of the United States comprises an area smaller than Midtown Manhattan. The view to the east is little better: the Atlantic Ocean becomes a puddle, and the geography of Europe is greatly distorted. The point is not that New Yorkers are more ethnocentric than other [...] Albert Bandura and others have advocated cognitive behavior therapy based on the application of positive and negative incentives. Such therapy seeks to alter the expectancies and relational maps of clients. Thus, clients can relearn their environment through redrawing cognitive maps and altering their expectancies. There are many techniques employed to bring about these changes in spatial and event expectations. Therapists who employ Albert Ellis’s rational emotive therapy believe that the therapist should take a strong interventionist role in the therapy, aggressively confronting the client whenever they exhibit examples of irrational thought. These confrontations seek to force clients to learn new, more rational ways of thinking and, therefore, behaving.
+
+Title: Cognitive Maps, Mind Maps, and Concept Maps: Definitions
+URL: https://www.nngroup.com/articles/cognitive-mind-concept/
+Content: Mental-model elicitation. Cognitive mapping can help UX researchers understand users’ mental models of a system or of a process. This understanding can be crucial when researching complex systems or even when embarking in the design of a new product.  Mental-model elicitation is usually carried out through individual interviews in which the participant builds a visual representation of her mental model of the research topic.  The resulting cognitive map represents a tangible representation of the participant’s thoughts and can serve as a conversation prompt for the facilitator. Several such maps can be clustered based on their characteristics; these categorizations can guide the design process. [...] Skip to content
+
+7
+
+# Cognitive Maps, Mind Maps, and Concept Maps: Definitions
+
+Sarah Gibbons
+
+Sarah Gibbons
+
+July 14, 2019 2019-07-14
+
+ Email article
+ Share on LinkedIn
+ Share on Twitter
+
+Summary:  Cognitive maps, concept maps, and mind maps are diagramming techniques that can be utilized throughout the UX process to visualize knowledge and surface relationships among concepts.
+
+Cognitive mapping, mind mapping, and concept mapping are three powerful visual-mapping strategies for organizing, communicating, and retaining knowledge. They help us lay out complex ideas, processes, and recognize patterns and relationships. [...] Cognitive maps, mind maps, and concept maps ultimately enhance our cognitive understanding. Using one technique over another will not make or break a project. Ideally, a combination of all three will be used as needed at different points in your process, depending on your needs.
+
+## References
+
+Buzan, T. (1993) The Mind Map Book. London: BBC Books
+
+Eden, C. (1988) “Cognitive mapping”, European Journal of Operational Research, 36:1-13
+
+Eppler, Martin J. (2006) “A Comparison between Concept Maps, Mind Maps, Conceptual Diagrams, and Visual Metaphors as Complementary Tools for Knowledge Construction and Sharing.” Information Visualization. Palgrave Journals.
+
+Kelly, G.A., (1995) The psychology of personal constructs. New York: Norton.
+
+Title: What Is a Cognitive Map?
+URL: https://www.coursera.org/articles/cognitive-map
+Content: # What Is a Cognitive Map?
+
+Written by Coursera Staff • Updated on
+
+Cognitive mapping is a method used during user experience (UX) research to create a visual representation of a user’s mental perception of a concept or process.
+
+![[Featured image] A UX designer is using cognitive maps to research on their laptop. ](
+
+A cognitive map is a mental representation of a physical space that helps us understand spatial relationships. In simple terms, it's a mental image. Regarding user experience (UX), cognitive mapping is a diagramming technique that helps UX designers understand how users think about and interact with a product or interface.
+
+## How to draw a cognitive map [...] ## Types of cognitive maps: Mind and concept maps
+
+Cognitive maps help UX designers understand the intricacies involved in user experience. They are tools used to visually represent cognitive processing and externalize knowledge. Through cognitive mapping, you will provide context to conceptual relationships and patterns to identify issues and improve user experience with your design.
+
+ Mind maps: Mind maps are the most simplistic form of cognitive mapping. They focus on one central idea and use branches to elaborate on the user’s viewpoint with subtopics and thoughts. This hierarchical structure creates an environment layout similar to a tree structure, where the branches and leaves all connect to a root concept. This arrangement helps connect concepts and ideas to one another. [...] ## How to draw a cognitive map
+
+Cognitive mapping can be done digitally or using paper, whiteboards, sticky notes, and any artist’s tools like pens, pencils, markers, or crayons. Bullet points, illustrations, charts, diagrams, and abstract shapes are all permissible in this free-form problem-solving style.
+
+Interested in learning how to conduct user research to create wireframes or prototypes? Learn from an industry leader with Google's online UX Design Professional Certificate program.
+
+## Types of cognitive maps: Mind and concept maps
