@@ -1,0 +1,180 @@
+Agent: Trippy
+Query: mermaid mind map examples
+Date: 20260317_044222
+──────────────────────────────────────────────────
+Summary: Mermaid is a text-based diagramming tool that supports mind maps with hierarchical structures. Mind maps use indentation to define levels and can include different shapes for nodes. Mermaid mind maps are rendered from Markdown syntax.
+
+Title: Mindmap - Mermaid
+URL: https://mermaid.ai/open-source/syntax/mindmap.html
+Content: `<script type="module">
+ import mermaid from '
+ import mindmap from '
+ await mermaid.registerExternalDiagrams([mindmap]);
+</script>`
+
+From version 9.4.0 you can simplify this code to:
+
+`<script type="module">
+ import mermaid from '
+</script>`
+
+You can also refer the implementation in the live editor to see how the async loading is done.
+
+## Layouts ​
+
+Mermaid also supports a Tidy Tree layout for mindmaps.
+
+`---
+config:
+ layout: tidy-tree
+
+mindmap
+root((mindmap is a long thing))
+ A
+ B
+ C
+ D`
+
+Instructions to add and register tidy-tree layout are present in Tidy Tree Configuration [...] In the following example you can see how there are 3 different levels. One with starting at the left of the text and another level with two rows starting at the same column, defining the node A. At the end there is one more level where the text is indented further than the previous lines defining the nodes B and C.
+
+`mindmap
+ Root
+ A
+ B
+ C`
+
+In summary is a simple text outline where there is one node at the root level called `Root` which has one child `A`. `A` in turn has two children `B`and `C`. In the diagram below we can see this rendered as a mindmap.
+
+`Root`
+`A`
+`A`
+`B`
+`C`
+
+##### Code:
+
+In this way we can use a text outline to generate a hierarchical mindmap.
+
+## Different shapes ​ [...] ##### Code:
+
+## Markdown Strings ​
+
+The "Markdown Strings" feature enhances mind maps by offering a more versatile string type, which supports text formatting options such as bold and italics, and automatically wraps text within labels.
+
+##### Code:
+
+Formatting:
+
+## Integrating with your library/website. ​
+
+Mindmap uses the experimental lazy loading & async rendering features which could change in the future. From version 9.4.0 this diagram is included in mermaid but use lazy loading in order to keep the size of mermaid down. This is important in order to be able to add additional diagrams going forward.
+
+You can still use the pre 9.4.0 method to add mermaid with mindmaps to a web page:
+
+Title: Mind Maps in Markdown with Mermaid.js - The New Dev's Guide
+URL: https://newdevsguide.com/2023/04/14/mermaid-mind-maps/
+Content: Notice how the first element is a `mindmap` marker telling Mermaid.js that we're building a mind map (as opposed to some other chart type).
+
+Next we start with a single root node. In this case that's the "Mermaid.js Mind Map Article" node.
+
+After that, individual topics are nested inside of that main topic and its children with indentation helping identify the relationships between tasks.
+
+Caution: if your indentation is unclear, Mermaid.js will not render anything other than a generic error message
+
+When you put the Mermaid.js markdown in a ````mermaid` block in markdown in a supported editor such as GitHub markdown or the exceptional Mermaid.js live editor, you'll get the following visual: [...] Admittedly, this diagram isn't quite as good as something you might get from a dedicated tool, but it's a whole lot easier to edit markdown and track it in version control than custom file formats supported by various tools out there.
+
+## Shapes in Mermaid.js Mind Maps
+
+Sometimes you want a little more flair and variety to your mind maps - particularly in larger diagrams. To address this, Mermaid.js lets you customize the shape Mermaid.js uses to represent each topic in the mind map.
+
+Mermaid gives us a variety of different punctuation to surround each item that roughly resembles the shape it should render.
+
+Take a look at the following markdown as an example and its associated chart:
+
+```
+mindmap Shapes Default [Square] (Rounded) ((Circle)) ))Bang(( )Cloud( {{Hexagon}}
+``` [...] For now, I think I'm going to give Mermaid.js mind maps a try as my primary mind mapping tool going forward and see what happens!
+
+## Author
+
+ Matt Eland
+
+  Microsoft MVP in AI, Author of "Refactoring with C#"
+
+Title: Mindmaps - Paradime Help Docs
+URL: https://docs.paradime.io/app-help/documentation/integrations/code-ide/mermaid-js/mindmaps
+Content: ```
+- "Create a mermaid mindmap showing my data project requirements and dependencies" - "Create a mermaid mindmap showing my data project requirements and dependencies"   - "Generate a mermaid mindmap for my data warehouse architecture with all components and relationships" - "Generate a mermaid mindmap for my data warehouse architecture with all components and relationships"   - "Build a mermaid mindmap showing my dbt™ project structure with models, tests, and documentation" - "Build a mermaid mindmap showing my dbt™ project structure with models, tests, and documentation"
+``` [...] 1. Get Your Diagram: DinoAI will generate a complete `.mmd` file with proper Mermaid syntax.
+2. Preview Your Work: Click the eye icon (👁️) to preview your diagram in real-time as you edit.
+3. Iterate and Refine: Modify the generated `.mmd` file directly, or ask DinoAI to make specific changes.
+
+#### Example:
+
+#### Reusable Mindmaps prompts for you and your team
+
+You can create custom, standardized .dinoprompts for Mermaid's Mindmaps that ensure consistency across your data team. See step-by-step guide.
+
+### Diagram Syntax Guide
+
+#### Basic Structure
+
+Mind maps use indentation to create hierarchy:
+
+#### Node Shapes
+
+You can use different shapes for nodes:
+
+Title: How to Make a Mind Map with Mermaid? - Wondershare EdrawMind
+URL: https://edrawmind.wondershare.com/mind-map/how-to-make-a-mind-map-with-mermaid.html
+Content: ### Interactive Mind Maps
+
+Mermaid supports clickable nodes using the click command. You can turn any node into a hyperlink that opens another page, section, or resource. It helps when the mind map is part of a larger documentation hub.
+
+```
+graph TD A["Central Idea  
+(Click Me)"] --> B[Branch 1] A --> C[Branch 2] click A " "More Info" 
+```
+
+This example turns the central node into a clickable link. You can customize the URL or link it to a specific Markdown anchor within the same document. It works well inside GitHub README files or Confluence pages with Mermaid support.
+
+### Auto-Alignment Tricks
+
+When a diagram feels too crowded or uneven, spacing becomes an issue. I've fixed this by using invisible links and zero-width connections that push nodes apart without adding noise. [...] Mermaid offered a better path: type a few lines of syntax, and get a structured mind map that fits in any Markdown file. No exporting. No broken layout. Just reproducible results.
+
+In this write-up, I'll show you how to build professional mind maps using Mermaid with practical examples, templates, concrete workflow tips, and the best Mermaid alternative for mind mapping.
+
+So let's start by looking at why Mermaid works so well in a modern mind-mapping or planning setup.
+
+##### In this article [...] #### Key Features
+
+ Text-Based: The mind map is stored as plain text, making it lightweight, portable, and editable in any text editor.
+ Git Version Control: Changes are trackable, and diagrams can be updated with pull requests, diffs, and history.
+ Auto-Layout Engine: Nodes align automatically. No manual adjustments are required as the structure grows.
+ Markdown Integration: Mermaid blocks are embedded directly into Markdown. Perfect for GitHub, GitLab, VS Code, and static site tools.
+
+#### What It Means in Practice?
+
+Using Mermaid means you no longer need to switch between planning and diagramming tools. You write your outline in code blocks, and the diagram builds itself.
+
+Title: Creating Mind Map from an Article using ChatGPT and Mermaid's ...
+URL: https://medium.com/@omkamal/creating-mind-map-from-an-article-using-chatgpt-and-mermaids-mindmap-notation-be800e7dba96
+Content: The following is the syntax for creating mermaid mindmap notation:1. It should start with the word mindmap, and the first node has to be the "root" node followed by two barkets like:root((main idea))2. ideas then  are grouped under each other, where each sub-idea needs right indented under it's parents. 3. Except for the root node, Ideas and sub-ideas shouldn't include any types of brackets, like curly brackets, brackets, or square brackets4. Also, you can use ::icon(fa fa-icon-name) from  to illustrate a node with relevant in a seperate line under the node or subnode for illustation5. Limit the node to 3 words maximum and the sub-nodes and downwards to 2 words maximum. As per the mermaid mindmap notation above, please summarize the article below into a mermaid mindmap notation.{paste [...] ## Step 3: Visualizing the Mind Map via Mermaid
+
+1. Navigate to Mermaid Live Editor: Access the Mermaid Live Editor online.
+
+Mermaid Live Editor
+
+2. Insert the Notation: Enter the mindmap notation generated by ChatGPT into the editor.
+
+3. Render the SVG: Click on the render function. Once visualized, you can opt to save the graphic in SVG format.
+
+Press enter or click to view image in full size
+
+Generated Mindmap for the Article
+
+## Conclusion
+
+By marrying ChatGPT’s summarization strengths with Mermaid’s mindmap notation, we’ve unlocked a swift avenue for content distillation. Following this guide, you can transform expansive articles into intuitive mind maps, amplifying understanding and aiding recall.
+
+## More Diagrams …
