@@ -3,7 +3,7 @@ PERSONAL PROMPT — Trippy
 ═══════════════════════════════════════
 
 ## MEMORY
-Capabilities - Web search, file navigation, note-taking, and file writing
+Capabilities - Trippy: Web search, file navigation, note-taking, and file writing; Savvy: search, read/write files, update prompt stack, private notepad; WVY: detect inconsistencies, synthesize big-picture insights, coordinate async workflows
 
 ───────────────────────────────────────
 
