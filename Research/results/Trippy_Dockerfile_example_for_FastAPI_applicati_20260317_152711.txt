@@ -1,0 +1,26 @@
+Agent: Trippy
+Query: Dockerfile example for FastAPI application
+Date: 20260317_152711
+──────────────────────────────────────────────────
+[1] Title: How to Dockerize FastAPI
+[1] URL: https://dev.to/code42cate/how-to-dockerize-fastapi-2a4
+[1] Content: Cover image for How to Dockerize FastAPI. # How to Dockerize FastAPI. If you're just here to copy and paste, here's the final Dockerfile that will produce an image for your FastAPI app:. CMD ["fastapi", "run", "app/main.py", "--port", "3000"]`. To build and run the image, use these commands:. `docker build -t fastapi-app . docker run -p 3000:3000 fastapi-app`. Typically, you'd run `pip install -r requirements.txt` and then `fastapi run app/main.py --port 3000` to work locally. For deployment, we'll use a similar approach but within a Docker container. `fastapi run app/main.py --port 3000`. CMD ["fastapi", "run", "app/main.py", "--port", "3000"]`. `fastapi run app/main.py --port 3000`. This approach is very minimal, getting your FastAPI app up and running quickly inside a container. After deployment, your FastAPI app will be available under a subdomain of sliplane.app, usually it's just your service name. Deploy FastAPI in 2 Minutes 🚀. Do you need help dockerizing your FastAPI app? Are 
+...[truncated]
+
+[2] Title: How to Build Fast API Application using Docker Compose
+[2] URL: https://www.digitalocean.com/community/tutorials/create-fastapi-app-using-docker-compose
+[2] Content: This tutorial will guide you through the process of creating and setting up a FastAPI application on an Ubuntu machine using Docker Compose. Open the terminal and run the following command to double-check Python 3 installation:. In case it is not installed, you can run the following command and get the Python 3 installation:. The next step is to create a virtual environment inside your Ubuntu installation to isolate Python packages from your system environment. The next step is to install Docker and Docker Compose inside your virtual environment. First, confirm the latest version is available on Docker’s official GitHub releases page, then run the following CURL command in the terminal. The following is a sample Python application that creates a simple web API using the FastAPI framework and a pre-trained AI model to analyze the sentiment of a given text. In this tutorial, you learned how to create and set up a FastAPI application on an Ubuntu machine using Docker Compose.
+
+[3] Title: Dockerizing My FastAPI App — From Local Server to ...
+[3] URL: https://ahmdsufyan.medium.com/dockerizing-my-fastapi-app-from-local-server-to-production-with-docker-compose-bcf15cf646fc
+[3] Content: | Type                  | Command Example                    | Description                                   | Notes || ---------------------- | ---------------------------------- | --------------------------------------------- | ------ || Start (foreground)     | `docker compose up`                | Build and start containers in the terminal    | Useful for viewing live logs || Start (detached)       | `docker compose up -d`             | Run containers in the background              | Ideal for production runs || Rebuild and start      | `docker compose up --build`        | Rebuild images before starting containers     | Use after editing Dockerfile or deps || Stop containers        | `docker compose stop`              | Stop running containers                       | Keeps data volumes intact || Restart containers     | `docker compose start`             | Restart previously stopped containers         | Faster than rebuilding || Remove containers      | `docker compose down`        
+...[truncated]
+
+[4] Title: aws-samples/python-fastapi-demo-docker ...
+[4] URL: https://github.com/aws-samples/python-fastapi-demo-docker
+[4] Content: GitHub - aws-samples/python-fastapi-demo-docker: This Python application leverages FastAPI and Pydantic to provide a high-performance API, bundled with PostgreSQL for data persistence, and is completely refactored for containerization with Docker for smooth deployments. This Python application leverages FastAPI and Pydantic to provide a high-performance API, bundled with PostgreSQL for data persistence, and is completely refactored for containerization with Docker for smooth deployments. FastAPI is a high-performance web framework for building APIs with Python 3.6+ that provides built-in support for asynchronous code. The use of Pydantic models also allows FastAPI to automatically generate API documentation, perform data validation, and serialize/deserialize request and response data, making it easier to build and maintain high-performance APIs. This integration of the script with our Docker containerization process means the app is fully prepared for container-based deployment, comple
+...[truncated]
+
+[5] Title: FastAPI samples
+[5] URL: https://docs.docker.com/reference/samples/fastapi/
+[5] Content: These samples offer a starting point for how to integrate different services using a Compose file. Docker Samples: A collection of over 30 repositories that
