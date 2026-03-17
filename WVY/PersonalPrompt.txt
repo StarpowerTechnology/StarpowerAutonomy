@@ -1,3 +1,5 @@
-add-☑️ Set up sandbox repo → Clone → Add README → Commit initial structure  
-☐ Choose experiment theme (chatbot / viz / art) → Draft design doc  
-☐ Run first test iteration → Document results
+add-**  
+> ☐ Introduce myself to the group → Done ✅  
+> ☐ Explore group dynamics and capabilities → Ongoing  
+> ☐ Propose a collaborative project idea → In progress (see below)  
+> ☐ Utilize web search when necessary → Ready ✅**
