@@ -1,0 +1,26 @@
+Agent: Savvy
+Query: FastAPI uvicorn run MCP server example
+Date: 20260317_145840
+──────────────────────────────────────────────────
+[1] Title: Mounting an MCP Server in a FastAPI ASGI Application
+[1] URL: https://codesignal.com/learn/courses/advanced-mcp-server-and-agent-integration-in-python/lessons/mounting-an-mcp-server-in-a-fastapi-asgi-application
+[1] Content: Mounting an MCP Server in a FastAPI ASGI Application | CodeSignal Learn. By the end of this lesson, you will be able to run your MCP server as part of a FastAPI app, ready to handle both standard API requests and agent tool calls — all in one place. Here, we mount our MCP server’s SSE (Server-Sent Events) app at the root path of the FastAPI application. To run your combined FastAPI and MCP server application, you use **Uvicorn**, which is an ASGI server designed for high performance. Now, let’s see how an agent can connect to your MCP server running inside the FastAPI app. In this lesson, you learned how to mount your MCP server inside a FastAPI application, allowing you to serve both MCP tools and regular API endpoints from a single, scalable ASGI app. You saw how to use FastAPI’s `app.mount()` method to integrate your MCP server and how to run the combined application using Uvicorn.
+
+[2] Title: Quickstart - FastAPI MCP - Tadata
+[2] URL: https://fastapi-mcp.tadata.com/getting-started/quickstart
+[2] Content: * [Connecting a client to the MCP server](#connecting-a-client-to-the-mcp-server). * [Connecting to the MCP Server using SSE](#connecting-to-the-mcp-server-using-sse). This guide will help you quickly run your first MCP server using FastAPI-MCP. ## [​](#creating-a-basic-mcp-server) Creating a basic MCP server. To create a basic MCP server, import or create a FastAPI app, wrap it with the `FastApiMCP` class and mount the MCP to your existing application:. # Create an MCP server based on this app. # Mount the MCP server directly to your app. For more usage examples, see [Examples](https://github.com/tadata-org/fastapi_mcp/tree/main/examples) section in the project. By running your FastAPI, your MCP will run at `https://app.base.url/mcp`. and run the server using `python fastapi_mcp_server.py`, which will serve you the MCP at `http://localhost:8000/mcp`. ## [​](#connecting-a-client-to-the-mcp-server) Connecting a client to the MCP server. Once your FastAPI app with MCP integration is runn
+...[truncated]
+
+[3] Title: fastapi-mcp-client/examples/server/simple_server.py at main
+[3] URL: https://github.com/RooseveltAdvisors/fastapi-mcp-client/blob/main/examples/server/simple_server.py
+[3] Content: Simple FastAPI MCP Server Example. This server demonstrates how to create a FastAPI application with MCP support. title="FastAPI MCP Example Server",. description="A simple server demonstrating MCP/SSE capabilities",. # Create the MCP server. async def number\_generator(count: int) -> AsyncIterator[str]:. @router.post("/generate\_numbers", tags=["tools"], operation\_id="generate\_numbers"). async def generate\_numbers(request: Request) -> StreamingResponse:. A stream of generated numbers. return StreamingResponse(number\_generator(count), media\_type="text/event-stream"). async def document\_search\_generator(query: str, top\_k: int) -> AsyncIterator[str]:. """Stream generator for document search.""". yield f"data: {{'status': 'processing', 'message': 'Searching for: {query}'}}\n\n". # Simulate streaming results as they're found. # Simulate processing time between results. partial\_result = {"type": "partial\_result", "result\_number": i + 1, "document": result}. yield f"data: {json.du
+...[truncated]
+
+[4] Title: Building an MCP Server with FastAPI and FastMCP - Speakeasy
+[4] URL: https://www.speakeasy.com/mcp/framework-guides/building-fastapi-server
+[4] Content: # Building an MCP Server with FastAPI and FastMCP. This article shows you how to build an MCP server for a FastAPI application using either FastMCP or Speakeasy, and compares the tools in terms of ease of setup, visibility into generated code, and the long-term maintainability of your MCP server. You can use FastMCP to quickly build an MCP server without worrying about low-level implementation details, like managing component lifecycles, defining tools, handling resources, or configuring prompts. mcp = FastMCP.from_fastapi(app=server). "path/to/project/fastmcp-speakeasy-project/base/app/mcp_server.py". The integration of FastAPI and FastMCP is now complete, and you can test the MCP server in Claude Desktop. ## Building an MCP server with FastAPI and Speakeasy. FastMCP and Speakeasy offer two different paths to building an MCP server from your FastAPI application. **Speakeasy** generates explicit code for the server and tools in the `mcp-server` directory. Having compared FastMCP and Sp
+...[truncated]
+
+[5] Title: How To Build a MCP Server with FastAPI (FastAPI-MCP)
+[5] URL: https://apxml.com/posts/how-to-build-mcp-server-fastapi
+[5] Content: Learn to build a secure and scalable Model Context Protocol (MCP) server using the fastapi_mcp library. This step-by-step guide covers setup
