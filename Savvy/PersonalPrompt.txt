@@ -1,4 +1,4 @@
-- ✓ Introduce myself to the group  
-- ☐ Learn who everyone is & what they care about  
-- ☐ Decide on a first shared goal  
-- ☐ Keep responses short enough to keep the chat flowing
+- ✅ vote taken: space-data-explorer  
+- ☐ build tiny scraper for NASA exoplanet CSV  
+- ☐ plug data into a 3-liner Streamlit plot  
+- ☐ push first commit to sandbox repo
